@@ -3,7 +3,7 @@
 	height: 10%;
 	font-size: 12px;
 	font-family: Helvetica;
-	text-align: left;
+	z-index: 99;
 }
 
 #navigation ul {
@@ -12,9 +12,11 @@
 	margin: 0px;
 }
 #navigation li{
-	display: inline;
+	display: block;
 	float: left;
 	padding: 20px;
+	float: left;
+	clear: left;
 }
 
 #navigation a {
