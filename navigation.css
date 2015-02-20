@@ -1,5 +1,4 @@
 #navigation {
-	display:none;
 	width: 100%;
 	height: 10%;
 	font-size: 12px;
@@ -25,6 +24,5 @@
 
 
 #navigaton a:hover {
-	display: inline;
 	color: #F90;
 }
