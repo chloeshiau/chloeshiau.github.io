@@ -5,7 +5,7 @@ body {
 }
 
 /* relative allows us to force footer to the bottom */
-#wrapper {
+.wrapper {
 	min-height: 100%;
 	position: relative
 } 
