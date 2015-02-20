@@ -7,8 +7,13 @@ body {
 /* relative allows us to force footer to the bottom */
 #wrapper {
 	min-height: 100%;
-	/*position: relative;*/
+	position: relative;
 } 
+#content {
+	padding: 10px;
+	padding-bottom: 50px;
+}
+}
 #footer {
 	position: absolute;
 	width: 100%;
