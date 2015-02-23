@@ -1,13 +1,16 @@
-.header {
-	position: fixed;
-	display: block;
+header {
+	position: block;
 	margin: 0;
 	padding: 0;
+}
+
+.header {
+	position: fixed;
 	top: 5px;
 	width: 100%;
 	height: 15%;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 999;
 }
 
 .home {
