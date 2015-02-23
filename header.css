@@ -14,9 +14,13 @@ header {
 }
 
 .home {
-	background-position: 0 -301;
+	background-position: 0 -201;
+}
+
+a: home {
+
 }
 
 .about {
-	background-position: 0 -401;
+	background-position: 0 -301;
 }
