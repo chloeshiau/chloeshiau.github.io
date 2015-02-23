@@ -1,0 +1,19 @@
+.header {
+	position: fixed;
+	display: block;
+	margin: 0;
+	padding: 0;
+	top: 5px;
+	width: 100%;
+	height: 15%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.home {
+	background-position: 0 -301;
+}
+
+.about {
+	background-position: 0 -401;
+}
