@@ -1,14 +1,14 @@
 @media (min-width: 875px) {
 	#myname{
-		font-size: 15px;
-		font-family: Helvetica;
+		font-size: 45px;
+		font-weight: 500;
 	}
-
 	#mypicture{
 
 	}
 
 	#description{
+		font-size: 30px;
 
 	}
 

@@ -4,7 +4,13 @@ html {
 
 body {
 	font-family: "Helvetica", "Arial";
-	margin: 0px;
+	margin: 5px;
+}
+
+header {
+	font-family: Helvetica;
+	margin: 10px;
+	text-align: center;
 }
 
 a {
