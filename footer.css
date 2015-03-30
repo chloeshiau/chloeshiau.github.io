@@ -3,7 +3,8 @@ html {
 }
 
 body {
-
+	font-family: "Helvetica", "Arial";
+	margin: 0px;
 }
 
 a {
