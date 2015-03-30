@@ -1,6 +1,7 @@
 @media (min-width: 875px) {
 	#myname{
-
+		font-size: 15px;
+		font-family: Helvetica;
 	}
 
 	#mypicture{
