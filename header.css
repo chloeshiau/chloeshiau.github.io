@@ -1,26 +1,22 @@
-header {
-	position: block;
-	margin: 0;
-	padding: 0;
-}
+@media (min-width: 875px) {
+	#myname{
 
-.header {
-	position: fixed;
-	top: 5px;
-	width: 100%;
-	height: 15%;
-	overflow: hidden;
-	z-index: 999;
-}
+	}
 
-.home {
-	background-position: 0 -201;
-}
+	#mypicture{
 
-a: home {
+	}
+
+	#description{
+
+	}
 
 }
 
-.about {
-	background-position: 0 -301;
+@media (max-width:875px) {
+
+}
+
+@media (max-width: 700px) {
+
 }
