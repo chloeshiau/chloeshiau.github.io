@@ -8,8 +8,14 @@
 	}
 
 	#description{
-		font-size: 20px;
+		font-size: 10px;
 
+	}
+	#mypicture {
+		height: 80px;
+		width: 150px;
+		z-index: -99;
+		background-image: url("IMG_8247 copy.JPG");
 	}
 
 }

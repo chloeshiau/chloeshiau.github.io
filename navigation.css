@@ -1,40 +1,16 @@
-nav ul {
-	list-style-type: none;
+#navigation {
+	position: fixed;
 	width: 100%;
-	float: right;
-}
-nav ul li {
-	float: right;
-	padding: 0;
-	margin: 15px 10px 0 0;
-	width: 59px;
-	text-align: center;
-	overflow: visible;
+	height: 10%;
+	z-index: 1;
+	padding: 10px;
 }
 
-nav ul li a {
-	background-color: black;
-	width: 5%;
-	height:6%;
-	display: block;
-	text-align: center;
-	outline: none;
-	text-indent: -13000em;
+#navigation:hover {
+
 }
 
-ul {
-	display: block;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 40px;
+#navigation-content {
+	height: 10%;
 }
 
-li {
-	/*display: list-item;*/
-}
-
-a {
-	outline: none;
-}
