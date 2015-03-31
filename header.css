@@ -17,7 +17,7 @@
 		width: 100%;
 	}
 	#mypicture {
-		height: 100%;
+		height: auto;
 		width: 100%;
 		min-width: 100%;
 		position: absolute;
