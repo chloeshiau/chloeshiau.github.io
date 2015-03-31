@@ -4,11 +4,11 @@ html {
 
 body {
 	font-family: "Helvetica", "Arial";
-	margin: 5px;
+	margin: 6px;
 }
 
 header {
-	font-family: Helvetica;
+	font-family: Helvetica; 
 	border-top: 10px;
 	text-align: center;
 }
