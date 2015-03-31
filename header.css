@@ -2,21 +2,21 @@
 	#myname{
 		font-size: 45px;
 		font-weight: 500;
+		position: absolute;
+		z-index: 99;
 	}
 	#description{
 		font-size: 10px;
 
 	}
 	#container {
-		height: 100%;
-		width: 100%;
 		position: relative;
 	}
 	#mypicture {
 		height: 100%;
 		width: 100%;
 		min-width: 100%;
-
+		position: absolate;
 		background-image: url("IMG_8247 copy.JPG");
 		background-position: center;
 		background-repeat: no-repeat;
