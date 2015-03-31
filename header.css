@@ -24,6 +24,10 @@
 
 }
 
+#hello {
+	background-image: url("IMG_8247 copy.JPG");
+}
+
 @media (max-width:875px) {
 	#myname{
 		font-size: 45px;
