@@ -6,7 +6,8 @@
 		z-index: 99;
 		left:0;
 		top:0;
-		padding: 10px;
+		padding: 20px;
+		text-align: center;
 	}
 	#description{
 		font-size: 10px;
@@ -23,6 +24,7 @@
 		background-image: url("IMG_8247 copy.JPG");
 		background-position: center;
 		background-repeat: no-repeat;
+		opacity: .7;
 /*		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
