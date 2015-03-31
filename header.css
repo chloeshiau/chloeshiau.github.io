@@ -17,10 +17,9 @@
 		width: 100%;
 	}
 	#mypicture {
-		height: 100%;
+		height: auto;
 		width: 100%;
 		min-width: 100%;
-		position: absolate;
 		background-image: url("IMG_8247 copy.JPG");
 		background-position: center;
 		background-repeat: no-repeat;
