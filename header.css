@@ -2,7 +2,7 @@
 	#myname{
 		font-size: 45px;
 		font-weight: 500;
-		position: absolute;
+
 	}
 	#description{
 		font-size: 10px;
@@ -17,7 +17,7 @@
 		height: 100%;
 		width: 100%;
 		min-width: 100%;
-		position: absolute;
+
 		background-image: url("IMG_8247 copy.JPG");
 		background-position: center;
 		background-repeat: no-repeat;
