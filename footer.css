@@ -9,8 +9,7 @@ body {
 
 header {
 	font-family: monospace; 
-	border-top: 1px;
-	text-align: center;
+	border-top: 5px;
 }
 
 a {

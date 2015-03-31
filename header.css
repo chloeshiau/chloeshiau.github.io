@@ -7,7 +7,7 @@
 		left:0;
 		top: 0;
 		padding: 10px;
-		text-align: center;
+		
 	}
 	#description{
 		font-size: 10px;
@@ -16,6 +16,7 @@
 	#container {
 		position: relative;
 		width: 100%;
+		text-align: center;
 	}
 	#mypicture {
 		height: auto;
