@@ -1,5 +1,5 @@
 @media (min-width: 875px) {
-	#container p{
+	#name{
 		font-size: 45px;
 		font-weight: 500;
 		position: absolute;
@@ -7,6 +7,7 @@
 		left:0;
 		top: 0;
 		padding: 10px;
+		text-align: center;
 		
 	}
 	#description{
