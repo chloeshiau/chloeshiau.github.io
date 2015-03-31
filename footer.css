@@ -3,12 +3,12 @@ html {
 }
 
 body {
-	font-family: "Helvetica", "Arial";
+	font-family: "Helvetica", "Arial", "monospace";
 	margin: 0px;
 }
 
 header {
-	font-family: Helvetica; 
+	font-family: monospace; 
 	border-top: 1px;
 	text-align: center;
 }
