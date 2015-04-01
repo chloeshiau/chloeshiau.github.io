@@ -1,11 +1,19 @@
 html {
 /*	background-color: #7DAF99;*/
 	background-color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 body {
 	font-family: "Helvetica", "Arial", "monospace";
 	margin: 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 header {
