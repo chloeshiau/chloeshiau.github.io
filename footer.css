@@ -5,14 +5,16 @@ html, body {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	text-align: left;
+	font-family: monospace;
 }
 
 body {
 	font-family: "Helvetica", "Arial", "monospace";
 }
 
-header {
+/*header {
 	font-family: monospace; 
 	border-top: 5px;
 }
-
+*/
