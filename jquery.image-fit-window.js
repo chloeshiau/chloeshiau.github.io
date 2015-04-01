@@ -8,7 +8,7 @@
 		container: window,
 		offsetY: 0,
 		wrapperClass: "fit-wrapper",
-		toggleClass: "fit-toggle",
+		// toggleClass: "fit-toggle",
 		allowUpscaling: false,
 		onFit: undefined,
 		onUnfit: undefined,
@@ -22,7 +22,7 @@
 		this._name = pluginName;
 
 		this.wrapper = $('<div></div>').addClass(this.settings.wrapperClass);
-		this.toggle = $('<div title="Toggle enlargement"></div>').addClass(this.settings.toggleClass)
+		// this.toggle = $('<div title="Toggle enlargement"></div>').addClass(this.settings.toggleClass)
 
 		this.init();
 	}
