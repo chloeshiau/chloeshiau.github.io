@@ -19,6 +19,8 @@
 		position: relative;
 		width: 100%;
 		text-align: center;
+		right: 0;
+		left: 0;
 	}
 	#mypicture {
 		height: auto;
@@ -29,60 +31,21 @@
 		background-repeat: no-repeat;
 		opacity: .8;
 	}
-	#chanbox {
-		height: 100px;
-		width: 200px;
-		background-image: url("IMG_8247 copy.JPG");
-
+	.fit-wrapper{
+		position:relative;
 	}
+	.fit-toggle{
+		position:absolute;
+		top:0;
+		left:0;
+		width:20px;
+		height:20px;
+		background:red;
+	}
+	.maxed-image .fit-toggle {
+		display: none;
+	}
+
 }
 
-@media (max-width:875px) {
-	#myname{
-		font-size: 45px;
-		font-weight: 500;
-	}
-	#description{
-		font-size: 10px;
 
-	}
-	#mypicture {
-		height: 100%;
-		width: 100%;
-		min-width: 100%;
-		margin: auto;
-		border: 0;
-		background-image: url("IMG_8247 copy.JPG");
-		background-position: center;
-		background-repeat: no-repeat;
-/*		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
-	}
-}
-
-@media (max-width: 700px) {
-	#myname{
-		font-size: 45px;
-		font-weight: 500;
-	}
-	#description{
-		font-size: 10px;
-
-	}
-	#mypicture {
-		height: 100%;
-		width: 100%;
-		min-width: 100%;
-		margin: auto;
-		border: 0;
-		background-image: url("IMG_8247 copy.JPG");
-		background-position: center;
-		background-repeat: no-repeat;
-/*		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
-	}
-}
