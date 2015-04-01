@@ -11,7 +11,7 @@ $(function(){
 			console.log('maxed')
 		},
 		onUnfit: function(){
-			console.log('fit')
+			console.log('unfit')
 		}
 	});
 

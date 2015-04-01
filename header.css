@@ -23,27 +23,32 @@
 		left: 0;
 	}
 	#mypicture {
-		height: auto;
-		max-width: 100%;
-		background-image: url("IMG_8247 copy.JPG");
+		position: absolute;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		overflow:hidden;
+/*		background-image: url("IMG_8247 copy.JPG");
 		background-position: center;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		opacity: .8;
+
 	}
-	.fit-wrapper{
+
+/*	.fit-wrapper{
 		position:relative;
 	}
-/*	.fit-toggle{
+	.fit-toggle{
 		position:relative;
 		top:0;
 		left:0;
 		width:0px;
 		height:0px;
 		background:red;
-	}*/
+	}
 	.maxed-image .fit-toggle {
 		display: none;
-	}
+	}*/
 
 }
 

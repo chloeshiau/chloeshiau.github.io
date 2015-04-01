@@ -1,19 +1,18 @@
-html {
+html, body {
 /*	background-color: #7DAF99;*/
-	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 }
 
 body {
 	font-family: "Helvetica", "Arial", "monospace";
-	margin: 0px;
 }
 
 header {
 	font-family: monospace; 
 	border-top: 5px;
-}
-
-a {
-
 }
 
