@@ -13,6 +13,7 @@ $(function(){
 		onUnfit: function(){
 			console.log('unfit')
 		}
+		container: $('.my-container')
 	});
 
 	// $('#my-image-2').imageFitWindow({
