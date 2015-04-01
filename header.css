@@ -34,9 +34,10 @@
 		background-size: cover;*/
 	}
 	#chanbox {
-		height: 50px;
-		width: 50px;
+		height: 100px;
+		width: 200px;
 		background-image: url("IMG_8247 copy.JPG");
+
 	}
 }
 
