@@ -8,11 +8,11 @@ html, body {
 }
 
 body {
-	font-family: "Helvetica", "Arial", "monospace";
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
 }
 
 header {
-	font-family: monospace; 
+	font-family: Helvetica; 
 	border-top: 5px;
 }
 
