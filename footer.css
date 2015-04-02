@@ -14,5 +14,6 @@ body {
 header {
 	font-family: monospace; 
 	border-top: 5px;
+	padding: 60px;
 }
 
