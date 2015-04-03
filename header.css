@@ -1,4 +1,4 @@
-@media (min-width: 875px) {
+/*@media (min-width: 875px) {*/
 	#box {
 		width: 30%;
 		height: 10%;
@@ -45,22 +45,7 @@
 		opacity: .8;
 
 	}
-
-/*	.fit-wrapper{
-		position:relative;
-	}
-	.fit-toggle{
-		position:relative;
-		top:0;
-		left:0;
-		width:0px;
-		height:0px;
-		background:red;
-	}
-	.maxed-image .fit-toggle {
-		display: none;
-	}*/
-
+/*
 }
-
+*/
 
