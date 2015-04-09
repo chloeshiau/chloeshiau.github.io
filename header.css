@@ -33,7 +33,9 @@
 		
 	}
 	#descontainer{
-		position: relative;
+		position: absolute;
+		top: 0;
+		vertical-align: middle;
 		width: 50%;
 		height: 50%;
 		margin: 10px;
