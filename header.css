@@ -30,15 +30,15 @@
 		padding-top: 40px;
 		color: #56AA96;
 		cursor: pointer;
-		
 	}
 	#descontainer{
-		position: absolute;
-		top: 0;
+		position: fixed;
 		vertical-align: middle;
 		width: 50%;
 		height: 50%;
 		margin: 10px;
+		top: 50%;
+		left: 50%;
 		background-color: black;
 		opacity: .6;
 		z-index: 9;
