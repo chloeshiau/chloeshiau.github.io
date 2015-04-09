@@ -1,34 +1,4 @@
 /*@media (min-width: 875px) {*/
-	#box {
-		width: 30%;
-		height: 10%;
-		margin: 5px;
-		border-width: 1px;
-		border-style: solid;
-		border-color: black;
-		z-index = -1;
-		position: relative;
-	}
-	#name{
-		font-size: 45px;
-		font-weight: 500;
-		position: absolute;
-		z-index: 99;
-		left:0;
-		top: 0;
-		text-align: center;
-		width: 100%;
-		height: 100%;
-		padding-top: 40px;
-		color: #56AA96;
-		cursor: pointer;
-		
-	}
-	#description{
-		font-size: 10px;
-		z-index: 99;
-
-	}
 	#container {
 		position: relative;
 		width: 100%;
@@ -47,6 +17,36 @@
 		opacity: .8;
 
 	}
+	#name{
+		font-size: 45px;
+		font-weight: 500;
+		position: absolute;
+		z-index: 99;
+		left:0;
+		top: 0;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		padding-top: 40px;
+		color: #56AA96;
+		cursor: pointer;
+		
+	}
+	#descontainer{
+		position: relative;
+		width: 50%;
+		height: 50%;
+		margin: 10px;
+		background-color: black;
+		opacity: .6;
+		z-index: 9;
+	}
+	#description{
+		font-size: 10px;
+		z-index: 99;
+
+	}
+
 /*
 }
 */

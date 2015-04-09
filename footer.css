@@ -8,11 +8,11 @@ html, body {
 }
 
 body {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 header {
-	font-family: Tahoma; 
+	font-family: 'Lato', sans-serif; 
 	border-top: 5px;
 }
 
