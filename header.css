@@ -1,4 +1,4 @@
-/*@media (min-width: 875px) {*/
+@media (min-width: 875px) {
 	#container {
 		position: relative;
 		width: 100%;
@@ -32,8 +32,7 @@
 		cursor: pointer;
 	}
 	#descontainer{
-		position: fixed;
-		vertical-align: middle;
+		position: absolute;
 		width: 50%;
 		height: 50%;
 		margin: 10px;
@@ -48,8 +47,6 @@
 		z-index: 99;
 
 	}
-
-/*
 }
-*/
+
 
