@@ -12,7 +12,11 @@ a:visited {
 a:hover {
 	color: #56AA96;
 }
-
+img {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+}
 html, body {
 /*	background-color: #7DAF99;*/
 	margin: 0;
