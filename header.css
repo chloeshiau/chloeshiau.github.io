@@ -47,7 +47,10 @@
 		height: 50%;
 		color: #56AA96;
 	}
-	#name, #description: hover {
+	#name:hover {
+		opacity: 1;
+	}
+	#description:hover {
 		opacity: 1;
 	}
 }
