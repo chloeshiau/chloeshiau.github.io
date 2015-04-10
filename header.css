@@ -7,11 +7,13 @@
 		left: 0;
 	}
 	#mypicture {
-		position: relative;
+		background-image: url("IMG_8247 copy.JPG");
+		position: fixed;
+		top:0;
+		left:0;
 		z-index: -99;
 		width: 100%;
 		height: 100%;
-		background-image: url("IMG_8247 copy.JPG");
 		opacity: .8;
 	}
 	#descontainer{
