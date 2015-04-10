@@ -25,6 +25,8 @@
 		top:0;
 		left:0;
 		background-size: cover;
+		height: 100%;
+		width: 100%;
 	}
 	#descontainer{
 		position: absolute;
