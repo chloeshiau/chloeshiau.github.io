@@ -1,14 +1,16 @@
 #navigation {
 	position: fixed;
 	display: block;
+	padding: 5px;
 	width: 100%;
 	height: 30px;
 	z-index: 99;
 	cursor: pointer;
-	background-color: red;
+	background-color: #56AA96;
+	opacity: .9
 }
 .logo {
-	
+
 }
 .labels {
 	font-family: 'Lato', sans-serif;
@@ -16,6 +18,7 @@
 	margin-right: 2px;
 	margin-left: 2px;
 	opacity: .9;
+	text-align: left;
 }
 
 .labels:hover {
