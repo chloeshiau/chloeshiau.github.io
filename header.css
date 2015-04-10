@@ -21,7 +21,7 @@
 		min-width: 100%;
 		opacity: .8;
 		z-index: -99;
-		
+		background-size: 100%;
 	}
 	#descontainer{
 		position: absolute;
