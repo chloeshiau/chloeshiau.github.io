@@ -13,6 +13,18 @@ a:hover {
 	color: #56AA96;
 }
 
+.labels a:link {
+	color: black;
+}
+
+.labels a:visited {
+	color:black;
+}
+
+.labels a:hover {
+	color: black;
+}
+
 html, body {
 /*	background-color: #7DAF99;*/
 	margin: 0;
