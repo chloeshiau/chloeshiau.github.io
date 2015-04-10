@@ -1,21 +1,8 @@
-// $(function(){
-//     $('#mypicture').imagefit();
-// });
+function background_height() {
+	$('body').height($(window).height());
+}
 
-$(function(){
-	$('#mypicture').imageFitWindow({
-		onFit:function(){
-			console.log('fit')
-		},
-		onMaxed: function(){
-			console.log('maxed')
-		},
-		onUnfit: function(){
-			console.log('unfit')
-		}
-	});
-
-	// $('#my-image-2').imageFitWindow({
-	// 	container: $('.my-container')
-	// });	
-})
+$(document).ready(function() {
+	$(window).bind('resize', background_height);
+	background_height();
+});
