@@ -60,7 +60,10 @@
 		float:left;
 	}
 	.logo {
-
+		border-radius: .5;
+		height: 20px;
+		width:20px;
+		border-color: black;
 	}
 
 	#navlabel {
