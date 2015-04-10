@@ -1,40 +1,85 @@
-#navigation {
-	position: fixed;
-	display: block;
-	padding: 8px;
-	width: 100%;
-	height: 25px;
-	z-index: 99;
-	cursor: pointer;
-	background-color: #56AA96;
-	opacity: .9
+@media (min-width: 800px) {
+	#navigation {
+		position: fixed;
+		display: block;
+		padding: 8px;
+		width: 100%;
+		height: 25px;
+		z-index: 99;
+		cursor: pointer;
+		background-color: #56AA96;
+		opacity: .9
+	}
+
+	#navlogo {
+		height: 25px;
+		width:50%;
+		float:left;
+	}
+	.logo {
+
+	}
+
+	#navlabel {
+		height:25px;
+		width: 50%;
+		float:right;
+	}
+	.labels {
+		display: inline;
+		font-family: 'Lato', sans-serif;
+		color:black;
+		font-size: 20px;
+		margin-right: 5px;
+		opacity: .8;
+		float: right;
+		padding-right: 15px;
+	}
+
+	.labels:hover {
+		opacity: 1;
+	}
 }
 
-#navlogo {
-	height: 25px;
-	width:50%;
-	float:left;
-}
-.logo {
+@media (max-width: 800px) {
+	#navigation {
+		position: fixed;
+		display: block;
+		padding: 8px;
+		width: 100%;
+		height: 25px;
+		z-index: 99;
+		cursor: pointer;
+		background-color: #56AA96;
+		opacity: .9
+	}
 
-}
+	#navlogo {
+		height: 25px;
+		width:30%;
+		float:left;
+	}
+	.logo {
 
-#navlabel {
-	height:25px;
-	width: 50%;
-	float:right;
-}
-.labels {
-	display: inline;
-	font-family: 'Lato', sans-serif;
-	color:black;
-	font-size: 20px;
-	margin-right: 5px;
-	opacity: .8;
-	float: right;
-	padding-right: 15px;
-}
+	}
 
-.labels:hover {
-	opacity: 1;
+	#navlabel {
+		height:25px;
+		width: 70%;
+		float:right;
+	}
+	.labels {
+		display: inline;
+		font-family: 'Lato', sans-serif;
+		color:black;
+		font-size: 15px;
+		margin-right: 5px;
+		opacity: .8;
+		float: right;
+		padding-right: 15px;
+	}
+
+	.labels:hover {
+		opacity: 1;
+	}
 }
