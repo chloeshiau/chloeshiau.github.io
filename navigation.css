@@ -12,20 +12,23 @@
 	}
 
 	#navlogo {
-		height: 20px;
-		width: 20px;
+		height:30px;
+		width: 20%;
 		float:left;
-		border-color: black;
-		border-radius: 8px;
-		float: left;
-		z-index: 99;
 
 	}
 	.logo {
+		font-family: 'Lato', sans-serif;
 		font-size: 18px;
 		margin-left: 10px;
 		margin-top: 2px;
 		text-align: center;
+		float: left;
+		color: black;
+		opacity: .8;
+	}
+	.logo:hover {
+		opacity: 1;
 	}
 
 	#navlabel {
@@ -63,17 +66,19 @@
 	}
 
 	#navlogo {
-		margin-top: 2px;
-		margin-left: 10px;
-		height: 20px;
+		height:25px;
+		width: 20%;
 		float:left;
-		border-radius: .5;
-		border-color: black;
-		width:20px;
 	}
 	.logo {
-		font-size: 18px;
-		float:left;
+		display: inline;
+		font-family: 'Lato', sans-serif;
+		color:black;
+		font-size: 12px;
+		margin-right: 5px;
+		opacity: .8;
+		float: right;
+		padding-right: 15px;
 	}
 
 	#navlabel {
