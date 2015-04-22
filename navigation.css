@@ -21,7 +21,6 @@
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
-		margin-right: 5px;
 		opacity: .8;
 		float: left;
 		padding-right: 15px;
@@ -32,7 +31,7 @@
 
 	#navlabel {
 		height:30px;
-		width: 40%;
+		width: 80%;
 		float:right;
 	}
 	.labels {
