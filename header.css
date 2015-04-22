@@ -28,6 +28,7 @@
 		letter-spacing: 3px;
 	}
 	#description{
+		letter-spacing: 3px;
 		font-size: 20px;
 		position: relative;
 		z-index: 99;
@@ -37,6 +38,7 @@
 		color: #56AA96;
 	}
 	#underconstruction{
+		letter-spacing: 3px;
 		font-size: 30px;
 		position: relative;
 		z-index: 99;
