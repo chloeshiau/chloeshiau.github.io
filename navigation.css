@@ -25,6 +25,7 @@
 		float: left;
 		padding-right: 15px;
 		z-index: 951;
+		margin-left: 5px;
 	}
 	.logo:hover {
 		opacity: 1;
