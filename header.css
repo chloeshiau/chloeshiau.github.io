@@ -1,6 +1,6 @@
 /*@media (min-width: 800px) {*/
 	
-/*	#descontainer{
+	#descontainer{
 		position: absolute;
 		width: 50%;
 		height: 40%;
@@ -45,7 +45,7 @@
 		height: 200px;
 	}
 
-*/
+
 
 /*-------front background--------*/
 
@@ -80,7 +80,7 @@
 
 /*--------below background--------*/
 
-#other {
+/*#other {
 	position: absolute;
 	width: 100%;
 	top: 100%;
@@ -108,8 +108,8 @@
 	text-align: center;
 	padding-left: 70px;
 	padding-right: 70px;
-}
-
+}*/
+/*
 #rush {
 	position: relative;
 	width: 100%;
@@ -117,12 +117,12 @@
 	background-color: gray;
 }
 
-/*------footer---------*/
+------footer---------
 #footer {
 	position: relative;
 	width: 100%;
 	height: 50px;
 	background-color: #56AA96;
-}
+}*/
 
 
