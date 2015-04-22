@@ -86,11 +86,16 @@
 
 /*--------below background--------*/
 
-#regent {
+#other {
 	position: absolute;
 	width: 100%;
 	top: 100%;
-	height: 800px;
+	height: 900px;
+}
+#regent {
+	position: relative;
+	height: 450px;
+	width: 100%;
 	background-color: white;
 }
 
