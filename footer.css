@@ -1,3 +1,15 @@
+html, body {
+	background-color: black;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
@@ -25,29 +37,10 @@ a:hover {
 	color: black;
 }
 
-html, body {
-/*	background-color: #7DAF99;*/
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow: hidden;
-/*	min-width: 100%;*/
-}
 
-body {
-	font-family: 'Lato', sans-serif;
-/*	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
-}
 
-}
-
-header {
+/*header {
 	font-family: 'Lato', sans-serif; 
 	border-top: 5px;
-}
+}*/
 

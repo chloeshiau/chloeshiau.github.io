@@ -1,45 +1,18 @@
-// function background_height() {
-// 	$('body').height($(window).height());
-// }
+function setBackground() {
+		// $(".pic").css("opacity", "0");	
+		setTimeout(function() {
+			$("#pic1").css("opacity", ".8");
+		}, 15)
+		setTimeout(function() {
+			$("#pic1").css("opacity", "0");
+			$("#pic2").css("opacity", ".8");
+		}, 5000)
+		setTimeout(function() {
+			$("#pic2").css("opacity", "0");
+			$("#pic3").css("opacity", ".8");
+		}, 10000) 
+		$("#pic3").css("opacity", "0");
 
-// $(document).ready(function() {
-// 	$(window).bind('resize', background_height);
-// 	background_height();
-// });
-
-
-(function ($) {
-
-	$.fn.photoResize = function (options) {
-
-		var element	= $(this), 
-			defaults = {
-	            bottomSpacing: 10
-			};
-		
-		$('body').load(function () {
-			updatePhotoHeight();
-
-			$(window).bind('resize', function () {
-				updatePhotoHeight();
-			});
-		});
-
-		options = $.extend(defaults, options);
-
-		function updatePhotoHeight() {
-			var o = options, 
-				photoHeight = $(window).height();
-
-			$(element).attr('height', photoHeight - o.bottomSpacing);
-		}
-	};
-
-
-}(jQuery));
-
-$(document).ready(function() {
-	$("img").photoResize({
-		bottomSpacing: 15
-	});
-});
+}
+setBackground();
+setInterval(setBackground, 15000);
