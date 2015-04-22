@@ -119,6 +119,7 @@
 	height: 400px;
 	background-image: url("img/gears.jpg");
 	background-size: 100% 400px;
+	padding-top: 40%;
 }
 
 #rushpic {
@@ -132,8 +133,6 @@
 	text-align: center;
 	vertical-align: middle;
 	z-index: 99;
-	height: 400px;
-	padding-top: 40%;
 }
 
 /*-----three pillars-----*/
