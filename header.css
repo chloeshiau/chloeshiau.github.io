@@ -128,9 +128,11 @@
 }
 
 #rushdesc {
-	font-size: 20px;
+	font-size: 40px;
 	text-align: center;
+	vertical-align: middle;
 	z-index: 99;
+	margin: 20px;
 }
 
 /*-----three pillars-----*/
