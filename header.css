@@ -29,6 +29,7 @@
 	}
 	#description{
 		letter-spacing: 3px;
+		line-height: 22px;
 		font-size: 20px;
 		position: relative;
 		z-index: 99;
@@ -105,8 +106,8 @@
 	position: relative;
 	font-size: 15px;
 	text-align: center;
-	padding-left: 70px;
-	padding-right: 70px;
+/*	padding-left: 70px;
+	padding-right: 70px;*/
 }
 
 #rush {
