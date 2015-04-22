@@ -2,9 +2,9 @@
 	#navigation {
 		position: fixed;
 		top: 0;
-		padding-top: 23px;
+		padding-top: 20px;
 		width: 100%;
-		height: 50px;
+		height: 45px;
 		z-index: 950;
 		cursor: pointer;
 		background-color: #56AA96;
@@ -24,6 +24,7 @@
 		opacity: .8;
 		float: left;
 		padding-right: 15px;
+		z-index: 951;
 	}
 	.logo:hover {
 		opacity: 1;
