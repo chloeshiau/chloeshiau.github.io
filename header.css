@@ -9,7 +9,7 @@
 		margin-right: -50%;
 		background-color: black;
 		opacity: .6;
-		z-index: 9;
+		z-index: 900;
 		transform: translate(-50%, -50%);
 		cursor: pointer;
 		border-radius: 8px;
@@ -97,7 +97,7 @@
 #regentmsghead {
 	position: relative;
 	margin-top: 5%;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	font-size: 25px;
 	text-align: center;
 }
