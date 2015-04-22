@@ -157,31 +157,31 @@
 #pillar1 {
 	position: absolute;
 	width: 300px;
-	height: 300px;
+	height: 340px;
 	background-color: gray;
 	text-align: center;
 	left: 8%;
-	top: 10px;
+	top: 20px;
 }
 
 #pillar2 {
 	position: absolute;
 	width: 300px;
-	height: 300px;
+	height: 340px;
 	background-color: gray;
 	text-align: center;
 	left: 38%;
-	top: 10px;
+	top: 20px;
 }
 
 #pillar3 {
 	position: absolute;
 	width: 300px;
-	height: 300px;
+	height: 340px;
 	background-color: gray;
 	text-align: center;
 	left: 68%;
-	top: 10px;
+	top: 20px;
 }
 
 /*------footer---------*/
