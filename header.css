@@ -87,7 +87,7 @@
 /*--------below background--------*/
 
 #regent {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	top: 100%;
 	height: 800px;
