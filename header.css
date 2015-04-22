@@ -111,6 +111,8 @@
 	padding-right: 70px;
 }
 
+/*-----rush-----*/
+
 #rush {
 	position: relative;
 	width: 100%;
@@ -119,10 +121,26 @@
 }
 
 #rushpic {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 100%;
 }
+
+#rushdesc {
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*-----three pillars-----*/
+
+#pillars {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+
 
 /*------footer---------*/
 #footer {
