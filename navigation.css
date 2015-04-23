@@ -46,6 +46,7 @@
 		float: right;
 		padding-right: 15px;
 		line-height: 45px;
+		text-align: center;
 		width: 100px;
 	}
 
@@ -60,6 +61,7 @@
 	#tabs {
 		-webkit-transition: .2s;
 		vertical-align: center;
+		text-align: center;
 		display: none;
 		z-index:960;
 		width:100%;
