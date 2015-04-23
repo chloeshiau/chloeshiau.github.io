@@ -59,7 +59,7 @@
 	}
 
 	#tabs {
-		/*display: none;*/
+		display: none;
 		z-index:960;
 		width:100%;
 		top: 100%;
