@@ -54,7 +54,9 @@
 	.labels1:hover {
 		opacity: 1;
 	}
-
+	#rush {
+		cursor: pointer;
+	}
 
 	#tabs {
 		/*display: none;*/
