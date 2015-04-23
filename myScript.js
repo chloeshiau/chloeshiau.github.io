@@ -19,42 +19,44 @@ setInterval(setBackground, 15000);
 
 
 
-$("#rush").hover(function() {
-	$(".labels").show();
-	}, function() {
-		$(".labels").hide();
-});
-// $("#rush1").hover(function() {
-// 	$("#rush1").css("opacity", ".8");
-// 	}, function() {
-// 		$("#rush1").css("opacity", "1");
-// })
-// $("#rush2").hover(function() {
-// 	$("#rush2").css("opacity", ".8");
-// 	}, function() {
-// 		$("#rush2").css("opacity", "1");
-// })
-// $("#rush3").hover(function() {
-// 	$("#rush3").css("opacity", ".8");
-// 	}, function() {
-// 		$("#rush3").css("opacity", "1");
-// })
+var wid = $("#rush").width();
 
-// $("#bro").hover(function() {
-// 	$(".brotabs").show();
-// 	}, function() {
-// 		$(".brotabs").hide();
-// });
-// $("#bro1").hover(function() {
-// 	$("#bro1").css("opacity", ".8");
-// 	}, function() {
-// 		$("#bro1").css("opacity", "1");
-// })
-// $("#bro2").hover(function() {
-// 	$("#bro2").css("opacity", ".8");
-// 	}, function() {
-// 		$("#bro2").css("opacity", "1");
-// })
+$("#rush").hover(function() {
+	$(".rushtabs").show();
+	}, function() {
+		$(".rushtabs").hide();
+});
+$("#rush1").hover(function() {
+	$("#rush1").css("opacity", ".8");
+	}, function() {
+		$("#rush1").css("opacity", "1");
+})
+$("#rush2").hover(function() {
+	$("#rush2").css("opacity", ".8");
+	}, function() {
+		$("#rush2").css("opacity", "1");
+})
+$("#rush3").hover(function() {
+	$("#rush3").css("opacity", ".8");
+	}, function() {
+		$("#rush3").css("opacity", "1");
+})
+
+$("#bro").hover(function() {
+	$(".brotabs").show();
+	}, function() {
+		$(".brotabs").hide();
+});
+$("#bro1").hover(function() {
+	$("#bro1").css("opacity", ".8");
+	}, function() {
+		$("#bro1").css("opacity", "1");
+})
+$("#bro2").hover(function() {
+	$("#bro2").css("opacity", ".8");
+	}, function() {
+		$("#bro2").css("opacity", "1");
+})
 $("#bro3").hover(function() {
 	$("#bro3").css("opacity", ".8");
 	}, function() {
