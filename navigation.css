@@ -36,12 +36,12 @@
 	}
 	#about {
 		display: block;
-		position: relative;
+		position: absolute;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
 		margin-right: 5px;
-		left: 5px;
+		left: 30%;
 		opacity: .8;
 		padding-right: 15px;
 	}
@@ -52,12 +52,12 @@
 
 	#rush {
 		display: block;
-		position: relative;
+		position: absolute;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
 		margin-right: 5px;
-		left: 50px;
+		left: 33%;
 		opacity: .8;
 		padding-right: 15px;
 	}
