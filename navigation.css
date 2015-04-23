@@ -54,6 +54,7 @@
 
 	.rushtabs {
 		-webkit-transition: .3s;
+		position: absolute;
 		vertical-align: center;
 		text-align: center;
 		display: none;
