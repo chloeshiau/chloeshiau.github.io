@@ -22,8 +22,9 @@ setInterval(setBackground, 15000);
 var wid = $("#rush").width();
 
 $("#rush").hover(function() {
-	$(".rushtabs").css("display", "inline-block");
+	$(".rushtabs").show();
 	}, function() {
+		#("rush").width() = wid;
 		$(".rushtabs").hide();
 });
 $("#rush1").hover(function() {
