@@ -17,13 +17,13 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 15000);
 
-$(function() { 
+
 $("#rush").hover(function() {
-	$(".tabs").show();
+	$(".rushtabs").show();
 	}, function() {
-		$(".tabs").hide();
+		$(".rushtabs").hide();
 	});
-});
+
 
 
 
