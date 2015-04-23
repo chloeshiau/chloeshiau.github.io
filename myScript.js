@@ -18,8 +18,8 @@ setBackground();
 setInterval(setBackground, 15000);
 
 
-$("#brother").click(function() {
-	$(".brothercont").show();
+$("#rush").click(function() {
+	$("#tabs").show();
 })
 
 // $("#professional").click(function() {
