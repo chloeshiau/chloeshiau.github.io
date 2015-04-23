@@ -58,9 +58,9 @@
 		text-align: center;
 		display: none;
 		z-index:960;
-		width:140%;
 		background-color: #56AA96;
 		opacity: 1;
+		left: -19;
 	}
 	.brotabs {
 		-webkit-transition: .3s;
@@ -68,7 +68,6 @@
 		text-align: center;
 		display: none;
 		z-index:960;
-		width:140%;
 		background-color: #56AA96;
 		opacity: 1;
 	}
