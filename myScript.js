@@ -29,8 +29,7 @@ var wid = $("#rush").width();
 
 $("#rush").hover(function() {
 	$("#rush").width() = wid;
-	$(".rushtabs").show();
-	
+	$(".rushtabs").css("display", "inline-block");
 	}, function() {
 		$(".rushtabs").hide();
 });
