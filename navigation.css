@@ -42,15 +42,15 @@
 		color:black;
 		font-size: 15px;
 		margin-right: 35px;
-		opacity: .8;
+		opacity: 1;
 		float: right;
 		line-height: 45px;
 		text-align: center;
-		width: auto;
+		cursor: pointer;
 	}
 
 	.labels:hover {
-		opacity: 1;
+		opacity: .8;
 	}
 
 	#rush,#bro {
