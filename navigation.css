@@ -1,6 +1,7 @@
 
 	#navigation {
 		display: block;
+		position: relative;
 		top: 0;
 		width: 100%;
 		height: 45px;
@@ -8,7 +9,13 @@
 		background-color: #56AA96;
 	}
 
-	#navlogo {
+	#navigation > li {
+		float: right;
+		position: relative;
+		padding: 2px;
+	}
+
+/*	#navlogo {
 		height:45px;
 		width: 20%;
 		float:left;
@@ -29,13 +36,15 @@
 	.logo:hover {
 		opacity: 1;
 	}
-
-	.navlabel {
-		height:45px;
-		display: table;
+*/
+	#navigation li .navlabels {
+		display: block;
+		position: absolute;
+		right: 50%;
+		white-space: nowrap;
 	}
-	.labels {
-		display: inline;
+	#navigation li .navlabels .labels {
+/*		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
@@ -43,8 +52,21 @@
 		float: right;
 		line-height: 45px;
 		text-align: center;
-		cursor: pointer;
+		cursor: pointer;*/
+		display: block;
+		margin-left: 50%;
 	}
+
+	.labels li {
+		display: inline-block;
+		padding-left: 1%;
+		white-space: nowrap;
+	}
+
+	.labels li:first-child {
+		padding-left: 0;
+	}
+
 
 
 
