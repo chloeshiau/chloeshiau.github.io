@@ -41,25 +41,22 @@
 		color:black;
 		font-size: 15px;
 		margin-right: 5px;
-		margin-bottom: 10px;
 		opacity: .8;
 		float: right;
 		padding-right: 15px;
+		height: 45px;
 	}
 
 	.labels:hover {
 		opacity: 1;
 	}
 
-
-	.labels1:hover {
-		opacity: 1;
-	}
 	#rush {
 		cursor: pointer;
 	}
 
 	#tabs {
+		-webkit-transition: .1s;
 		display: none;
 		z-index:960;
 		width:100%;
