@@ -37,13 +37,13 @@
 		opacity: 1;
 	}
 */
-	#navigation li .navlabels {
+	#navigation li {
 		display: block;
-		position: absolute;
+		position: relative;
 		right: 50%;
 		white-space: nowrap;
 	}
-	#navigation li .navlabels .labels {
+	#navigation li .navlabels .labels:hover {
 /*		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
@@ -58,7 +58,7 @@
 	}
 
 	.labels li {
-		display: inline-block;
+		display: none;
 		padding-left: 1%;
 		white-space: nowrap;
 	}
