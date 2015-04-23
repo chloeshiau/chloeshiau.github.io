@@ -24,10 +24,19 @@ $("#rush").hover(function() {
 		$(".rushtabs").hide();
 });
 $("#rush1").hover(function() {
-	$("#rush1").css("opacity", "1");
+	$("#rush1").css("opacity", ".8");
+	}, function() {
+		$("#rush1").css("opacity", "1");
 })
 $("#rush2").hover(function() {
-	$("#rush2").css("opacity", "1");
+	$("#rush2").css("opacity", ".8");
+	}, function() {
+		$("#rush2").css("opacity", "1");
+})
+$("#rush3").hover(function() {
+	$("#rush3").css("opacity", ".8");
+	}, function() {
+		$("#rush3").css("opacity", "1");
 })
 
 $("#about").hover(function() {
