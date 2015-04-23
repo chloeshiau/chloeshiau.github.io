@@ -20,15 +20,8 @@ setInterval(setBackground, 15000);
 
 
 var wid = $("#rush").width();
-// $(document).ready(function() {
-	
-// 	if($(".rushtabs").width() > $("#rush").width()) {
-// 		$("#rush").width() = wid;
-// 	}	
-// })
 
 $("#rush").hover(function() {
-	$("#rush").width() = wid;
 	$(".rushtabs").css("display", "inline-block");
 	}, function() {
 		$(".rushtabs").hide();

@@ -46,6 +46,7 @@
 		line-height: 45px;
 		text-align: center;
 		cursor: pointer;
+		max-width: 100%;
 	}
 
 	#rush,#bro {
@@ -62,6 +63,7 @@
 		opacity: 1;
 		left: -29;
 		width: 130%;
+		padding: 3px;
 	}
 	.brotabs {
 		-webkit-transition: .3s;
@@ -71,10 +73,6 @@
 		z-index:960;
 		background-color: #56AA96;
 		opacity: 1;
+		padding: 3px;
 	}
-	.brothercont {
-		width:100%;
-		padding:3px;
-		font-size: 25px;
-		height:10px;
-	}
+
