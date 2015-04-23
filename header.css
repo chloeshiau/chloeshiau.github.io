@@ -164,6 +164,12 @@
 	vertical-align: center;
 }
 
+.pillarsdesc {
+	position: relative;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
 #pillar1 {
 	position: absolute;
 	width: 25%;
