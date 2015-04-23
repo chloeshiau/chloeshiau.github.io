@@ -17,14 +17,18 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 15000);
 
-$(document).ready(function() {
-	var wid = $("#rush").width();
-	if($(".rushtabs").width() > $("#rush").width()) {
-		$("#rush").width() = wid;
-	}	
-})
+
+
+var wid = $("#rush").width();
+// $(document).ready(function() {
+	
+// 	if($(".rushtabs").width() > $("#rush").width()) {
+// 		$("#rush").width() = wid;
+// 	}	
+// })
 
 $("#rush").hover(function() {
+	$("#rush").width() = wid;
 	$(".rushtabs").show();
 	}, function() {
 		$(".rushtabs").hide();
