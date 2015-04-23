@@ -46,6 +46,7 @@
 		float: right;
 		padding-right: 15px;
 		line-height: 45px;
+		width: 20px;
 	}
 
 	.labels:hover {
