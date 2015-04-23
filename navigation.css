@@ -10,7 +10,7 @@
 	}
 
 	#navlogo {
-		height:30px;
+		height:45px;
 		width: 20%;
 		float:left;
 
@@ -31,7 +31,7 @@
 	}
 
 	#navlabel {
-		height:30px;
+		height:45px;
 		width: 80%;
 		float:right;
 	}
@@ -52,13 +52,13 @@
 
 	#brother {
 		display: none;
-		z-index:20;
+		z-index:950;
 		width:100%;
 		top: 100%;
 		height: 50px;
 	}
 
-	#brothercont {
+	.brothercont {
 		width:100%;
 		padding:3px;
 		font-size: 25px;
