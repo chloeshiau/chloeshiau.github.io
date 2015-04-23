@@ -35,7 +35,7 @@
 		width: 80%;
 		float:right;
 	}
-	#about {
+	.labels {
 		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
@@ -46,10 +46,10 @@
 		padding-right: 15px;
 	}
 
-	#about:hover {
+	.labels:hover {
 		opacity: 1;
 	}
-	#rush {
+	.labels1 {
 		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
@@ -60,7 +60,7 @@
 		padding-right: 15px;
 	}
 
-	#rush:hover {
+	.labels1:hover {
 		opacity: 1;
 	}
 
