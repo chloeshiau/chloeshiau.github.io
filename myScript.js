@@ -18,7 +18,7 @@ setBackground();
 setInterval(setBackground, 15000);
 
 
-$("#rush").click(function() {
+$("#rush").hover(function() {
 	$("#tabs").show();
 })
 
