@@ -16,3 +16,15 @@ function setBackground() {
 }
 setBackground();
 setInterval(setBackground, 15000);
+
+$("#brother").click(function() {
+	$("#brothercont").show();
+})
+
+$("#professional").click(function() {
+
+})
+
+$("#comserv").click(function() {
+
+})
