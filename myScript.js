@@ -39,18 +39,24 @@ $("#rush3").hover(function() {
 		$("#rush3").css("opacity", "1");
 })
 
-$("#about").hover(function() {
-	$(".abouttabs").show();
+$("#bro").hover(function() {
+	$(".brotabs").show();
 	}, function() {
-		$(".abouttabs").hide();
+		$(".brotabs").hide();
 });
+$("#bro1").hover(function() {
+	$("#bro1").css("opacity", ".8");
+	}, function() {
+		$("#bro1").css("opacity", "1");
+})
+$("#bro2").hover(function() {
+	$("#bro2").css("opacity", ".8");
+	}, function() {
+		$("#bro2").css("opacity", "1");
+})
+$("#bro3").hover(function() {
+	$("#bro3").css("opacity", ".8");
+	}, function() {
+		$("#bro3").css("opacity", "1");
+})
 
-
-
-// $("#professional").click(function() {
-
-// })
-
-// $("#comserv").click(function() {
-
-// })
