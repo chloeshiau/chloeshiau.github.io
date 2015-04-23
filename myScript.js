@@ -17,10 +17,15 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 15000);
 
-
+$(function() { 
 $("#rush").hover(function() {
 	$(".tabs").show();
-})
+	}, function() {
+		$(".tabs").hide();
+	});
+});
+
+
 
 // $("#professional").click(function() {
 
