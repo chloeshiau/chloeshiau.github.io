@@ -22,8 +22,19 @@ $("#rush").hover(function() {
 	$(".rushtabs").show();
 	}, function() {
 		$(".rushtabs").hide();
-	});
+});
+$("#rush1").hover(function() {
+	$("#rush1").css("opacity", "1");
+})
+$("#rush2").hover(function() {
+	$("#rush2").css("opacity", "1");
+})
 
+$("#about").hover(function() {
+	$(".abouttabs").show();
+	}, function() {
+		$(".abouttabs").hide();
+});
 
 
 
