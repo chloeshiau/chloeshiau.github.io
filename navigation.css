@@ -44,6 +44,7 @@
 		left: 30%;
 		opacity: .8;
 		padding-right: 15px;
+		z-index: 1000;
 	}
 
 	#about:hover {
@@ -60,6 +61,7 @@
 		left: 33%;
 		opacity: .8;
 		padding-right: 15px;
+		z-index: 1000;
 	}
 
 	#rush:hover {
