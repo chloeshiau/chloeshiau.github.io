@@ -19,7 +19,7 @@ setInterval(setBackground, 15000);
 
 
 $("#rush").hover(function() {
-	$("#tabs").show();
+	$(".tabs").show();
 })
 
 // $("#professional").click(function() {
