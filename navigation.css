@@ -31,10 +31,10 @@
 		opacity: 1;
 	}
 
-	#navlabel {
+	.navlabel {
 		height:45px;
 		width: 80%;
-		float:right;
+		display: table;
 	}
 	.labels {
 		display: inline;
@@ -48,7 +48,13 @@
 		cursor: pointer;
 	}
 
-	#rush,#bro {
+
+
+
+
+
+
+/*	#rush,#bro {
 		cursor: pointer;
 	}
 
@@ -76,4 +82,4 @@
 		padding: 3px;
 
 	}
-
+*/
