@@ -37,7 +37,7 @@
 		float:right;
 	}
 	.labels {
-		display: inline-block;
+		display: static;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
@@ -47,6 +47,7 @@
 		line-height: 45px;
 		text-align: center;
 		cursor: pointer;
+		width: auto;
 	}
 
 	#rush,#bro {

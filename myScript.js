@@ -18,9 +18,6 @@ setBackground();
 setInterval(setBackground, 15000);
 
 
-
-$("#rush").width() = $(".rushtabs").width();
-$("#bro").width() = $(".brotabs").width();
 $("#rush").hover(function() {
 	$(".rushtabs").show();
 	}, function() {
