@@ -32,41 +32,24 @@
 
 	#navlabel {
 		height:45px;
-		width:80%;
-		float: right;
+		width: 80%;
+		float:right;
 	}
-	#about {
+	.labels {
 		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
+		margin-right: 5px;
 		opacity: .8;
 		float: right;
 		padding-right: 15px;
-		z-index: 951;
-		margin-left: 15px;
 	}
-	#about:hover {
+
+	.labels:hover {
 		opacity: 1;
 	}
-
-	#rush {
-		display: block;
-		position: relative;
-		font-family: 'Lato', sans-serif;
-		color:black;
-		font-size: 15px;
-		margin-right: 5px;
-		left: 33%;
-		opacity: .8;
-		padding-right: 15px;
-		z-index: 1000;
-	}
-
-	#rush:hover {
-		opacity: 1;
-	}
-
+	
 
 	#brother {
 		display: none;
