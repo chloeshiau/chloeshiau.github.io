@@ -57,7 +57,8 @@
 	}
 
 	#tabs {
-		-webkit-transition: .1s;
+		-webkit-transition: .2s;
+		vertical-align: center;
 		display: none;
 		z-index:960;
 		width:100%;
