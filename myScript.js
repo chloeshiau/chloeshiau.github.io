@@ -17,11 +17,12 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 15000);
 
-// $(document).ready(function() {
-// 	if($(".rushtabs").width() > $("#rush").width) {
-// 		$("#rush").width() = $(".rushtabs").width();
-// 	}	
-// })
+$(document).ready(function() {
+	var wid = $("#rush").width();
+	if($(".rushtabs").width() > $("#rush").width()) {
+		$("#rush").width() = wid;
+	}	
+})
 
 $("#rush").hover(function() {
 	$(".rushtabs").show();
