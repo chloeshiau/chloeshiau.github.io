@@ -25,6 +25,7 @@
 		padding-right: 15px;
 		z-index: 951;
 		margin-left: 15px;
+		line-height: 45px;
 	}
 	.logo:hover {
 		opacity: 1;
