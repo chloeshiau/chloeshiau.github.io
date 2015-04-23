@@ -37,7 +37,7 @@
 		float:right;
 	}
 	.labels {
-		display: inline-block;
+		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;

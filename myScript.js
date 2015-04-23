@@ -24,7 +24,6 @@ var wid = $("#rush").width();
 $("#rush").hover(function() {
 	$(".rushtabs").show();
 	}, function() {
-		#("rush").width() = wid;
 		$(".rushtabs").hide();
 });
 $("#rush1").hover(function() {
