@@ -28,8 +28,8 @@ var wid = $("#rush").width();
 // })
 
 $("#rush").hover(function() {
-	$("#rush").width() = wid;
 	$(".rushtabs").show();
+	$("#rush").width() = wid;
 	}, function() {
 		$(".rushtabs").hide();
 });
