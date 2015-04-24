@@ -37,7 +37,7 @@
 		float:right;
 	}
 	.labels {
-		display: inline-block;
+		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
@@ -55,6 +55,7 @@
 
 	.brotabs, .rushtabs{
 		-webkit-transition: .3s;
+		position: relative;
 		vertical-align: center;
 		text-align: center;
 		display: none;
@@ -62,8 +63,8 @@
 		background-color: #56AA96;
 		opacity: 1;
 		padding: 2px;
-		width: 140%;
-		left:-10;
+		width: 150%;
+		left:-20;
 	}
 	.brothercont {
 		width:100%;
