@@ -48,11 +48,11 @@
 		cursor: pointer;
 	}
 
-	#rush,#bro {
+	#rush,#bro, #prof, #serv {
 		cursor: pointer;
 	}
 
-	.brotabs, .rushtabs{
+	.brotabs, .rushtabs, .proftabs, .servtabs{
 		-webkit-transition: .3s;
 		position: relative;
 		vertical-align: center;

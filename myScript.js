@@ -17,6 +17,7 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 15000);
 
+//-----tabs-------//
 
 $("#rush").hover(function() {
 	$(".rushtabs").show();
@@ -60,3 +61,39 @@ $("#bro3").hover(function() {
 		$("#bro3").css("opacity", "1");
 })
 
+$("#prof").hover(function() {
+	$(".proftabs").show();
+	}, function() {
+		$(".proftabs").hide();
+});
+$("#prof1").hover(function() {
+	$("#prof1").css("opacity", ".8");
+	}, function() {
+		$("#prof1").css("opacity", "1");
+})
+$("#prof2").hover(function() {
+	$("#prof2").css("opacity", ".8");
+	}, function() {
+		$("#prof2").css("opacity", "1");
+})
+$("#prof3").hover(function() {
+	$("#prof3").css("opacity", ".8");
+	}, function() {
+		$("#prof3").css("opacity", "1");
+})
+
+$("#serv").hover(function() {
+	$(".servtabs").show();
+	}, function() {
+		$(".servtabs").hide();
+});
+$("#serv1").hover(function() {
+	$("#serv1").css("opacity", ".8");
+	}, function() {
+		$("#serv1").css("opacity", "1");
+})
+$("#serv2").hover(function() {
+	$("#serv2").css("opacity", ".8");
+	}, function() {
+		$("#serv2").css("opacity", "1");
+})
