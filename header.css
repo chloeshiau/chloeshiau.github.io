@@ -206,14 +206,13 @@
 
 /*------footer---------*/
 #footer {
-	padding-top: 8px;
 	position: relative;
 	width: 100%;
 	height: 60px;
 	background-color: #56AA96;
 	text-align: center;
 	font-size: 17px;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 
