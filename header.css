@@ -217,6 +217,7 @@
 }
 
 #iconwrapper {
+	bottom: 0;
 	position: relative;
 	vertical-align: center;
 }
@@ -226,6 +227,7 @@
 	width: 30px;
 	margin: 3px;
 	display: inline;
+	cursor: pointer;
 }
 
 
