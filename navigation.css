@@ -37,12 +37,12 @@
 		float:right;
 	}
 	.labels {
-		display: static;
+		display: inline-block;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
 		float: right;
 		line-height: 45px;
 		text-align: center;
@@ -62,7 +62,7 @@
 		background-color: #56AA96;
 		opacity: 1;
 		padding: 2px;
-		width: 100%;
+		width: 130%;
 	}
 	.brothercont {
 		width:100%;
