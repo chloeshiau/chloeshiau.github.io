@@ -20,7 +20,6 @@
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 15px;
-		opacity: .8;
 		float: left;
 		padding-right: 15px;
 		z-index: 951;
@@ -28,10 +27,6 @@
 		line-height: 45px;
 		cursor: pointer;
 	}
-	.logo:hover {
-		opacity: 1;
-	}
-
 	#navlabel {
 		height:45px;
 		width: 80%;
