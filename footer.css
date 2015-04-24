@@ -37,6 +37,17 @@ a:hover {
 	color: black;
 }
 
+.logo a:hover {
+	color: black;
+}
+
+.logo a:link {
+	color: black;
+}
+
+.logo a:visited {
+	color:black;
+}
 
 
 /*header {
