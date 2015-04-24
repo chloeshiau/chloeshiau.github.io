@@ -62,7 +62,8 @@
 		background-color: #56AA96;
 		opacity: 1;
 		padding: 2px;
-		width: 130%;
+		width: 140%;
+		left:-10;
 	}
 	.brothercont {
 		width:100%;
