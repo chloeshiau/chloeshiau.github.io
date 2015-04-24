@@ -3,7 +3,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		height: 45px;
+		height: 55px;
 		z-index: 950;
 		background-color: #56AA96;
 	}
@@ -23,7 +23,7 @@
 		padding-right: 15px;
 		z-index: 951;
 		margin-left: 15px;
-		line-height: 45px;
+		line-height: 55px;
 		cursor: pointer;
 	}
 	#navlabel {
