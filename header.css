@@ -216,4 +216,16 @@
 	line-height: 25px;
 }
 
+#iconwrapper {
+	position: relative;
+	vertical-align: center;
+}
+
+.icon {
+	height:30px;
+	width: 30px;
+	margin: 3px;
+	display: inline;
+}
+
 
