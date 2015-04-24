@@ -26,6 +26,7 @@
 		z-index: 951;
 		margin-left: 15px;
 		line-height: 45px;
+		cursor: pointer;
 	}
 	.logo:hover {
 		opacity: 1;
