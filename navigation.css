@@ -14,10 +14,10 @@
 
 	#navlogo {
 		height:75px;
-		width: 20%;
-		float:middle;
+		width: 100%;
 	}
 	.logo {
+		vertical-align: middle;
 		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
@@ -31,9 +31,9 @@
 	#navlabel {
 		height:55px;
 		width: 100%;
-		vertical-align: middle;
 	}
 	.labels {
+		vertical-align: middle;
 		float: right;
 		display: inline;
 		font-family: 'Lato', sans-serif;
