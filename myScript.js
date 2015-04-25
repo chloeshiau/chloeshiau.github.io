@@ -22,7 +22,7 @@ setInterval(setBackground, 20000);
 
 
 $(window).scroll(function() {
-	if($(this).scrollTop() > 500) {
+	if($(this).scrollTop() > 370) {
 		$('#navigation').css("height", "75px");
 		$('#navigation1').fadeOut();
 		// $('.pic').css("padding-top", "75px");
