@@ -33,7 +33,6 @@
 	}
 	.labels {
 		display: inline;
-		position: static;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 14px;
@@ -51,24 +50,6 @@
 
 	.brotabs, .rushtabs, .proftabs, .servtabs{
 		-webkit-transition: .3s;
-		vertical-align: center;
-		text-align: center;
-		display: none;
-		z-index:960;
-		background-color: white;
-		opacity: 1;
-		top:100%;
-		width: auto;
-		height: 30px;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding: 1px;
-		line-height: 30px;
-		color: black;
-	}
-
-/*	.brotabs1, .rushtabs2, .proftabs3, .servtabs4{
-		-webkit-transition: .3s;
 		position: relative;
 		vertical-align: center;
 		text-align: center;
@@ -76,11 +57,11 @@
 		z-index:960;
 		background-color: white;
 		opacity: 1;
-		top:100%;
 		margin-left: 0px;
 		margin-right: 0px;
 		padding: 1px;
+		width: 140%;
+		left:-20px;
 		line-height: 30px;
 		color: black;
 	}
-*/
