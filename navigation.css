@@ -30,6 +30,7 @@
 		height:55px;
 		width: 80%;
 		float:right;
+		position: absolute;
 	}
 	.labels {
 		display: inline;
@@ -50,7 +51,6 @@
 
 	.brotabs, .rushtabs, .proftabs, .servtabs{
 		-webkit-transition: .3s;
-		position: relative;
 		vertical-align: center;
 		text-align: center;
 		display: none;

@@ -24,9 +24,6 @@ setInterval(setBackground, 20000);
 
 $("#rush").hover(function() {
 	$(".rushtabs").show();
-	$("#rush1").css("display", "block");
-	$("#rush2").css("display", "block");
-	$("#rush3").css("display", "block");
 	}, function() {
 		$(".rushtabs").hide();
 		$("#rush1").css("display", "none");
