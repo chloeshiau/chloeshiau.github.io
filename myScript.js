@@ -106,6 +106,7 @@ $("#serv2").hover(function() {
 $(window).scroll(function() {
 	if($(this).scrollTop() > 0) {
 		$('#navigation1').fadeOut();
+		$('#navigation').css("height", "75px");
 	}
 	else {
 		$('#navigation').css("height", "200px");
