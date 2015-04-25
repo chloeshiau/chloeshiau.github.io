@@ -14,13 +14,11 @@ function setBackground() {
 		setTimeout(function() {
 			$("#pic3").css("opacity", "0");
 			$("#pic4").css("opacity", ".8");
-		}, 5000)
+		}, 15000)
 		$("#pic4").css("opacity", "0");
-		
-
 }
 setBackground();
-setInterval(setBackground, 15000);
+setInterval(setBackground, 20000);
 
 //-----tabs-------//
 
