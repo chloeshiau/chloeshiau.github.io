@@ -25,6 +25,7 @@ $(window).scroll(function() {
 	if($(this).scrollTop() > 500) {
 		$('#navigation').css("height", "75px");
 		$('#navigation1').fadeOut();
+		$('#frontpg').css("margin-top", "75px");
 	}
 	else {
 		$("#navigation1").fadeIn();
