@@ -12,7 +12,7 @@
 		opacity: 1;
 	}
 	#name{
-		font-size: 50px;
+		font-size: 40px;
 		font-weight: 500;
 		position: relative;
 		z-index: 950;
@@ -27,8 +27,8 @@
 	#description{
 		margin-top: 3px;
 		letter-spacing: 3px;
-		line-height: 23px;
-		font-size: 18px;
+		line-height: 20px;
+		font-size: 15px;
 		position: relative;
 		z-index: 99;
 		text-align: center;
