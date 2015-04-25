@@ -32,7 +32,7 @@
 		float:right;
 	}
 	.labels {
-		display: inline;
+		display: table-row;
 		position: absolute;
 		font-family: 'Lato', sans-serif;
 		color:black;
