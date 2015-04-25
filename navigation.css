@@ -27,7 +27,7 @@
 
 	.labels {
 		/*float: right;*/
-		display: inline-block;
+		display: inline;
 		margin-right: 30px;
 		line-height: 75px;
 		text-align: center;
