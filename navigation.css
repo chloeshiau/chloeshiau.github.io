@@ -47,6 +47,7 @@
 		text-align: center;
 		cursor: pointer;
 		color: black;
+		bottom: 0;
 	}
 
 	#rush,#bro, #prof, #serv {
