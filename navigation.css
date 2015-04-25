@@ -1,13 +1,13 @@
 	#navigation1 {
 		width: 100%;
-		height: 110px;
-		background-color: blue;
+		height: 90px;
+		background-color: white;
 		position: relative;
 	}
 	#navigation {
 		position: fixed;
 		width: 100%;
-		height: 185px;
+		height: 165px;
 		z-index: 950;
 		background-color: white;
 	}
