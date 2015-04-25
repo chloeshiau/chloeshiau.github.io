@@ -32,7 +32,7 @@
 		float:right;
 	}
 	.labels {
-		display: table-row;
+		display: table-column;
 		position: absolute;
 		font-family: 'Lato', sans-serif;
 		color:black;
