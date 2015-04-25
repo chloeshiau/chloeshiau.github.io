@@ -34,6 +34,7 @@ $(window).scroll(function() {
 
 })
 
+
 //-----tabs-------//
 
 $("#rush").hover(function() {
