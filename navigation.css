@@ -7,6 +7,7 @@
 	}
 	#navigation1 {
 		position: fixed;
+		top:100%;
 		width: 100%;
 		height: 75px;
 		z-index: 950;
