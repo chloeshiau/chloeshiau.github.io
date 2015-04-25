@@ -55,7 +55,9 @@
 	z-index: -1;
 }
 .pic {
-	padding-top: 165px;
+	padding-top: 200px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 #pic1, #pic2, #pic3, #pic4 {
