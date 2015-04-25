@@ -26,8 +26,9 @@
 	}
 
 	.labels {
+		position: relative;
 		vertical-align: middle;
-		float: right;
+		/*float: right;*/
 		display: inline-block;
 		margin-right: 30px;
 		line-height: 75px;
