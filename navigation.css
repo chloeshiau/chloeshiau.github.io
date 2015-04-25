@@ -1,7 +1,6 @@
 	#navigation1 {
 		width: 100%;
 		height: 90px;
-		background-color: white;
 		position: relative;
 	}
 	#navigation {
@@ -16,18 +15,22 @@
 		color: black;
 	}
 
+	#navigation2 {
+		width: 100%;
+		height: 75px;
+		position: relative;
+	}
+
 	.logo {
 		text-align: center;
-		padding-right: 15px;
 		z-index: 951;
-		margin-left: 15px;
 		line-height: 75px;
 		cursor: pointer;
 	}
 
 	.labels {
 		/*float: left;*/
-		display: inline;
+		/*display: inline;*/
 		z-index:951;
 		margin-right: 30px;
 		line-height: 75px;
