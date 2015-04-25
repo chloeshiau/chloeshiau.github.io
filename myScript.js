@@ -11,7 +11,12 @@ function setBackground() {
 			$("#pic2").css("opacity", "0");
 			$("#pic3").css("opacity", ".8");
 		}, 10000) 
-		$("#pic3").css("opacity", "0");
+		setTimeout(function() {
+			$("#pic3").css("opacity", "0");
+			$("#pic4").css("opacity", ".8");
+		}, 5000)
+		$("#pic4").css("opacity", "0");
+		
 
 }
 setBackground();

@@ -54,28 +54,13 @@
 	top: 100%;
 }
 
-#pic1 {
+#pic1, #pic2, #pic3, #pic4 {
 	-webkit-transition: .9s;
 	position: absolute;
 	opacity: 0;
 	width: 100%;
 	height: 100%;
 }
-#pic2 {
-	-webkit-transition: .9s;
-	position: absolute;
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-}
-#pic3 {
-	-webkit-transition: .9s;
-	position: absolute;
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-}
-
 
 /*--------below background--------*/
 
