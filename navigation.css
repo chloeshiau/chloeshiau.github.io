@@ -30,8 +30,8 @@
 
 	.labels {
 		/*float: left;*/
-		position: relative;	
-		display: inline;
+		/*position: relative;	*/
+		display: table-column;
 		z-index:951;
 		margin-right: 30px;
 		line-height: 75px;
