@@ -32,8 +32,7 @@
 		float:right;
 	}
 	.labels {
-		display: table-column;
-		position: absolute;
+		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 14px;
@@ -47,6 +46,7 @@
 
 	#rush,#bro, #prof, #serv {
 		cursor: pointer;
+		position: absolute;
 	}
 
 	.brotabs, .rushtabs, .proftabs, .servtabs{
