@@ -223,9 +223,9 @@
 }
 
 .icon {
-	height:30px;
-	width: 30px;
-	margin: 3px;
+	height:35px;
+	width: 35px;
+	margin: 5px;
 	display: inline;
 	cursor: pointer;
 }
