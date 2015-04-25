@@ -50,7 +50,7 @@
 
 	.brotabs, .rushtabs, .proftabs, .servtabs{
 		-webkit-transition: .3s;
-		position: absolute;
+		position: relative;
 		vertical-align: center;
 		text-align: center;
 		display: none;
@@ -65,7 +65,7 @@
 		color: black;
 	}
 
-	.brotabs1, .rushtabs2, .proftabs3, .servtabs4{
+/*	.brotabs1, .rushtabs2, .proftabs3, .servtabs4{
 		-webkit-transition: .3s;
 		position: relative;
 		vertical-align: center;
@@ -81,3 +81,4 @@
 		line-height: 30px;
 		color: black;
 	}
+*/

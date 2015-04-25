@@ -27,11 +27,6 @@ $("#rush").hover(function() {
 	}, function() {
 		$(".rushtabs").hide();
 });
-$("#rush").hover(function() {
-	$(".rushtabs1").show();
-	}, function() {
-		$(".rushtabs1").hide();
-});
 $("#rush1").hover(function() {
 	$("#rush1").css("opacity", ".8");
 	}, function() {
@@ -52,11 +47,6 @@ $("#bro").hover(function() {
 	$(".brotabs").show();
 	}, function() {
 		$(".brotabs").hide();
-});
-$("#bro").hover(function() {
-	$(".brotabs1").show();
-	}, function() {
-		$(".brotabs1").hide();
 });
 $("#bro1").hover(function() {
 	$("#bro1").css("opacity", ".8");
@@ -79,11 +69,6 @@ $("#prof").hover(function() {
 	}, function() {
 		$(".proftabs").hide();
 });
-$("#prof").hover(function() {
-	$(".proftabs1").show();
-	}, function() {
-		$(".proftabs1").hide();
-});
 $("#prof1").hover(function() {
 	$("#prof1").css("opacity", ".8");
 	}, function() {
@@ -104,11 +89,6 @@ $("#serv").hover(function() {
 	$(".servtabs").show();
 	}, function() {
 		$(".servtabs").hide();
-});
-$("#serv").hover(function() {
-	$(".servtabs1").show();
-	}, function() {
-		$(".servtabs1").hide();
 });
 $("#serv1").hover(function() {
 	$("#serv1").css("opacity", ".8");
