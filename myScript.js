@@ -108,6 +108,8 @@ $(window).scroll(function() {
 		$('#navigation1').fadeOut();
 	}
 	else {
+		$('#navigation').css("height", "200px");
 		$("#navigation1").fadeIn();
 	}
+
 })
