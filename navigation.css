@@ -5,7 +5,7 @@
 		width: 100%;
 		height: 75px;
 		z-index: 950;
-		background-color: #56AA96;
+		background-color: white;
 	}
 
 	#navlogo {
@@ -25,6 +25,7 @@
 		margin-left: 15px;
 		line-height: 75px;
 		cursor: pointer;
+		color: white;
 	}
 	#navlabel {
 		height:55px;
@@ -41,6 +42,7 @@
 		float: right;
 		text-align: center;
 		cursor: pointer;
+		color: white;
 	}
 
 	#rush,#bro, #prof, #serv {
@@ -54,7 +56,7 @@
 		text-align: center;
 		display: none;
 		z-index:960;
-		background-color: #56AA96;
+		background-color: black;
 		opacity: 1;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -62,4 +64,5 @@
 		width: 140%;
 		left:-20px;
 		line-height: 30px;
+		color: white;
 	}
