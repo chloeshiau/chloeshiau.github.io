@@ -24,13 +24,10 @@
 		line-height: 75px;
 		cursor: pointer;
 	}
-	#navlabel {
-		height:55px;
-		width: 80%;
-	}
+
 	.labels {
 		vertical-align: middle;
-		float: right;
+		/*float: right;*/
 		display: inline;
 		margin-right: 30px;
 		line-height: 75px;
