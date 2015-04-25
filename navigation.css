@@ -10,19 +10,14 @@
 		height: 165px;
 		z-index: 950;
 		background-color: white;
+		font-family: 'Lato', sans-serif;
 		font-size: 14px;
 		color: black;
 	}
 
-	#navlogo {
-		height:75px;
-		width: 100%;
-	}
 	.logo {
 		vertical-align: middle;
 		text-align: center;
-		display: inline;
-		font-family: 'Lato', sans-serif;
 		padding-right: 15px;
 		z-index: 951;
 		margin-left: 15px;
@@ -31,13 +26,12 @@
 	}
 	#navlabel {
 		height:55px;
-		width: 70%;
+		width: 80%;
 	}
 	.labels {
 		vertical-align: middle;
 		float: right;
 		display: inline;
-		font-family: 'Lato', sans-serif;
 		margin-right: 30px;
 		line-height: 75px;
 		text-align: center;
