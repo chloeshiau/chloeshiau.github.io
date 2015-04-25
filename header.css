@@ -139,7 +139,8 @@
 #pillartitle {
 	font-size: 35px;
 	letter-spacing: 3px;
-	margin: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .pillarname {
 	position: relative;
