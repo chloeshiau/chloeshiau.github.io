@@ -16,9 +16,10 @@
 	}
 
 	#navigation2 {
-		width: 100%;
+		width: auto;
 		height: 75px;
 		position: relative;
+		vertical-align: middle;
 	}
 
 	.logo {
@@ -29,9 +30,8 @@
 	}
 
 	.labels {
-		/*float: left;*/
-		position: relative;	
-		display: table-cell;
+		float: left;
+		display: inline;
 		z-index:951;
 		margin-right: 30px;
 		line-height: 75px;
