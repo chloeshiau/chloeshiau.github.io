@@ -25,9 +25,9 @@
 		letter-spacing: 5px;
 	}
 	#description{
-		margin-top: 5px;
+		margin-top: 3px;
 		letter-spacing: 3px;
-		line-height: 30px;
+		line-height: 25px;
 		font-size: 20px;
 		position: relative;
 		z-index: 99;
