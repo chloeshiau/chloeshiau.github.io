@@ -30,8 +30,8 @@
 	}
 	#navlabel {
 		height:55px;
-		width: 80%;
-		float:middle;
+		width: 100%;
+		vertical-align: middle;
 	}
 	.labels {
 		display: inline;
@@ -43,7 +43,6 @@
 		text-align: center;
 		cursor: pointer;
 		color: black;
-		bottom: 0;
 	}
 
 	#rush,#bro, #prof, #serv {
