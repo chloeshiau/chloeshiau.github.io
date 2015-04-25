@@ -102,3 +102,12 @@ $("#serv2").hover(function() {
 	}, function() {
 		$("#serv2").css("opacity", "1");
 })
+
+$(window).scroll(function() {
+	if($(this).scrollTop() > 0) {
+		$('#navigation1').fadeOut();
+	}
+	else {
+		$("#navigation1").fadeIn();
+	}
+})
