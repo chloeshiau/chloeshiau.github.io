@@ -3,6 +3,7 @@
 		height: 130px;
 		z-index: 950;
 		background-color: blue;
+		position: absolute;
 	}
 	#navigation {
 		position: fixed;
