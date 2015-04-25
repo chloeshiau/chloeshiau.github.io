@@ -16,7 +16,8 @@
 	}
 
 	#navigation2 {
-		margin-right: 30%;
+		margin-right: 25%;
+		margin-left: 25%;
 		height: 75px;
 		position: relative;
 	}
@@ -29,6 +30,7 @@
 	}
 
 	.labels {
+		vertical-align: middle;
 		float: left;
 		display: inline;
 		z-index:951;
