@@ -26,7 +26,6 @@
 	}
 
 	.labels {
-		position: relative;
 		/*float: right;*/
 		display: inline-block;
 		margin-right: 30px;
