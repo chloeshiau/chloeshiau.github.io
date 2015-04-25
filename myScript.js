@@ -105,12 +105,12 @@ $("#serv2").hover(function() {
 
 $(window).scroll(function() {
 	if($(this).scrollTop() > 0) {
-		$('#navigation1').fadeOut();
 		$('#navigation').css("height", "75px");
+		$('#navigation1').fadeOut();
 	}
 	else {
-		$('#navigation').css("height", "165px");
 		$("#navigation1").fadeIn();
+		$('#navigation').css("height", "165px");
 	}
 
 })
