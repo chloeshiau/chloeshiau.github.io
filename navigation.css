@@ -30,6 +30,7 @@
 
 	.labels {
 		/*float: left;*/
+		position: relative;	
 		display: inline;
 		z-index:951;
 		margin-right: 30px;
