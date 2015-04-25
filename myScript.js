@@ -24,8 +24,12 @@ setInterval(setBackground, 20000);
 
 $("#rush").hover(function() {
 	$(".rushtabs").show();
+	$("#rush1").css("display", "block");
+	$("#rush2").css("display", "block");
+	$("#rush3").css("display", "block");
 	}, function() {
 		$(".rushtabs").hide();
+		$("#rush1").css("display", "none");
 });
 $("#rush1").hover(function() {
 	$("#rush1").css("opacity", ".8");
@@ -33,6 +37,7 @@ $("#rush1").hover(function() {
 		$("#rush1").css("opacity", "1");
 })
 $("#rush2").hover(function() {
+
 	$("#rush2").css("opacity", ".8");
 	}, function() {
 		$("#rush2").css("opacity", "1");
