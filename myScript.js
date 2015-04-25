@@ -20,6 +20,19 @@ function setBackground() {
 setBackground();
 setInterval(setBackground, 20000);
 
+
+$(window).scroll(function() {
+	if($(this).scrollTop() > 0) {
+		$('#navigation').css("height", "75px");
+		$('#navigation1').fadeOut();
+	}
+	else {
+		$("#navigation1").fadeIn();
+		$('#navigation').css("height", "165px");
+	}
+
+})
+
 //-----tabs-------//
 
 $("#rush").hover(function() {
@@ -103,14 +116,4 @@ $("#serv2").hover(function() {
 		$("#serv2").css("opacity", "1");
 })
 
-$(window).scroll(function() {
-	if($(this).scrollTop() > 0) {
-		$('#navigation').css("height", "75px");
-		$('#navigation1').fadeOut();
-	}
-	else {
-		$("#navigation1").fadeIn();
-		$('#navigation').css("height", "165px");
-	}
 
-})
