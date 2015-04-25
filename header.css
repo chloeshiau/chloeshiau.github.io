@@ -136,7 +136,11 @@
 	background-color: white;
 	text-align: center;
 }
-
+#pillartitle {
+	font-size: 35px;
+	letter-spacing: 3px;
+	margin:20px;
+}
 .pillarname {
 	position: relative;
 	margin-top: 10px;
