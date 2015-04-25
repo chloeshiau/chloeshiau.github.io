@@ -33,6 +33,7 @@
 	}
 	.labels {
 		display: inline;
+		position: relative;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 14px;
