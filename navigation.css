@@ -1,9 +1,14 @@
-
 	#navigation {
-		position: fixed;
-		top: 0;
+		position: absolute;
 		width: 100%;
-		height: 100px;
+		height: 75px;
+		z-index: 950;
+		background-color: blue;
+	}
+	#navigation1 {
+		position: fixed;
+		width: 100%;
+		height: 75px;
 		z-index: 950;
 		background-color: white;
 	}
@@ -11,18 +16,16 @@
 	#navlogo {
 		height:75px;
 		width: 20%;
-		float:middle;
-		position: relative;
-		top:0;
+		float:left;
 
 	}
 	.logo {
-		position: relative;
-		display: block;
+		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
 		font-size: 14px;
-		float: middle;
+		float: left;
+		padding-right: 15px;
 		z-index: 951;
 		margin-left: 15px;
 		line-height: 75px;
@@ -31,7 +34,7 @@
 	#navlabel {
 		height:55px;
 		width: 80%;
-		float:middle;
+		float:right;
 	}
 	.labels {
 		display: inline;
