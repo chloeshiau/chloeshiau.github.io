@@ -50,7 +50,7 @@
 
 	.brotabs, .rushtabs, .proftabs, .servtabs{
 		-webkit-transition: .3s;
-		position: relative;
+		position: absolute;
 		vertical-align: center;
 		text-align: center;
 		display: none;
