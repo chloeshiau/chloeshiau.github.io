@@ -110,7 +110,7 @@ $(window).scroll(function() {
 	}
 	else {
 		$("#navigation1").fadeIn();
-		$('#navigation').css("height", "165px");
+		$('#navigation').css("height", "175px");
 	}
 
 })
