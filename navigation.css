@@ -34,6 +34,7 @@
 		vertical-align: middle;
 	}
 	.labels {
+		float: right;
 		display: inline;
 		font-family: 'Lato', sans-serif;
 		color:black;
