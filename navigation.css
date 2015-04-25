@@ -1,6 +1,7 @@
 	#navigation {
 		position: absolute;
 		width: 100%;
+		top:100%;
 		height: 75px;
 		z-index: 950;
 		background-color: blue;
