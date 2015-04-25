@@ -22,7 +22,7 @@ setInterval(setBackground, 20000);
 
 
 $(window).scroll(function() {
-	if($(this).scrollTop() > 100) {
+	if($(this).scrollTop() > 800) {
 		$('#navigation').css("height", "75px");
 		$('#navigation1').fadeOut();
 	}
