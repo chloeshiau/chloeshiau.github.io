@@ -9,13 +9,18 @@
 		vertical-align: middle;
 		width: 100%;
 		height: 165px;
-		top:50%;
-		left: 50%;
 		z-index: 950;
 		background-color: white;
 		font-family: 'Lato', sans-serif;
 		font-size: 14px;
 		color: black;
+	}
+	#navigation2 {
+		width: 100%;
+		height: 75px;
+		top:50%;
+		left: 50%;
+		margin-right: -50%;
 	}
 
 	.logo {
