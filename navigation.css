@@ -30,7 +30,7 @@
 
 	.labels {
 		/*float: left;*/
-		/*display: inline;*/
+		display: inline;
 		z-index:951;
 		margin-right: 30px;
 		line-height: 75px;
