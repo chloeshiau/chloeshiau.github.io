@@ -1,10 +1,11 @@
 #subnav {
 	width: 20%;
-	height: 100%;
+	height: 20%%;
 /*	top: 100%;*/
 	position: fixed;
 	z-index: 970;
 	right: 0;
+	top: 45%;
 /*	transition: all 0.3s;*/
 	background-color: blue;
 }
@@ -14,4 +15,5 @@
 	font-size: 12px;
 	position: relative;
 	height: 20px;
+	float: right;
 }
