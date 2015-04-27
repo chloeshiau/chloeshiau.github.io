@@ -2,11 +2,10 @@
 	width: 30%;
 	height: 100%;
 	top: 100%;
-	bottom: auto;
 	position: fixed;
-	z-index: 950;
+	z-index: 970;
 	right: 0;
-	transition: all 0.3s;
+/*	transition: all 0.3s;*/
 	background-color: blue;
 }
 
