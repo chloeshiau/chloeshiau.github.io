@@ -57,6 +57,7 @@
 
 #pic1, #pic2, #pic3, #pic4 {
 	-webkit-transition: .9s;
+	padding-top: 175px;
 	position: absolute;
 	opacity: 0;
 	width: 100%;
