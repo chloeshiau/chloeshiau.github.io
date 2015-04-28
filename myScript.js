@@ -123,19 +123,19 @@ $("#serv2").hover(function() {
 //----------ABOUT ----------//
 
 $("#subpic1").hover(function() {
-	$("#sublabel1").css("display", "inline");
+	$("#sublabel1").show();
 	}, function() {
 	$("#sublabel1").hide();
 });
 
 $("#subpic2").hover(function() {
-	$("#sublabel2").css("display", "inline");
+	$("#sublabel2").show();
 	}, function() {
 	$("#sublabel2").hide();
 });
 
 $("#subpic3").hover(function() {
-	$("#sublabel3").css("display", "inline");
+	$("#sublabel3").show();
 	}, function() {
 	$("#sublabel3").hide();
 });

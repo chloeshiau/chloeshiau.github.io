@@ -8,6 +8,10 @@
 /*	transition: all 0.3s;*/
 	background-color: yellow;
 }
+
+.subwrapper {
+	display: block;
+}
 #subpic1, #subpic2, #subpic3 {
 	width: 15px;
 	height: 20px;
