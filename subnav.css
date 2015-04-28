@@ -6,7 +6,11 @@
 	left: 5px;
 	top: 45%;
 /*	transition: all 0.3s;*/
-	background-color: blue;
+	background-color: yellow;
+}
+#subpic {
+	width: 10px;
+	height: 10px;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
