@@ -16,7 +16,7 @@
 	width: 15px;
 	height: 20px;
 	-webkit-transition: .6s;
-	display: block;
+	display: inline;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
