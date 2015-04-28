@@ -1,9 +1,9 @@
 #subnav {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	position: fixed;
 	z-index: 970;
-	right: 0;
+	right: 5;
 	top: 45%;
 /*	transition: all 0.3s;*/
 	background-color: blue;
