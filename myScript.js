@@ -21,6 +21,7 @@ setBackground();
 setInterval(setBackground, 20000);
 
 
+//----------title------------//
 $(window).scroll(function() {
 	if($(this).scrollTop() > 370) {
 		$('#navigation').css("height", "75px");
@@ -35,7 +36,7 @@ $(window).scroll(function() {
 })
 
 
-//-----tabs-------//
+//-----nav tabs-------//
 
 $("#rush").hover(function() {
 	$(".rushtabs").show();
@@ -118,4 +119,24 @@ $("#serv2").hover(function() {
 		$("#serv2").css("opacity", "1");
 })
 
+
+//----------ABOUT ----------//
+
+$("#subpic1").hover(function() {
+	$("#sublabel1").show();
+	}, function() {
+	$("#sublabel1").hide();
+});
+
+$("#subpic2").hover(function() {
+	$("#sublabel2").show();
+	}, function() {
+	$("#sublabel2").hide();
+});
+
+$("#subpic3").hover(function() {
+	$("#sublabel3").show();
+	}, function() {
+	$("#sublabel3").hide();
+});
 
