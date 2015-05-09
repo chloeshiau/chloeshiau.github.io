@@ -91,12 +91,10 @@
 	position: relative;
 	width: 100%;
 	height: 700px;
-	top: 100%;
-
 }
 
 #localhistory {
-	position: relative;
+	
 	font-size: 15px;
 	text-align: center;
 	padding-left: 70px;
