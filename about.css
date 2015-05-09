@@ -110,9 +110,6 @@
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background-image: url("img/gears.jpg");
-	background-size: 100% 400px;
-	opacity: .8
 }
 
 .advisors {
