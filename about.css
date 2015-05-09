@@ -116,8 +116,6 @@
 	position: relative;
 	padding-top: 30px;
 	letter-spacing: 3px;
-	text-align: center;
-	vertical-align: middle;
 	z-index: 99;
 }
 
@@ -149,7 +147,11 @@
 	vertical-align: middle;
 }
 
-
+.advisorpic {
+	height: 300px;
+	width: 200px;
+	float: left;
+}
 
 /*------footer---------*/
 #footer {
