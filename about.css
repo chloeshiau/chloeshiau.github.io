@@ -115,7 +115,6 @@
 .advisors {
 	position: relative;
 	padding-top: 30px;
-	font-size: 15px;
 	letter-spacing: 3px;
 	text-align: center;
 	vertical-align: middle;
@@ -124,14 +123,14 @@
 
 #johnowens {
 	letter-spacing: 3px;
-	font-size: 27px;
+	font-size: 23px;
 	text-align: center;
 	vertical-align: middle;
 }
 
 #dawncheng {
 	letter-spacing: 3px;
-	font-size: 27px;
+	font-size: 23px;
 	text-align: center;
 	vertical-align: middle;
 }
