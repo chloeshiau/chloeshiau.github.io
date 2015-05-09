@@ -123,7 +123,7 @@ $("#serv2").hover(function() {
 //----------ABOUT ----------//
 
 $("#subpic1").hover(function() {
-	$("#sublabel1").show();
+	$("#sublabel1").css("display", "inline");
 	}, function() {
 	$("#sublabel1").hide();
 });
