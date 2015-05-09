@@ -1,6 +1,6 @@
 #subnav {
 	width: 100px;
-	height: 80px;
+	height: 20px;
 	position: fixed;
 	z-index: 970;
 	left: 5px;
@@ -8,21 +8,16 @@
 	margin: auto;
 /*	transition: all 0.3s;*/
 	background-color: yellow;
-}
-
-#idk {
 	position: relative;
 }
-.subwrapper {
-	position: absolute;
 
-}
 #subpic1, #subpic2, #subpic3 {
 	float: left;
 	width: 15px;
 	height: 20px;
 	-webkit-transition: .6s;
 	overflow: hidden;
+	position: absolute;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
@@ -33,4 +28,5 @@
 	height: 20px;
 	right: 0;
 	overflow: hidden;
+	position: absolute;
 }
