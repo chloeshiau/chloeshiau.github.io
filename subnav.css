@@ -1,13 +1,13 @@
 #subnav {
 	width: 100px;
 	height: 80px;
-/*	position: fixed;
+	position: fixed;
 	z-index: 970;
 	left: 5px;
 	top: 45%;
 	margin: auto;
 /*	transition: all 0.3s;*/
-	background-color: yellow;*/
+	background-color: yellow;
 }
 
 .subwrapper {
