@@ -19,11 +19,11 @@
 	display: inline;
 }
 
-#sublabel1, #sublabel2, #sublabel3 {
+/*#sublabel1, #sublabel2, #sublabel3 {
 	-webkit-transition: .6s;
 	display: none;
 	font-size: 12px;
 	position: relative;
 	height: 20px;
 	right: 0;
-}
+}*/
