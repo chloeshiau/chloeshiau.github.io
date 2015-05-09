@@ -19,6 +19,7 @@
 	height: 20px;
 	-webkit-transition: .6s;
 	overflow: hidden;
+	display: inline-block;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
