@@ -13,6 +13,7 @@
 	display: block;
 }
 #subpic1, #subpic2, #subpic3 {
+	float: left;
 	width: 15px;
 	height: 20px;
 	-webkit-transition: .6s;
@@ -20,6 +21,7 @@
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
+	float: left;
 	-webkit-transition: .6s;
 	display: none;
 	font-size: 12px;
