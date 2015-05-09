@@ -81,7 +81,7 @@
 	padding-right: 70px;
 	padding-top: 30px;
 	z-index: 99;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 
@@ -111,12 +111,13 @@
 	text-align: center;
 }
 
-#regentmsg {
+#localhistory {
 	position: relative;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: center;
 	padding-left: 70px;
 	padding-right: 70px;
+	padding-top: 30px;
 }
 
 /*-----rush-----*/
