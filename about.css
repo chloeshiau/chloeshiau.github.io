@@ -120,7 +120,7 @@
 	letter-spacing: 3px;
 	z-index: 99;
 	height: 430px;
-	width: 49%;
+	width: 48%;
 	padding-left: 10px;
 	padding-right: 10px;
 	vertical-align: middle;
@@ -158,8 +158,8 @@
 .advisorpic {
 	margin-top: 20px;
 	position: relative;
-	height: 300px;
-	width: 220px;
+	height: 400px;
+	width: 320px;
 
 }
 
