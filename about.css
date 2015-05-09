@@ -119,6 +119,8 @@
 	letter-spacing: 3px;
 	z-index: 99;
 	height: 430px;
+		vertical-align: middle;
+	text-align: center;
 }
 
 #johnowens {
@@ -154,8 +156,7 @@
 	position: relative;
 	height: 300px;
 	width: 220px;
-	vertical-align: middle;
-	text-align: center;
+
 }
 
 /*------footer---------*/
