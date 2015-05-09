@@ -52,7 +52,7 @@
 	width: 100%;
 	height: 100%;
 	top: 100%;
-	z-index: -1;
+	padding-top: 175px;
 }
 .pic {
 	padding-top: 200px;
@@ -60,13 +60,6 @@
 	padding-right: 70px;
 }
 
-#pic1, #pic2, #pic3, #pic4 {
-	-webkit-transition: .9s;
-	position: absolute;
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-}
 
 /*--------below background--------*/
 
