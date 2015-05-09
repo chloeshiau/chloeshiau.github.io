@@ -5,6 +5,7 @@
 	z-index: 970;
 	left: 5px;
 	top: 45%;
+	margin: auto;
 /*	transition: all 0.3s;*/
 	background-color: yellow;
 }
@@ -17,15 +18,12 @@
 	width: 15px;
 	height: 20px;
 	-webkit-transition: .6s;
-	display: inline;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
-	float: left;
 	-webkit-transition: .6s;
 	display: none;
 	font-size: 12px;
-	position: relative;
 	height: 20px;
 	right: 0;
 }
