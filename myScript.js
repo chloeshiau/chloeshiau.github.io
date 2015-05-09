@@ -26,10 +26,14 @@ $(window).scroll(function() {
 	if($(this).scrollTop() > 370) {
 		$('#navigation').css("height", "75px");
 		$('#navigation1').fadeOut();
+		$('#name').fadeOut();
+		$('#description').fadeOut();
 		// $('.pic').css("padding-top", "75px");
 	}
 	else {
 		$("#navigation1").fadeIn();
+		$('#name').fadeIn();
+		$('#description').fadeIn();
 		$('#navigation').css("height", "165px");
 	}
 
