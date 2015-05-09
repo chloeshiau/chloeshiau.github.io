@@ -45,7 +45,7 @@
 
 /*        MORE LABELS         */
 .subtitlepic {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 280px;
 	background-image: url("img/background.jpg");
