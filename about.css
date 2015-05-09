@@ -43,18 +43,7 @@
 		height: 200px;
 	}
 
-
-
-/*-------front background--------*/
-
-#frontpg {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	padding-top: 145px;
-	
-}
-
+/*        MORE LABELS         */
 .subtitlepic {
 	position: relative;
 	width: 100%;
@@ -74,32 +63,45 @@
 	vertical-align: middle;
 	z-index: 99;
 }
-.pic {
+
+/*-------mission--------*/
+
+#frontpg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 145px;
+	
+}
+
+
+#mission {
 	position: relative;
 	padding-left: 70px;
 	padding-right: 70px;
 	padding-top: 30px;
 	z-index: 99;
+	font-size: 18px;
 }
 
 
-/*--------below background--------*/
+/*--------history--------*/
 
 #other {
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 700px;
 	top: 100%;
 
 }
-#historyname {
+/*#historyname {
 	position: relative;
 	height: 450px;
 	width: 100%;
 	background-color: white;
 	padding-top: 50px;
 }
-
+*/
 #regentmsghead {
 	position: relative;
 	margin-top: 5%;
@@ -111,7 +113,7 @@
 
 #regentmsg {
 	position: relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
 	padding-left: 70px;
 	padding-right: 70px;
