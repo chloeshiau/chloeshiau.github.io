@@ -113,6 +113,7 @@
 }
 
 .advisors {
+	display: block;
 	position: relative;
 	padding-top: 30px;
 	letter-spacing: 3px;
