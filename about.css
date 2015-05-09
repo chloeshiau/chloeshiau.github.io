@@ -56,24 +56,22 @@
 }
 
 #historypic {
+	position: relative;
 	width: 100%;
-	height: 280px;
-	position: absolute;
-	background-image: url("img/background.jpg");
-	background-size: 100% 280px;
-	z-index: 9;
-}
+	height: 400px;
+	background-image: url("img/gears.jpg");
+	background-size: 100% 400px;
+	opacity: .8}
 
 #historyname {
-	/*position: relative;*/
-	/*padding-top: 140px;*/
+	position: relative;
+	padding-top: 140px;
 	font-size: 70px;
 	font-weight: 200;
 	letter-spacing: 3px;
 	text-align: center;
 	vertical-align: middle;
-	/*z-index: 99;	*/
-	background: none;
+	z-index: 99;
 }
 .pic {
 	position: relative;
