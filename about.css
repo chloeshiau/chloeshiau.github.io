@@ -70,7 +70,7 @@
 	letter-spacing: 3px;
 	text-align: center;
 	vertical-align: middle;
-	z-index: 99;	
+	/*z-index: 99;	*/
 	background: none;
 }
 .pic {
