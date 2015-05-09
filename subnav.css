@@ -12,6 +12,7 @@
 
 .subwrapper {
 	display: block;
+	position: absolute;
 }
 #subpic1, #subpic2, #subpic3 {
 	float: left;
@@ -19,7 +20,6 @@
 	height: 20px;
 	-webkit-transition: .6s;
 	overflow: hidden;
-	display: inline-block;
 }
 
 #sublabel1, #sublabel2, #sublabel3 {
