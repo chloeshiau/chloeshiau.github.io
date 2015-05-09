@@ -1,7 +1,11 @@
+#subcontainer {
+	position: fixed;
+}
+
 .subnav {
 	width: 100px;
 	height: 20px;
-	position: fixed;
+	position: relative;
 	z-index: 970;
 	left: 5px;
 	top: 45%;
