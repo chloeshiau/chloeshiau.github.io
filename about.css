@@ -57,8 +57,10 @@
 #historypic {
 	width: 100%;
 	height: 250px;
+	position: relative;
 }
 .pic {
+	position: relative;
 	padding-left: 70px;
 	padding-right: 70px;
 }
