@@ -75,11 +75,14 @@
 
 
 .mission {
+	display: inline-block;
 	position: relative;
 /*	padding-left: 70px;
 	padding-right: 70px;*/
 	padding-top: 50px;
 	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 	z-index: 99;
 	font-size: 15px;
 }
