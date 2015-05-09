@@ -12,7 +12,7 @@
 
 .subwrapper {
 	display: block;
-	position: relative;
+	position: absolute;
 }
 #subpic1, #subpic2, #subpic3 {
 	float: left;
@@ -20,6 +20,7 @@
 	height: 20px;
 	-webkit-transition: .6s;
 	overflow: hidden;
+	position: relative;
 
 }
 
@@ -31,4 +32,5 @@
 	height: 20px;
 	right: 0;
 	overflow: hidden;
+	position: relative;
 }
