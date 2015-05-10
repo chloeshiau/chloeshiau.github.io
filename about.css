@@ -78,8 +78,8 @@
 	position: relative;
 	padding-top: 50px;
 	padding-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+/*	padding-left: 30px;
+	padding-right: 30px;*/
 	z-index: 99;
 	font-size: 15px;
 }
@@ -106,7 +106,7 @@
 /*-----advisors-----*/
 
 #advisorwrapper {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 900px;
 	top: 100%;
@@ -167,7 +167,7 @@
 
 /*------awards---------*/
 #awardwrapper {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 500px;
 	top: 100%;
