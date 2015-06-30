@@ -4,7 +4,7 @@
 	#navigation1 {
 		width: 100%;
 		height: 90px;
-		position: relative;
+		/*position: relative;*/
 	}
 	#navigation {
 		position: fixed;
@@ -22,9 +22,13 @@
 		width: 100%;
 /*		margin-right: 27%;
 		margin-left: 27%;*/
+		left: 50%;
 		height: 75px;
-		vertical-align: middle;
+		/*vertical-align: middle;*/
 		/*position: relative;*/
+/*		display:-webkit-box;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;*/
 	}
 
 	.logo {
