@@ -20,9 +20,10 @@
 
 	#navigation2 {
 		width: 100%;
-		margin-right: 27%;
-		margin-left: 27%;
+/*		margin-right: 27%;
+		margin-left: 27%;*/
 		height: 75px;
+		vertical-align: middle;
 		position: relative;
 	}
 
@@ -48,12 +49,14 @@
 	ul {
 		list-style-type: none;
 		margin: 0;
-		padding: 0;
+		padding-top: 20px;
 	}
 
 	li {
 		text-transform: uppercase;
 		display: inline;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
