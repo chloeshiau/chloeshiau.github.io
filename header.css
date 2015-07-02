@@ -127,19 +127,19 @@
 	text-align: left;
 	vertical-align: middle;
 	z-index: 99;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 #details {
 	letter-spacing: 3px;
 	position: relative;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	vertical-align: middle;
 	z-index: 99;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 /*-----three pillars-----*/
