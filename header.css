@@ -82,7 +82,7 @@
 
 #regentmsghead {
 	position: relative;
-	margin-top: 5%;
+	margin-top: 20px;
 	margin-bottom: 15px;
 	letter-spacing: 3px;
 	font-size: 25px;
@@ -90,6 +90,7 @@
 }
 
 #regentmsg {
+	padding-top: 70px;
 	position: relative;
 	font-size: 18px;
 	text-align: center;
