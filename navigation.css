@@ -56,8 +56,8 @@
 		margin: 0;
 		text-transform: uppercase;
 		display: inline;
-		/*padding-left: 10px;*/
-		padding-right: 35px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
