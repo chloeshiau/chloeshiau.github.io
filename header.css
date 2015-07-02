@@ -132,7 +132,7 @@
 	padding-right: 100px;
 }
 
-#details {
+.details {
 	letter-spacing: 3px;
 	position: relative;
 	font-size: 18px;
@@ -143,6 +143,16 @@
 	padding-right: 100px;
 }
 
+.company {
+	letter-spacing: 3px;
+	position: relative;
+	font-size: 22px;
+	text-align: left;
+	vertical-align: middle;
+	z-index: 99;
+	padding-left: 100px;
+	padding-right: 100px;
+}
 /*-----three pillars-----*/
 
 #pillars {
