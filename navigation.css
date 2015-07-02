@@ -1,7 +1,4 @@
-
-
 @media (min-width: 800px) {
-
 	#navigation {
 		position: fixed;
 		vertical-align: middle;
@@ -24,17 +21,11 @@
 		z-index: 955;
 		padding-top: 27px;
 		text-align: center;
-		/*vertical-align: middle;*/
 	}
-
-
-
 	ul {
 		list-style-type: none;
 		margin: 0;
-		/*padding-top: 20px;*/
 	}
-
 	li {
 		margin: 0;
 		text-transform: uppercase;
@@ -42,7 +33,6 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-
 }
 
 
