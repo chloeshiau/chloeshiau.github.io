@@ -120,7 +120,7 @@
 	z-index: 99;
 }
 
-#rushbutton {
+.rushbutton {
 	letter-spacing: 3px;
 	position: relative;
 	font-size: 30px;
