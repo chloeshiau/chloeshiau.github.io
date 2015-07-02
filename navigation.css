@@ -19,7 +19,7 @@
 	}
 
 	#navigation2 {
-		/*position: fixed;*/
+		position: fixed;
 		width: 100%;
 		height: 75px;
 		z-index: 955;
