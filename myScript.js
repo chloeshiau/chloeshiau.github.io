@@ -11,14 +11,10 @@ function setBackground() {
 			$("#pic2").css("opacity", "0");
 			$("#pic3").css("opacity", ".8");
 		}, 10000) 
-		setTimeout(function() {
-			$("#pic3").css("opacity", "0");
-			$("#pic4").css("opacity", ".8");
-		}, 15000)
-		$("#pic4").css("opacity", "0");
+		$("#pic3").css("opacity", "0");
 }
 setBackground();
-setInterval(setBackground, 20000);
+setInterval(setBackground, 15000);
 
 
 //----------title------------//
