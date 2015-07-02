@@ -27,7 +27,7 @@
 		/*vertical-align: middle;*/
 	}
 
-	.logo {
+/*	.logo {
 		text-align: center;
 		z-index: 951;
 		line-height: 75px;
@@ -44,7 +44,7 @@
 		text-align: center;
 		cursor: pointer;
 
-	}
+	}*/
 
 	ul {
 		list-style-type: none;
@@ -53,6 +53,7 @@
 	}
 
 	li {
+		margin: 0;
 		text-transform: uppercase;
 		display: inline;
 		/*padding-left: 10px;*/
