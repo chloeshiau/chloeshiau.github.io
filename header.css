@@ -144,12 +144,7 @@
 }
 
 .company {
-	letter-spacing: 3px;
-	position: relative;
-	font-size: 20px;
-	text-align: left;
-	vertical-align: middle;
-	z-index: 99;
+	font-weight: 600;
 
 }
 /*-----three pillars-----*/
