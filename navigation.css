@@ -27,7 +27,24 @@
 		/*vertical-align: middle;*/
 	}
 
+/*	.logo {
+		text-align: center;
+		z-index: 951;
+		line-height: 75px;
+		cursor: pointer;
+	}
 
+	.labels {
+		vertical-align: middle;
+		float: left;
+		display: inline;
+		z-index:951;
+		margin-right: 30px;
+		line-height: 75px;
+		text-align: center;
+		cursor: pointer;
+
+	}*/
 
 	ul {
 		list-style-type: none;
