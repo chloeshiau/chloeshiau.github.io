@@ -127,6 +127,7 @@
 	text-align: left;
 	vertical-align: middle;
 	z-index: 99;
+	padding-top: 20px;
 	padding-left: 100px;
 	padding-right: 100px;
 }
