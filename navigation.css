@@ -4,7 +4,7 @@
 	#navigation1 {
 		width: 100%;
 		height: 90px;
-		/*position: relative;*/
+		position: fixed;
 	}
 	#navigation {
 		position: fixed;
@@ -25,6 +25,7 @@
 		z-index: 955;
 		padding-top: 27px;
 		text-align: center;
+		vertical-align: middle;
 	}
 
 	.logo {
@@ -56,7 +57,7 @@
 		text-transform: uppercase;
 		display: inline;
 		/*padding-left: 10px;*/
-		/*padding-right: 10px;*/
+		padding-right: 10px;
 	}
 
 }
