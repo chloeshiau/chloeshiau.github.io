@@ -27,24 +27,7 @@
 		/*vertical-align: middle;*/
 	}
 
-/*	.logo {
-		text-align: center;
-		z-index: 951;
-		line-height: 75px;
-		cursor: pointer;
-	}
 
-	.labels {
-		vertical-align: middle;
-		float: left;
-		display: inline;
-		z-index:951;
-		margin-right: 30px;
-		line-height: 75px;
-		text-align: center;
-		cursor: pointer;
-
-	}*/
 
 	ul {
 		list-style-type: none;
@@ -62,29 +45,4 @@
 
 }
 
-	#rush,#bro, #prof, #serv {
-		cursor: pointer;
-	}
 
-	.brotabs, .rushtabs, .proftabs, .servtabs{
-		-webkit-transition: .3s;
-		vertical-align: center;
-		text-align: center;
-		display: none;
-		z-index:960;
-		background-color: white;
-		opacity: 1;
-		width: 105%;
-		padding: 1px;
-		line-height: 30px;
-		color: black;
-	}
-
-@media (max-width: 750px) {
-	#navigation2 {
-		margin-right: 15%;
-		margin-left: 15%;
-		height: 75px;
-		position: relative;
-	}
-}
