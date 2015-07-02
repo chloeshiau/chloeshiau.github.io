@@ -91,10 +91,10 @@
 
 #regentmsg {
 	position: relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 /*-----rush-----*/
