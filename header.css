@@ -125,7 +125,7 @@
 	height: 1430px;
 	background-color: #787878; 
 	background-size: 100% 400px;
-	opacity: .8
+	opacity: .8;
 }
 
 #expname {
@@ -174,6 +174,15 @@
 	height: 400px;
 	background-color: white;
 	text-align: center;
+}
+
+#projects {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: #787878; 
+	text-align: center;
+	opacity: .8;
 }
 
 /*------footer---------*/
