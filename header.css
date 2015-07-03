@@ -171,29 +171,9 @@
 #organizations {
 	position: relative;
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	background-color: white;
 	text-align: center;
-}
-/*.picalign {
-	text-align: center;
-}*/
-#orgpic1 {
-	background-image: url('img/tt1.png');
-	
-	position: absolute;
-	width: 450px;
-	height: 246px;
-	display: inline-block;
-}
-
-#orgpic2 {
-	background-image: url('img/tt2.png');
-	position: absolute;
-	padding-left: 500px;
-	width: 450px;
-	height: 246px;
-	display: inline-block;
 }
 
 /*------footer---------*/
