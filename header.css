@@ -176,6 +176,15 @@
 	text-align: center;
 }
 
+#orgpic {
+	background-image: url('img/tt1.jpg');
+	position: absolute;
+	width: 450px;
+	height: 246px;
+	display: block;;
+}
+
+
 
 /*------footer---------*/
 #footer {
