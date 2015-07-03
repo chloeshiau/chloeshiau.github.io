@@ -51,9 +51,9 @@ document.getElementById("navorg").onclick = function() {
 	} , 'slow');
 };
 
-document.getElementById("projects").onclick = function() {
+document.getElementById("navproj").onclick = function() {
 	$('html, body').animate({
-		scrollTop:$('#about').offset().top
+		scrollTop:$('#projects').offset().top
 	} , 'slow');
 };
 
