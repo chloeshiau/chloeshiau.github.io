@@ -176,15 +176,22 @@
 	text-align: center;
 }
 
-#orgpic {
+#orgpic1 {
 	background-image: url('img/tt1.png');
+	padding-left: 30px;
 	position: absolute;
 	width: 450px;
 	height: 246px;
 	display: block;;
 }
 
-
+#orgpic1 {
+	background-image: url('img/tt2.png');
+	position: absolute;
+	width: 450px;
+	height: 246px;
+	display: block;;
+}
 
 /*------footer---------*/
 #footer {
