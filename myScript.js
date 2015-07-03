@@ -35,9 +35,7 @@ $(window).scroll(function() {
 })
 
 document.getElementById("navhome").onclick = function() {
-	$('html, body').animate({
-		scrollTop:$('#navigation1').offset().top
-	} , 'slow');
+	$('html, body').scrollTop(0);
 };
 
 document.getElementById("navabout").onclick = function() {
