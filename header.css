@@ -135,6 +135,14 @@
 	opacity: .8;
 }
 
+#contactme {
+	position: relative;
+	width: 100%;
+	height: 435px;
+	background-color: white;
+	text-align: center;
+}
+
 /*------footer---------*/
 #footer {
 	position: relative;
