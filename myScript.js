@@ -33,6 +33,13 @@ $(window).scroll(function() {
 	}
 
 })
+
+document.getElementById("navhome").onclick = function() {
+	$('html, body').animate({
+		scrollTop:$('#navigation1').offset().top
+	} , 'slow');
+};
+
 document.getElementById("navabout").onclick = function() {
 	$('html, body').animate({
 		scrollTop:$('#about').offset().top
