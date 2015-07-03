@@ -175,14 +175,15 @@
 	background-color: white;
 	text-align: center;
 }
-
+#orgpics {
+	display: inline;
+}
 #orgpic1 {
 	background-image: url('img/tt1.png');
 	padding-left: 30px;
 	position: absolute;
 	width: 450px;
 	height: 246px;
-	display: inline-block;
 }
 
 #orgpic2 {
@@ -190,7 +191,6 @@
 	position: absolute;
 	width: 450px;
 	height: 246px;
-	display: inline-block;
 }
 
 /*------footer---------*/
