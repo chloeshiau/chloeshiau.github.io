@@ -182,7 +182,7 @@
 	position: absolute;
 	width: 450px;
 	height: 246px;
-	display: block;;
+	display: inline;
 }
 
 #orgpic1 {
@@ -190,7 +190,7 @@
 	position: absolute;
 	width: 450px;
 	height: 246px;
-	display: block;;
+	display: inline;
 }
 
 /*------footer---------*/
