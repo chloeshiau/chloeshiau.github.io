@@ -116,7 +116,7 @@
 	font-weight: 600;
 
 }
-/*-----orgs/projects-----*/
+/*-----orgs-----*/
 
 #organizations {
 	position: relative;
@@ -126,6 +126,8 @@
 	text-align: center;
 }
 
+/*-----projects-----*/
+
 #projects {
 	position: relative;
 	width: 100%;
@@ -134,6 +136,17 @@
 	text-align: center;
 	opacity: .8;
 }
+
+#projpics {
+	background-image: url('img/proj1.jpg');
+	width: 450px;
+	height: 300px;
+	float: left;
+	margin-right: 25px;	
+}
+
+
+/*-----contact-----*/
 
 #contactme {
 	position: relative;
