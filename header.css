@@ -141,6 +141,7 @@
 	width: 450px;
 	height: 300px;
 	float: left;
+	display: block;
 	margin-right: 25px;	
 }
 
