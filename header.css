@@ -180,7 +180,7 @@
 }*/
 #orgpic1 {
 	background-image: url('img/tt1.png');
-	padding-right: 500px;
+	margin-right: 500px;
 	position: absolute;
 	width: 450px;
 	height: 246px;
