@@ -140,11 +140,20 @@
 #projpics {
 	width: 450px;
 	height: 300px;
-	float: left;
-	display: block;
 	margin-right: 25px;	
 }
 
+.container {
+	letter-spacing: 3px;
+	position: relative;
+	font-size: 18px;
+	text-align: left;
+	vertical-align: middle;
+	z-index: 99;
+	padding-left: 100px;
+	padding-right: 100px;
+	float: left;
+}
 
 /*-----contact-----*/
 
