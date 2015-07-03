@@ -78,7 +78,7 @@
 	z-index: 99;
 }
 
-/*-----rush-----*/
+/*-----experience-----*/
 
 #experience {
 	position: relative;
@@ -100,7 +100,7 @@
 	z-index: 99;
 }
 
-.rushbutton {
+.expdetails {
 	letter-spacing: 3px;
 	position: relative;
 	font-size: 30px;
@@ -127,7 +127,7 @@
 	font-weight: 600;
 
 }
-/*-----three pillars-----*/
+/*-----orgs/projects-----*/
 
 #organizations {
 	position: relative;
