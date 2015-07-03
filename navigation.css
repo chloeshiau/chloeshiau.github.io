@@ -33,6 +33,11 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	#navabout, #navexp, #navorg, #navproj, #navcont {
+		cursor: pointer;
+	}
+
 }
 
 
