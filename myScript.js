@@ -35,7 +35,8 @@ $(window).scroll(function() {
 })
 
 document.getElementById("navhome").onclick = function() {
-	$('html, body').scrollTop(0);
+	$('html, body').animate({
+		scrollTop:0}, 'slow');
 };
 
 document.getElementById("navabout").onclick = function() {
