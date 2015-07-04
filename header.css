@@ -171,10 +171,12 @@
 	font-size: 22px;
 	letter-spacing: 3px;
 	padding-bottom: 10px;
+	height: 32px;
 }
 .projdesc {
 	font-size: 18px;
 	letter-spacing: 3px;
+	height: 268px;
 }
 
 /*-----contact-----*/
