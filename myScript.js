@@ -77,7 +77,7 @@ function mouseOver(img, num) {
 }
 
 function mouseOut(img, num) {
-	img1.src = "img/proj"+ num + ".png";
+	img.src = "img/proj"+ num + ".png";
 }
 
 
