@@ -72,14 +72,12 @@ document.getElementById("navcont").onclick = function() {
 
 //-------------project slides ---------------//
 
-var img;
-function mouseOver() {
-	img = document.getElementById("projpics");
-	img.src = 'img/proj1-1.png';
+function mouseOver(img, num) {
+	img.src = "img/proj"+ num + "-1.png";
 }
 
-function mouseOut() {
-	img.src = 'img/proj1.png';
+function mouseOut(img, num) {
+	img1.src = "img/proj"+ num + ".png";
 }
 
 
