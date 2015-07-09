@@ -69,3 +69,17 @@ document.getElementById("navcont").onclick = function() {
 	} , 'slow');
 };
 
+
+//-------------project slides ---------------//
+
+var img;
+function mouseOver() {
+	img = document.getElementById("projpics");
+	img.src = 'img/proj1-1.png';
+}
+
+function mouseOut() {
+	img.src = 'img/proj1.png';
+}
+
+
