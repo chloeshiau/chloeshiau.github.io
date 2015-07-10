@@ -179,6 +179,12 @@
 		text-align: center;
 		opacity: .8;
 	}
+	.projdesc {
+		font-size: 18px;
+		letter-spacing: 0px;
+		height: 298px;
+
+	}
 }
 
 @media (min-width: 480px) {
@@ -190,6 +196,11 @@
 		text-align: center;
 		opacity: .8;
 	}	
+	.projdesc {
+		font-size: 18px;
+		letter-spacing: 0px;
+
+	}
 }
 
 	#projpics {
@@ -203,7 +214,6 @@
 		display: block;
 		float: left;
 		cursor: pointer;
-
 	}
 
 	.projname {
@@ -229,12 +239,7 @@
 		letter-spacing: 3px;
 		padding-bottom: 10px;
 	}
-	.projdesc {
-		font-size: 18px;
-		letter-spacing: 0px;
-		height: 298px;
 
-	}
 
 	/*-----contact-----*/
 
