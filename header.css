@@ -38,7 +38,7 @@
 		cursor: pointer;
 	}
 
-/*@media (min-width: 800px) {*/
+
 
 
 	/*---------front-----------------*/
@@ -170,7 +170,7 @@
 	}
 
 	/*-----projects-----*/
-
+@media (min-width: 760px) {
 	#projects {
 		position: relative;
 		width: 100%;
@@ -179,6 +179,18 @@
 		text-align: center;
 		opacity: .8;
 	}
+}
+
+@media (min-width: 480px) {
+	#projects {
+		position: relative;
+		width: 100%;
+		height: 2000px;
+		background-color: #787878; 
+		text-align: center;
+		opacity: .8;
+	}	
+}
 
 	#projpics {
 		width: 450px;
@@ -262,4 +274,4 @@
 		cursor: pointer;
 	}
 
-/*}*/
+
