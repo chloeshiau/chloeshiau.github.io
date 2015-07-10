@@ -140,8 +140,8 @@
 	vertical-align: middle;
 	z-index: 99;
 	padding-top: 20px;
-	padding-left: 17%;
-	padding-right: 17%;
+	padding-left: 16%;
+	padding-right: 16%;
 }
 
 .details {
@@ -151,8 +151,8 @@
 	text-align: left;
 	vertical-align: middle;
 	z-index: 99;
-	padding-left: 17%;
-	padding-right: 17%;
+	padding-left: 16%;
+	padding-right: 16%;
 }
 
 .company {
@@ -222,7 +222,7 @@
 	font-size: 18px;
 	letter-spacing: 0px;
 	height: 298px;
-	width: 1100px;
+	width: 68%;
 }
 
 /*-----contact-----*/
