@@ -145,7 +145,7 @@
 }
 
 .details {
-	letter-spacing: 3px;
+	letter-spacing: 0px;
 	position: relative;
 	font-size: 18px;
 	text-align: left;
@@ -220,7 +220,7 @@
 }
 .projdesc {
 	font-size: 18px;
-	letter-spacing: 3px;
+	letter-spacing: 0px;
 	height: 298px;
 	width: 1100px;
 }
