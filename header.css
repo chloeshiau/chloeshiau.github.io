@@ -1,10 +1,5 @@
 
-	#navigation {
-		width: 100%;
-		height: 100px;
-		z-index: 955;
-		font-family: 'Lato', sans-serif;
-	}
+
 
 	#wrapperlogo {
 		width: 30%;
@@ -19,15 +14,7 @@
 		background-image: url('img/name.jpg');
 
 	}
-	#navigation2 {
-		height: 65px;
-		z-index: 955;
-		padding-top: 50px;
-		margin-right: 40px;
-		font-size: 12px;
-		text-align: right;
-		vertical-align: right;
-	}
+
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -85,6 +72,21 @@
 		text-align: center;
 	}
 
+	#navigation {
+		position: relative;
+		font-family: 'Lato', sans-serif;
+	}
+
+	#navigation2 {
+		height: 65px;
+		z-index: 955;
+		padding-top: 50px;
+		margin-right: 40px;
+		font-size: 12px;
+		text-align: right;
+		vertical-align: right;
+	}
+	
 	#pic1, #pic2, #pic3, #pic4 {
 		-webkit-transition: .9s;
 		margin: 0;
