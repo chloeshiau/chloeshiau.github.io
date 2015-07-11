@@ -47,7 +47,20 @@
 		height: 75%;
 		z-index: 940;
 	}
-
+	#navname{
+		font-size: 50px;
+		display: block;
+		position: absolute;
+		width: 100%;
+		letter-spacing: 5px;
+		z-index: 1000;
+		height: 75%;
+	    top: 60%;
+	    left: 50%;
+	    margin-right: -50%;
+	    color: white;
+	    transform: translate(-50%, -50%);
+	}
 
 
 	#backdesc {
@@ -75,23 +88,7 @@
 	}
 
 
-	#navname{
-		font-size: 50px;
-		font-weight: 400;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-		padding-top: 5px;
-		text-decoration: none;
-		letter-spacing: 5px;
-		z-index: 1000;
-		height: 75%;
-	    top: 60%;
-	    left: 50%;
-	    margin-right: -50%;
-	    color: white;
-	    transform: translate(-50%, -50%);
-	}
+	
 
 	#description{
 		margin-top: 3px;
