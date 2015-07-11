@@ -1,4 +1,6 @@
-
+	#navwrapper {
+		position: absolute;
+	}
 	#navigation {
 		position: fixed;
 		display: block;
