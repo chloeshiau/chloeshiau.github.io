@@ -61,7 +61,8 @@
 	    top:0;
   		text-transform: uppercase;
   		text-align: center;
-
+  		vertical-align: center;
+  		width: 100%;
   		color: black;
   		z-index: 950;
 
