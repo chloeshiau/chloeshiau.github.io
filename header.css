@@ -95,7 +95,8 @@
 	    margin-right: -50%;
 	    transform: translate(-50%, -50%);
 		opacity: .8;
-		width: 90%;
+		width: 95%;
+		height: 95;
 		/*padding: 20px;*/
 		z-index: 940;
 	}
