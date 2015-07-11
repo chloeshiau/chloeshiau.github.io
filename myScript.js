@@ -36,7 +36,7 @@
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 150 ) {
+    if ($(this).scrollTop() > 150 && !$('.navigation').hasClass('visible'))  {
         $('.navigation').animate({opacity : 1}, 'slow', function() {
             $(this).addClass('visible').removeAttr('style');
         });
