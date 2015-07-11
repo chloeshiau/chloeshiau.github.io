@@ -26,6 +26,7 @@
 	#navigation2 {
 		right: 0;
 		display: inline;
+		position: fixed;
 		height: 65px;
 		z-index: 955;
 		padding-top: 50px;
