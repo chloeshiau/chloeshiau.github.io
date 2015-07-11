@@ -12,8 +12,8 @@
 	#navigation1 {
 		width: 30px;
 		height: 30px;
-		text-align: center;
-		vertical-align: middle;
+		display: inline;
+		text-align: left;
 		background-image: url('img/name.jpg');
 
 	}
@@ -24,8 +24,7 @@
 		z-index: 955;
 		padding-top: 27px;
 		font-size: 12px;
-		text-align: center;
-		vertical-align: right;
+		text-align: right;
 	}
 	ul {
 		list-style-type: none;
