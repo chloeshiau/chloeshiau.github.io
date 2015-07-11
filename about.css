@@ -129,6 +129,8 @@
 		width: 100%;
 		height: 1450px;
 		background-size: 100% 400px;
+		padding-top: 80px;
+		padding-bottom: 30px;
 		opacity: .8;
 	}
 
@@ -140,8 +142,8 @@
 		vertical-align: middle;
 		z-index: 99;
 		padding-top: 20px;
-		padding-left: 14%;
-		padding-right: 14%;
+		padding-left: 12%;
+		padding-right: 12%;
 	}
 
 	.details {
@@ -151,8 +153,8 @@
 		text-align: left;
 		vertical-align: middle;
 		z-index: 99;
-		padding-left: 14%;
-		padding-right: 14%;
+		padding-left: 12%;
+		padding-right: 12%;
 	}
 
 	.company {
