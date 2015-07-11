@@ -6,6 +6,9 @@
 		padding-top: 50px;
 		font-size: 12px;
 	}
+	#nav {
+		cursor: pointer;
+	}
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -17,11 +20,6 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-
-	#navhome, #navabout, #navexp, #navorg, #navproj, #navcont {
-		cursor: pointer;
-	}
-
 
 	/*-------front background--------*/
 
@@ -61,7 +59,6 @@
 		line-height: 20px;
 		font-size: 14px;
 		position: relative;
-		text-align: center;
 	}
 
 
@@ -76,7 +73,6 @@
 		opacity: .8;
 		width: 97%;
 		height: 95%;
-		/*padding: 20px;*/
 		z-index: 940;
 	}
 
