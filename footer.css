@@ -14,44 +14,13 @@ a {
 	text-decoration: none;
 }
 a:link {
-	color: black;
+	color: white;
 }
 
 a:visited {
-	color: black;
+	color: white;
 }
 
 a:hover {
-	color: black;
+	color: white;
 }
-
-.labels a:link {
-	color: black;
-}
-
-.labels a:visited {
-	color:black;
-}
-
-.labels a:hover {
-	color: black;
-}
-
-.logo a:hover {
-	color: black;
-}
-
-.logo a:link {
-	color: black;
-}
-
-.logo a:visited {
-	color:black;
-}
-
-
-/*header {
-	font-family: 'Lato', sans-serif; 
-	border-top: 5px;
-}*/
-
