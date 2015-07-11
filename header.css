@@ -64,7 +64,6 @@
   		left: 50%;
   		transform: translateX(-50%) translateY(-50%);*/
   		position: absolute;
-  		padding-top: 40%;
   		vertical-align: middle;
   		text-align: center;
   		text-transform: uppercase;
@@ -75,6 +74,7 @@
 	}
 
 	#name{
+		padding-top: 30%;
 		font-size: 50px;
 		font-weight: 500;
 		position: relative;
