@@ -36,7 +36,7 @@
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 150 && !$('.navigation').hasClass('visible')) {
+    if ($(this).scrollTop() > 150 ) {
         // $('.navigation').animate({opacity : 1}, 'slow', function() {
         //     $(this).addClass('visible').removeAttr('style');
         // });
@@ -44,8 +44,8 @@ $(window).scroll(function() {
         //     $(this).addClass('visible').removeAttr('style');
         // });
 		$('.navigation').css("opacity","1");
-    }
-    else{
+    } else if ($(this).scrollTop() =< 150) {
+    	// && $('.navigation').hasClass('visible')) {
         // $('.navigation').animate({opacity : 0}, 'slow', function() {
         //     $(this).removeClass('visible').removeAttr('style');
         // });
