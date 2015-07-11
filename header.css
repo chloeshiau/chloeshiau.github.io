@@ -28,6 +28,7 @@
 		margin-right: 40px;
 		font-size: 12px;
 		text-align: right;
+		vertical-align: right;
 	}
 	ul {
 		list-style-type: none;
