@@ -50,7 +50,6 @@
 	#navname{
 		font-size: 50px;
 		font-weight: 400;
-		position: relative;
 		text-align: center;
 		width: 100%;
 		padding-top: 5px;
@@ -58,6 +57,7 @@
 		letter-spacing: 5px;
 		z-index: 1000;
 		height: 75%;
+		position: absolute;
 	    top: 60%;
 	    left: 50%;
 	    margin-right: -50%;
