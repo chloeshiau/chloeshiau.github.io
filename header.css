@@ -84,7 +84,8 @@
 /*		top: 50%;
   		left: 50%;
   		transform: translateX(-50%) translateY(-50%);*/
-  		padding-top: 30%;
+  		/*padding-top: 30%;*/
+  		left: 50%;
   		z-index: 955;
 
 	}
