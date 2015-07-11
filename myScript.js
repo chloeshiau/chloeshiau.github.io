@@ -54,7 +54,7 @@ $(window).scroll(function() {
         //     $(this).addClass('visible').removeAttr('style');
         // });
 		// $('.navigation').css("opacity","0");
-		$('.navigation').fadeTo("slow",0);
+		$('.navigation').fadeOut("slow",0);
     }
 });
 
