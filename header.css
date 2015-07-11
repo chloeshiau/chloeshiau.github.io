@@ -1,5 +1,7 @@
 	#navwrapper {
 		position: absolute;
+		display: block;
+		z-index:1000;
 	}
 	#navigation {
 		position: fixed;
