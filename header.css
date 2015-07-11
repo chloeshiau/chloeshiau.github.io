@@ -61,7 +61,7 @@ li {
 }
 
 
-#pic1, #pic2, #pic3, #pic4 {
+#pic {
 	-webkit-transition: .9s;
 	margin: 0;
 	position: absolute;
