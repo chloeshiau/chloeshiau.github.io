@@ -38,13 +38,13 @@
 		margin: 0;
 		display: block;
 		position: absolute;
-	    top: 62%;
+	    top: 65%;
 	    left: 50%;
 	    margin-right: -50%;
 	    transform: translate(-50%, -50%);
 		opacity: .8;
 		width: 97%;
-		height: 65%;
+		height: 70%;
 		z-index: 940;
 	}
 
