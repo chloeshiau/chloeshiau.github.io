@@ -3,7 +3,7 @@
 		position: fixed;
 		vertical-align: middle;
 		width: 100%;
-		height: 165px;
+		height: 155px;
 		z-index: 950;
 		background-color: white;
 		font-family: 'Lato', sans-serif;
@@ -16,7 +16,7 @@
 	#navigation2 {
 		position: fixed;
 		width: 100%;
-		height: 75px;
+		height: 65px;
 		z-index: 955;
 		padding-top: 27px;
 		font-size: 12px;

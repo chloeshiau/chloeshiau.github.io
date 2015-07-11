@@ -20,7 +20,7 @@ setInterval(setBackground, 15000);
 //----------title------------//
 $(window).scroll(function() {
 	if($(this).scrollTop() > 370) {
-		$('#navigation').css("height", "75px");
+		$('#navigation').css("height", "65px");
 		$('#navigation1').fadeOut();
 		$('#name').fadeOut();
 		$('#description').fadeOut();
@@ -29,7 +29,7 @@ $(window).scroll(function() {
 		$("#navigation1").fadeIn();
 		$('#name').fadeIn();
 		$('#description').fadeIn();
-		$('#navigation').css("height", "165px");
+		$('#navigation').css("height", "155px");
 	}
 
 })
