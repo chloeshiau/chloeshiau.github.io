@@ -66,8 +66,7 @@
 	#name{
 		font-size: 50px;
 		font-weight: 400;
-
-		position: absolute;
+		position: relative;
 		text-align: center;
 		width: 100%;
 		padding-top: 5px;
@@ -90,6 +89,7 @@
 	    top: 60%;
 	    left: 50%;
 	    margin-right: -50%;
+	    color: white;
 	    transform: translate(-50%, -50%);
 	}
 
