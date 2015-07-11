@@ -76,14 +76,17 @@
 		top: 100%;
 		padding-top: 175px;
 		z-index: 940;*/
+		width: 100%;
 	}
 
-/*	#backdesc {
-		top: 50%;
+	#backdesc {
+/*		top: 50%;
   		left: 50%;
   		transform: translateX(-50%) translateY(-50%);
-  		z-index: 1000;
-	}*/
+  		z-index: 1000;*/
+  		padding-top:50%;
+
+	}
 
 	#pic1, #pic2, #pic3, #pic4 {
 		-webkit-transition: .9s;
