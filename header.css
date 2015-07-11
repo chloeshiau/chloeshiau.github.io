@@ -1,5 +1,18 @@
 
 
+	#navigation {
+		position: relative;
+		font-family: 'Lato', sans-serif;
+	}
+
+	#navigation2 {
+		height: 65px;
+		z-index: 955;
+		padding-top: 50px;
+		font-size: 12px;
+		text-align: right;
+		vertical-align: right;
+	}
 
 	#wrapperlogo {
 		width: 30%;
@@ -72,21 +85,7 @@
 		text-align: center;
 	}
 
-	#navigation {
-		position: relative;
-		font-family: 'Lato', sans-serif;
-	}
 
-	#navigation2 {
-		height: 65px;
-		z-index: 955;
-		padding-top: 50px;
-		margin-right: 40px;
-		font-size: 12px;
-		text-align: right;
-		vertical-align: right;
-	}
-	
 	#pic1, #pic2, #pic3, #pic4 {
 		-webkit-transition: .9s;
 		margin: 0;
