@@ -18,21 +18,21 @@ setInterval(setBackground, 15000);
 
 
 //----------title------------//
-$(window).scroll(function() {
-	if($(this).scrollTop() > 370) {
-		$('#navigation').css("height", "65px");
-		$('#navigation1').fadeOut();
-		$('#name').fadeOut();
-		$('#description').fadeOut();
-	}
-	else {
-		$("#navigation1").fadeIn();
-		$('#name').fadeIn();
-		$('#description').fadeIn();
-		$('#navigation').css("height", "155px");
-	}
+// $(window).scroll(function() {
+// 	if($(this).scrollTop() > 370) {
+// 		$('#navigation').css("height", "65px");
+// 		$('#navigation1').fadeOut();
+// 		$('#name').fadeOut();
+// 		$('#description').fadeOut();
+// 	}
+// 	else {
+// 		$("#navigation1").fadeIn();
+// 		$('#name').fadeIn();
+// 		$('#description').fadeIn();
+// 		$('#navigation').css("height", "155px");
+// 	}
 
-})
+// })
 
 document.getElementById("navhome").onclick = function() {
 	$('html, body').animate({
