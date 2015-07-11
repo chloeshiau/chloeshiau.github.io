@@ -78,7 +78,7 @@
 	#navname{
 		font-size: 50px;
 		font-weight: 400;
-		position: relative;
+		position: absolute;
 		text-align: center;
 		width: 100%;
 		padding-top: 5px;
