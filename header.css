@@ -12,11 +12,12 @@
 
 	#wrapperlogo {
 		width: 30%;
+		display: inline;
 	}
 	#navigation1 {
 		width: 80px;
 		height: 80px;
-		display: inline;
+		
 		text-align: left;
 		padding-top: 12px;
 		padding-left: 30px;
