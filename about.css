@@ -74,6 +74,19 @@
 		letter-spacing: 5px;
 	}
 
+
+	#navname{
+		font-size: 50px;
+		font-weight: 400;
+		position: relative;
+		text-align: center;
+		width: 100%;
+		padding-top: 5px;
+		text-decoration: none;
+		letter-spacing: 5px;
+		z-index: 1000;
+	}
+
 	#description{
 		margin-top: 3px;
 		letter-spacing: 3px;
