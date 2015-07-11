@@ -1,6 +1,7 @@
 
 	#navigation {
 		position: fixed;
+		display: block;
 		width: 100%;
 		height: 100px;
 		z-index: 955;
@@ -61,7 +62,6 @@
 
 	#background {
 		width: 100%;
-		height: 100%;
 		z-index: 940;
 		display: block;
 	}
