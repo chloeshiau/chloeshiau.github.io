@@ -14,7 +14,7 @@
 		display: inline;
 		text-align: left;
 		padding-top: 12px;
-		padding-left: 10px;
+		padding-left: 20px;
 		background-image: url('img/name.jpg');
 
 	}
@@ -24,6 +24,7 @@
 		height: 65px;
 		z-index: 955;
 		padding-top: 40px;
+		padding-right: 20px;
 		font-size: 12px;
 		text-align: right;
 	}
