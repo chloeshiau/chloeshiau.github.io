@@ -64,7 +64,7 @@ li {
 #pic {
 	-webkit-transition: .9s;
 	margin: 0;
-	position: relative;
+	position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
