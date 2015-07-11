@@ -1,9 +1,9 @@
 
 	#navigation {
 		position: fixed;
-		vertical-align: middle;
+		/*vertical-align: middle;*/
 		width: 100%;
-		height: 155px;
+		height: 65px;
 		z-index: 950;
 		background-color: white;
 		font-family: 'Lato', sans-serif;
@@ -21,6 +21,7 @@
 		padding-top: 27px;
 		font-size: 12px;
 		text-align: center;
+		vertical-align: right;
 	}
 	ul {
 		list-style-type: none;
