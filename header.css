@@ -1,31 +1,11 @@
-
-
-	#navigation {
+	#navigation2 {
 		position: relative;
 		font-family: 'Lato', sans-serif;
-	}
-
-	#navigation2 {
 		height: 65px;
 		z-index: 955;
 		padding-top: 50px;
 		font-size: 12px;
 	}
-
-	#wrapperlogo {
-		width: 30%;
-		display: inline;
-	}
-	#navigation1 {
-		width: 80px;
-		height: 80px;
-		text-align: left;
-		padding-top: 12px;
-		padding-left: 30px;
-		background-image: url('img/name.jpg');
-
-	}
-
 	ul {
 		list-style-type: none;
 		margin: 0;
