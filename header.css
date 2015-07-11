@@ -85,7 +85,8 @@
   		left: 50%;
   		transform: translateX(-50%) translateY(-50%);*/
   		position: absolute;
-  		padding-top: 30%;
+  		padding-top: 40%;
+  		padding-bottom: 40%;
   		vertical-align: middle;
   		text-align: center;
   		text-transform: uppercase;
