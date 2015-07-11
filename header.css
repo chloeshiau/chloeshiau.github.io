@@ -36,9 +36,10 @@ li {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-		text-transform: uppercase;
-		color: white;
-		z-index: 950;
+	text-transform: uppercase;
+	color: white;
+	z-index: 950;
+	text-align: center;
 
 }
 
@@ -46,7 +47,6 @@ li {
 	font-size: 50px;
 	font-weight: 400;
 	position: relative;
-	text-align: center;
 	width: 100%;
 	padding-top: 5px;
 	text-decoration: none;
