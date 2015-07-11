@@ -9,6 +9,10 @@
 		font-family: 'Lato', sans-serif;
 		color: black;
 	}
+
+	#wrapperlogo {
+		width: 30%;
+	}
 	#navigation1 {
 		width: 80px;
 		height: 80px;
@@ -29,6 +33,7 @@
 		margin-right: 40px;
 		font-size: 12px;
 		text-align: right;
+		vertical-align: right;
 	}
 	ul {
 		list-style-type: none;
