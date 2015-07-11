@@ -1,20 +1,20 @@
-function setBackground() {
-		// $(".pic").css("opacity", "0");	
-		setTimeout(function() {
-			$("#pic1").css("opacity", "1");
-		}, 15)
-		setTimeout(function() {
-			$("#pic1").css("opacity", "0");
-			$("#pic2").css("opacity", "1");
-		}, 5000)
-		setTimeout(function() {
-			$("#pic2").css("opacity", "0");
-			$("#pic3").css("opacity", "1");
-		}, 10000) 
-		$("#pic3").css("opacity", "0");
-}
-setBackground();
-setInterval(setBackground, 15000);
+// function setBackground() {
+// 		// $(".pic").css("opacity", "0");	
+// 		setTimeout(function() {
+// 			$("#pic1").css("opacity", "1");
+// 		}, 15)
+// 		setTimeout(function() {
+// 			$("#pic1").css("opacity", "0");
+// 			$("#pic2").css("opacity", "1");
+// 		}, 5000)
+// 		setTimeout(function() {
+// 			$("#pic2").css("opacity", "0");
+// 			$("#pic3").css("opacity", "1");
+// 		}, 10000) 
+// 		$("#pic3").css("opacity", "0");
+// }
+// setBackground();
+// setInterval(setBackground, 15000);
 
 
 //----------title------------//
