@@ -49,6 +49,7 @@
 
 	#background {
 		width: 100%;
+		padding: 20px;
 		z-index: 940;
 		display: block;
 	}
@@ -102,7 +103,6 @@
 		position: absolute;
 		width: 100%;
 		top: 100%;
-		padding: 20px;
 		height: 900px;
 		
 	}
