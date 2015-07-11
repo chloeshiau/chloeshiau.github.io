@@ -85,6 +85,7 @@
 /*		top: 50%;
   		left: 50%;
   		transform: translateX(-50%) translateY(-50%);*/
+  		position: absolute;
   		padding-top: 30%;
   		vertical-align: middle;
   		text-align: center;
