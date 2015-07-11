@@ -80,7 +80,7 @@
 
 	#pic1, #pic2, #pic3, #pic4 {
 		-webkit-transition: .9s;
-		margin-top: 145px;
+		margin: 0;
 		position: absolute;
 		opacity: 0;
 		width: 100%;
