@@ -24,10 +24,7 @@
 		background-image: url('img/name.jpg');
 
 	}
-	.navigation2 {
-		position: relative;
-		display: inline;
-		position: fixed;
+	#navigation2 {
 		height: 65px;
 		z-index: 955;
 		padding-top: 50px;
