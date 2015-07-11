@@ -121,6 +121,7 @@
 	}
 	#about {
 		position: relative;
+		padding-top: 80px;
 		height: 670px;
 		width: 100%;
 		font-size: 12px;
@@ -136,18 +137,6 @@
 		background-color: #787878; 
 		background-size: 100% 400px;
 		opacity: .8;
-	}
-
-	#expname {
-		position: relative;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		font-size: 35px;
-		font-weight: 200;
-		letter-spacing: 3px;
-		text-align: center;
-		vertical-align: middle;
-		z-index: 99;
 	}
 
 	.expdetails {
