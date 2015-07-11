@@ -49,12 +49,6 @@
 	/*-------front background--------*/
 
 	#background {
-/*		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 100%;
-		padding-top: 175px;
-		z-index: 940;*/
 		width: 100%;
 		z-index: 940;
 	}
@@ -64,7 +58,7 @@
 	    top: 50%;
 	    left: 50%;
 	    margin-right: -50%;
-	    transform: translate(-50%, -50%)
+	    transform: translate(-50%, -50%);
   		position: absolute;
   		vertical-align: middle;
   		text-align: center;
