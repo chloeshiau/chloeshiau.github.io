@@ -78,6 +78,13 @@
 		z-index: 940;
 	}
 
+	#backdesc {
+		top: 50%;
+  		left: 50%;
+  		transform: translateX(-50%) translateY(-50%);
+  		z-index: 1000;
+	}
+
 	#pic1, #pic2, #pic3, #pic4 {
 		-webkit-transition: .9s;
 		margin: 0;
