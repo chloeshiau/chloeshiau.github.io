@@ -25,8 +25,9 @@
 		background-image: url('img/name.jpg');
 
 	}
-	#navigation2 {
-		right: 0;
+	.navigation2 {
+		top:0;
+		opacity: 0;
 		display: inline;
 		position: fixed;
 		height: 65px;
