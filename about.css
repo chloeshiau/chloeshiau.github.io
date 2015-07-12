@@ -62,7 +62,6 @@
 	#name{
 		font-size: 50px;
 		font-weight: 400;
-		position: relative;
 		width: 100%;
 		padding-top: 5px;
 		text-decoration: none;
@@ -73,7 +72,6 @@
 		letter-spacing: 3px;
 		line-height: 20px;
 		font-size: 14px;
-		position: relative;
 	}
 	/*--------below background--------*/
 	#mypic {
