@@ -50,18 +50,13 @@
 	#navname{
 		font-size: 50px;
 		font-weight: 400;
-		text-align: center;
 		width: 100%;
-		padding-top: 5px;
-		text-decoration: none;
-		letter-spacing: 5px;
 		z-index: 1000;
+		text-align: center;
+		letter-spacing: 5px;
 		position: absolute;
-	    top: 60%;
-	    left: 50%;
-	    margin-right: -50%;
+	    top: 55%;
 	    color: white;
-	    transform: translate(-50%, -50%);
 	}
 
 
