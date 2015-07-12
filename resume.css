@@ -95,6 +95,8 @@
 	}
 
 	/*-----experience-----*/
+
+
 	.details {
 		position: relative;
 		font-size: 17px;
@@ -103,6 +105,7 @@
 		padding-left: 12%;
 		padding-right: 12%;
 	}
+
 	#experience {
 		position: relative;
 		width: 100%;
@@ -110,18 +113,23 @@
 		padding-top: 80px;
 		padding-bottom: 30px;
 	}
+
 	.expdetails {
 		letter-spacing: 3px;
+		position: relative;
 		font-size: 30px;
 		text-align: left;
 		padding-top: 20px;
 		padding-left: 12%;
 		padding-right: 12%;
 	}
+
+
 	.company {
 		font-weight: 600;
 
 	}
+
 	/*------footer---------*/
 	#footer {
 		position: relative;
