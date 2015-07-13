@@ -124,12 +124,10 @@
 	#projpics {
 		width: 450px;
 		height: 300px;
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 		margin-right: 25px;
-		border-radius: 10px;
 		border-style: solid;
-		border-width: 2px; 
-		display: block;
+		border-width: 1px; 
 		float: left;
 		cursor: pointer;
 	}
@@ -140,10 +138,8 @@
 		font-size: 35px;
 		font-weight: 200;
 		letter-spacing: 3px;
-		text-align: left;
-		z-index: 99;	
+		text-align: left;	
 	}
-
 
 	.projtitle {
 		font-size: 22px;
