@@ -130,6 +130,7 @@
 		border-width: 1px; 
 		float: left;
 		cursor: pointer;
+		opacity: .8;
 	}
 
 	.projname {
