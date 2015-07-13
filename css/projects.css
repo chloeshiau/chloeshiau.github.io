@@ -164,13 +164,7 @@
 	.icon {
 		height:35px;
 		width: 35px;
-		margin: 5px;
+		margin: 5px 5px 5px 30px;
 		display: inline;
 		cursor: pointer;
-	}
-	.icon1 {
-		height:35px;
-		width: 35px;
-		margin-bottom: 30px;
-		cursor: pointer;		
 	}
