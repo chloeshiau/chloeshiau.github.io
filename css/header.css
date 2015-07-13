@@ -13,8 +13,8 @@ ul {
 li {
 	display: inline-block;
 	padding-top: 35px;
-	margin-left: 25px;
-	margin-right: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 	border-radius: 50%;
 	width: 80px;
 	height: 45px;
