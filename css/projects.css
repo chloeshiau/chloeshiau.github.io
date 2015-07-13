@@ -152,7 +152,7 @@
 	/*------footer---------*/
 	#footer {
 		position: relative;
-		height: 120px;
+		overflow: auto;
 		padding-top: 15px;
 		text-align: center;
 		font-size: 12px;
