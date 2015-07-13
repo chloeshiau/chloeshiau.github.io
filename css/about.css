@@ -86,6 +86,7 @@
 		padding-bottom: 30px;
 		width: 100%;
 		font-size: 12px;
+		overflow: auto;
 		background-color: white;
 	}
 	.details {
@@ -98,7 +99,6 @@
 	}
 	/*------footer---------*/
 	#footer {
-		position: relative;
 		height: 120px;
 		padding-top: 15px;
 		text-align: center;
