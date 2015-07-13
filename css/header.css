@@ -12,13 +12,23 @@
 ul {
 	list-style-type: none;
 	margin: 0;
+	opacity: .7;
+}
+
+#listuff {
+	z-index: 1100;
+	text-transform: uppercase;
 }
 li {
 	margin: 0;
-	text-transform: uppercase;
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
+	border-radius: 50%;
+	width:20px;
+	height: 20px;
+	z-index: 1000;
+	background-color: black;
 }
 
 /*-------front background--------*/
