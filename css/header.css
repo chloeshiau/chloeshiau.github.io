@@ -12,9 +12,9 @@ ul {
 }
 li {
 	display: inline-block;
-	padding-top: 35px;
-	margin-left: 25px;
-	margin-right: 25px;
+	padding-top: 55px;
+	margin-left: 28px;
+	margin-right: 28px;
 	border-radius: 50%;
 	width: 80px;
 	height: 45px;
@@ -50,11 +50,11 @@ li {
 	width: 100%;
 	padding-top: 5px;
 	text-decoration: none;
-	letter-spacing: 7px;
+	letter-spacing: 9px;
 }
 
 #description{
-	margin-top: 3px;
+	margin-top: 15px;
 	letter-spacing: 2px;
 	font-weight: 200;
 	line-height: 20px;
