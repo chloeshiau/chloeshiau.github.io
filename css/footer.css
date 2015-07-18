@@ -7,7 +7,10 @@ html, body {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+/*	font-family: 'Lato', sans-serif;
+*/
+	font-family: 'proxima_nova_ltsemibold', Helvetica, Arial;
+
 }
 
 a {
