@@ -90,10 +90,7 @@
 		background-color: white;
 	}
 	.details {
-		position: relative;
 		font-size: 17px;
-		text-align: left;
-		z-index: 99;
 		padding-left: 12%;
 		padding-right: 12%;
 	}
