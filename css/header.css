@@ -44,17 +44,18 @@ li {
 
 #name{
 	font-size: 50px;
-	font-weight: 400;
+	font-weight: 500;
 	position: relative;
 	width: 100%;
 	padding-top: 5px;
 	text-decoration: none;
-	letter-spacing: 5px;
+	letter-spacing: 7px;
 }
 
 #description{
 	margin-top: 3px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	font-weight: 200;
 	line-height: 20px;
 	font-size: 14px;
 }
