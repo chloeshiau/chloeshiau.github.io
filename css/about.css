@@ -47,6 +47,7 @@
 		width: 97%;
 		height: 75%;
 		z-index: 940;
+		background-color: #3399FF;
 	}
 	#navname{
 		font-size: 50px;
@@ -57,7 +58,6 @@
 		letter-spacing: 5px;
 		position: absolute;
 	    top: 55%;
-	    color: white;
 	}
 	#name{
 		font-size: 50px;
