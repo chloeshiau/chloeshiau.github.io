@@ -47,6 +47,7 @@
 		width: 97%;
 		height: 75%;
 		z-index: 940;
+		background-color: yellow;
 	}
 	#navname{
 		font-size: 50px;
