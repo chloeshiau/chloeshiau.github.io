@@ -114,20 +114,36 @@
 	}
 	.container {
 		position: relative;
-		display: inline-block;
-		padding-left: 5%;
-		padding-right: 5%;
-		width: 25%;
-	}
-
-	#intpics {
+		display: table;
 		width: 300px;
 		height: 300px;
 		margin-bottom: 25px;
 		margin-right: 25px;
+	}
+
+	.text {
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		text-align: center;
+		color: white;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	.text:hover {
+		opacity: .8;
+	}
+
+	#intpics {
 		cursor: pointer;
 		text-align: center;
 	}
+
+
 
 	/*------footer---------*/
 	#footer {
