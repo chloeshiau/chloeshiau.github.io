@@ -159,6 +159,9 @@
 	ul {
 		list-style-type: none;
 	}
+	li {
+		display: block;
+	}
 
 	/*------footer---------*/
 	#footer {
