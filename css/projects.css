@@ -198,6 +198,7 @@
 		overflow: auto;
 		min-height: 300px;
 		padding-right: 10%;
+		border-color: black;
 	}
 
 	/*------footer---------*/
