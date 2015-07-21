@@ -168,7 +168,7 @@
 	}
 	#personal, #intern, #school {
 		padding: 20px;
-		min-height: 400px;
+		overflow: auto;
 	}
 
 	/*------footer---------*/
