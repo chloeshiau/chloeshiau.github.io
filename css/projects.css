@@ -172,7 +172,8 @@
 	#projects {
 		width: 100%;
 		overflow: auto;
-
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.projdesc {
 		font-size: 18px;
@@ -180,8 +181,6 @@
 	}
 	#container {
 		float: left;
-		padding-left: 10%;
-		padding-right: 10%;
 		
 	}
 	#container ul {
