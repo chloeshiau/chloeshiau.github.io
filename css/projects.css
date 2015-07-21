@@ -153,20 +153,18 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-	.container {
+	#container {
 		letter-spacing: 3px;
 		float: left;
 		width: 20%;
 		
 	}
-	.container ul {
+	#container ul {
 		list-style-type: none;
 		margin: 0;
-		display: inline;
 	}
-	.container li {
+	#container li {
 		font-size: 22px;
-		display: block;
 		margin: 5px;
 	}
 
