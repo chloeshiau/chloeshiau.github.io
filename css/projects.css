@@ -147,6 +147,7 @@
 	}
 
 */
+
 	#projpics {
 		width: 450px;
 		height: 300px;
@@ -154,13 +155,13 @@
 		margin-right: 25px;
 		border-style: solid;
 		border-width: 1px; 
-		text-align: center;
 		cursor: pointer;
 	}
 	.projdesc {
 		font-size: 18px;
 		letter-spacing: 0px;
 		display: block;
+		width: 450px;
 
 	}
 	.projtitle {
@@ -172,8 +173,6 @@
 	#projects {
 		width: 80%;
 		overflow: auto;
-		margin-left: 10%;
-		margin-right: 10%;
 	}
 	.projdesc {
 		font-size: 18px;
@@ -182,6 +181,7 @@
 	#container {
 		float: left;
 		padding-right: 60px;
+		padding-left: 10%;
 	}
 	#container ul {
 		list-style: none;
@@ -191,9 +191,9 @@
 		margin: 5px;
 	}
 	#personal, #intern, #school {
-		padding: 20px;
 		overflow: auto;
 		min-height: 300px;
+		padding-right: 10%;
 	}
 
 	/*------footer---------*/
