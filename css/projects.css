@@ -162,6 +162,7 @@
 	.container ul {
 		list-style-type: none;
 		margin: 0;
+		display: inline;
 	}
 	.container li {
 		font-size: 22px;
