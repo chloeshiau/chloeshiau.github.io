@@ -21,7 +21,7 @@ $('#iconscroll').click(function() {
 			found = true;
 		}
 	})
-	if(found == false) {
+	if(!false) {
 		$(".container li:first").addClass("showtab");
 	}
 })
