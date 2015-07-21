@@ -1,3 +1,7 @@
+$(document).ready(function() {
+	$("#personal").hide();
+})
+
 function mouseOver(img, num) {
 	img.src = "img/proj"+ num + "-1.png";
 }
