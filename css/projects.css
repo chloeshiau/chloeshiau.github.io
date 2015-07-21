@@ -160,12 +160,14 @@
 	.projdesc {
 		font-size: 18px;
 		letter-spacing: 0px;
+		display: block;
 
 	}
 	.projtitle {
 		font-size: 22px;
 		letter-spacing: 3px;
 		padding-bottom: 10px;
+		display: block;
 	}
 	#projects {
 		width: 100%;
