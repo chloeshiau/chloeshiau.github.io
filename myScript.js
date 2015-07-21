@@ -10,3 +10,18 @@ $('#iconscroll').click(function() {
 	$("html, body").animate({
 		scrollTop:0 }, 600);
 });
+
+#(document).ready(function () {
+	var loc = window.location;
+	var found = false;
+	$(".container a").each(function() {
+		var href = $(this).attr("href");
+		if(href == loc) {
+			$(this).parent().addClass("showtab");
+			found = true;
+		}
+	})
+	if(found == false) {
+		$(".container li:first").addClass("showtab");
+	}
+})
