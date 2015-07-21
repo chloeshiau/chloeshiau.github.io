@@ -30,6 +30,6 @@ $('#iconscroll').click(function() {
 // 	}
 // })
 
-$('#personal a').click(function() {
+$('#p').click(function() {
 	$('#personal').show();
 })
