@@ -6,12 +6,18 @@ $(document).ready(function() {
 
 $('#p').click(function() {
 	$('#personal').show();
+	$("#intern").hide();
+	$("#school").hide();
 })
 $('#i').click(function() {
 	$('#intern').show();
+	$("#school").hide();
+	$("#personal").hide();
 })
 $('#s').click(function() {
 	$('#school').show();
+	$("#personal").hide();
+	$("#intern").hide();
 })
 
 function mouseOver(img, num) {
