@@ -161,7 +161,6 @@
 	}
 	#container ul {
 		list-style: none;
-		display: inline;
 	}
 	#container li {
 		font-size: 22px;
@@ -170,7 +169,6 @@
 	#personal, #intern, #school {
 		padding: 20px;
 		min-height: 400px;
-		display: inline;
 	}
 
 	/*------footer---------*/
