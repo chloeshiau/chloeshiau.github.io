@@ -147,14 +147,28 @@
 	}
 
 */
+
+	.projdesc {
+		font-size: 18px;
+		letter-spacing: 0px;
+
+	}
+	.projtitle {
+		font-size: 22px;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+	}
 	#projects {
 		width: 100%;
 		overflow: auto;
 
 	}
+	.projdesc {
+		font-size: 18px;
+		letter-spacing: 0px;
+	}
 	#container {
 		float: left;
-		width: 150px;
 		padding-left: 10%;
 		padding-right: 10%;
 		
@@ -163,7 +177,7 @@
 		list-style: none;
 	}
 	#container li {
-		font-size: 22px;
+		font-size: 30px;
 		margin: 5px;
 	}
 	#personal, #intern, #school {
