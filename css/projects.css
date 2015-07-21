@@ -168,6 +168,10 @@
 		margin: 5px;
 	}
 
+	#personal, #intern, #school {
+		display: none;
+	}
+
 	/*------footer---------*/
 	#footer {
 		position: relative;
