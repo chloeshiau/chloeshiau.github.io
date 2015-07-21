@@ -154,7 +154,7 @@
 		margin-right: 25px;
 		border-style: solid;
 		border-width: 1px; 
-		float: left;
+		text-align: center;
 		cursor: pointer;
 	}
 	.projdesc {
@@ -181,7 +181,7 @@
 	}
 	#container {
 		float: left;
-		padding-right: 30px;
+		padding-right: 60px;
 	}
 	#container ul {
 		list-style: none;
