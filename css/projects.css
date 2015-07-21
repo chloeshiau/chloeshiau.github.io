@@ -158,11 +158,11 @@
 		float: left;
 		
 	}
-	ul {
+	.container ul {
 		list-style-type: none;
 		margin: 0;
 	}
-	li {
+	.container li {
 		font-size: 22px;
 		display: block;
 		margin: 5px;
