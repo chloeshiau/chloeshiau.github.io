@@ -161,20 +161,16 @@
 	}
 	#container ul {
 		list-style: none;
+		display: inline;
 	}
 	#container li {
 		font-size: 22px;
 		margin: 5px;
 	}
-	#container ul li a, 
-	#container ul li a:visited {
-		display: block;
-		text-decoration: none;
-	}
-
 	#personal, #intern, #school {
 		padding: 20px;
 		min-height: 400px;
+		display: inline;
 	}
 
 	/*------footer---------*/
