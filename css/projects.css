@@ -181,7 +181,7 @@
 	}
 	#container {
 		float: left;
-		
+		padding-right: 30px;
 	}
 	#container ul {
 		list-style: none;
