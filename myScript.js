@@ -1,24 +1,29 @@
-$(document).ready(function() {
-	$("#personal").hide();
-	$("#intern").hide();
-	$("#school").hide();
-})
+// $(document).ready(function() {
+// 	$("#personal").hide();
+// 	$("#intern").hide();
+// 	$("#school").hide();
+// })
 
-$('#p').click(function() {
-	$('#personal').show();
-	$("#intern").hide();
-	$("#school").hide();
-})
-$('#i').click(function() {
-	$('#intern').show();
-	$("#school").hide();
-	$("#personal").hide();
-})
-$('#s').click(function() {
-	$('#school').show();
-	$("#personal").hide();
-	$("#intern").hide();
-})
+// $('#p').click(function() {
+// 	$('#personal').show();
+// 	$("#intern").hide();
+// 	$("#school").hide();
+// })
+// $('#i').click(function() {
+// 	$('#intern').show();
+// 	$("#school").hide();
+// 	$("#personal").hide();
+// })
+// $('#s').click(function() {
+// 	$('#school').show();
+// 	$("#personal").hide();
+// 	$("#intern").hide();
+// })
+
+function showTabs(tabby) {
+	var tab = document.getElementById(tabby);
+	tab.style.opacity = "1";
+}
 
 
 

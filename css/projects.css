@@ -42,7 +42,6 @@
 	    top: 60%;
 	    left: 50%;
 	    margin-right: -50%;
-	    -ms-transition: .9s;
 	    transform: translate(-50%, -50%);
 	    -webkit-transform: translate(-50%, -50%);
     	-ms-transform: translate(-50%, -50%);
@@ -129,6 +128,7 @@
 		overflow: auto;
 		min-height: 300px;
 		padding-right: 12%;
+		opacity: 0;
 	}
 
 	/*------footer---------*/
