@@ -16,6 +16,7 @@ li {
 	margin-left: 25px;
 	margin-right: 25px;
 	border-radius: 50%;
+	font-weight: 300;
 	background-color: black;
 	opacity: .8;
 	width: 90px;
@@ -27,6 +28,7 @@ li:hover {
 	background-color: white;
 	color: black;
 	opacity: .8;
+	font-weight: 400;
 }
 
 /*-------front background--------*/
