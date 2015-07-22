@@ -21,8 +21,7 @@
 // })
 
 function showTabs(tabby) {
-	var tab = document.getElementById(tabby);
-	tab.style.opacity = "1";
+	$("#"+tabby).style.opacity = "1";
 }
 
 
