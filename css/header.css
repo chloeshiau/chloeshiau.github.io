@@ -44,6 +44,8 @@ li:hover {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 	text-transform: uppercase;
 	color: white;
 	z-index: 950;
