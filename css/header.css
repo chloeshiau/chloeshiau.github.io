@@ -25,6 +25,12 @@ li {
 	letter-spacing: 2px;
 }
 
+li:hover {
+	background-color: white;
+	color: black;
+	opacity: .8;
+}
+
 /*-------front background--------*/
 
 #background {
