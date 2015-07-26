@@ -28,15 +28,15 @@
 function showTabs(tab, gethref) {
 	var getTabs = [];
 	$("ul#getul li").each(function() {
-		getTabs.push($(this).attr("id"));
+		getTabs.push($(this).attr("class"));
 	})
 	console.log(getTabs);
 	for(var i = 0; i < getTabs.length; i++) {
 		if(tab == getTabs[i]) {
-			$("."+getTabs[i]).show();
+			$("#"+getTabs[i]).show();
 		}
 		else {
-			$("."+getTabs[i]).hide();
+			$("#"+getTabs[i]).hide();
 		}
 	}
 }
