@@ -27,8 +27,8 @@
 
 function showTabs(tab) {
 	var getTabs = [];
-	$("#getul ul li").each(function() {
-		getTabs.push($(this).attr('id'))
+	$("ul#getul li").each(function() {
+		getTabs.push($(this).attr("id"));
 	})
 	console.log(getTabs);
 	for(var i = 0; i < getTabs.length; i++) {
