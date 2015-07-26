@@ -128,7 +128,7 @@
 		overflow: auto;
 		min-height: 300px;
 		padding-right: 12%;
-		opacity: 0;
+		display: none;
 	}
 
 	/*------footer---------*/
