@@ -25,7 +25,7 @@
 // 	$("#"+tabby).style.opacity = "1";
 // }
 
-function showTabs(tab) {
+function showTabs(tab, gethref) {
 	var getTabs = [];
 	$("ul#getul li").each(function() {
 		getTabs.push($(this).attr("id"));
@@ -33,10 +33,10 @@ function showTabs(tab) {
 	console.log(getTabs);
 	for(var i = 0; i < getTabs.length; i++) {
 		if(tab == getTabs[i]) {
-			$("#"+getTabs[i]).show();
+			$("."+getTabs[i]).show();
 		}
 		else {
-			$("#"+getTabs[i]).hide();
+			$("."+getTabs[i]).hide();
 		}
 	}
 }
