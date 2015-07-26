@@ -75,12 +75,5 @@ li:hover {
 #pic {
 	position: absolute;
 	height: 100%;
-/*    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-	width: 97%;
-	height: 95%;*/
+	width: 100%;
 }
