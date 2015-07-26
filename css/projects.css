@@ -124,7 +124,7 @@
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
-	#personal, #intern, #school {
+	#p, #i, #s {
 		overflow: auto;
 		min-height: 300px;
 		padding-right: 12%;
