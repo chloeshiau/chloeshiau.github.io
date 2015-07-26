@@ -32,14 +32,14 @@
 	}
 	#backdesc {
 		position: relative;
-  		height: 25%;
+  		height: 30%;
   		z-index: 950;
 	}
 	#pic {
 		margin: 0;
 		display: block;
 		position: absolute;
-	    top: 500px;
+	    top: 60%;
 	    left: 50%;
 	    margin-right: -50%;
 	    transform: translate(-50%, -50%);
