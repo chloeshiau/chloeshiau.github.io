@@ -28,17 +28,17 @@
 function showTabs(tab) {
 	var getTabs = [];
 	$("#getul ul li").each(function() {
-		getTabs.push($(this).text())
+		getTabs.push($(this).attr('id'))
+	})
 
-		for(var i = 0; i < getTabs.length; i++) {
-			if(tab == getTabs[i]) {
-				$("#"+getTabs[i]).show();
-			}
-			else {
-				$("#"+getTabs[i]).hide();
-			}
+	for(var i = 0; i < getTabs.length; i++) {
+		if(tab == getTabs[i]) {
+			$("#"+getTabs[i]).show();
 		}
-	})	
+		else {
+			$("#"+getTabs[i]).hide();
+		}
+	}
 }
 
 
