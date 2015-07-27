@@ -126,7 +126,7 @@
 	}
 	#p, #i, #s {
 		overflow: auto;
-		min-height: 300px;
+		min-height: 500px;
 		padding-right: 12%;
 		display: none;
 	}
