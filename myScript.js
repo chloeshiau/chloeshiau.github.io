@@ -1,32 +1,4 @@
-// $(document).ready(function() {
-// 	$("#personal").hide();
-// 	$("#intern").hide();
-// 	$("#school").hide();
-// })
-
-// $('#p').click(function() {
-// 	$('#personal').show();
-// 	$("#intern").hide();
-// 	$("#school").hide();
-// })
-// $('#i').click(function() {
-// 	$('#intern').show();
-// 	$("#school").hide();
-// 	$("#personal").hide();
-// })
-// $('#s').click(function() {
-// 	$('#school').show();
-// 	$("#personal").hide();
-// 	$("#intern").hide();
-// })
-
-// function showTabs(tabby) {
-// 	if($("#"+tabby).css('opacity') != 1) 
-// 	$("#"+tabby).style.opacity = "1";
-// }
-
 function showTabs(tab) {
-	console.log(tab.id);
 	var getTabs = [];
 	$("ul#getul li").each(function() {
 		getTabs.push($(this).attr("id"));
@@ -36,12 +8,10 @@ function showTabs(tab) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
-			console.log("works"+x);
 		}
 		else {
 			var y = getTabs[i].charAt(0);
 			$("#"+y).hide();
-			console.log("not works"+y);
 		}
 	}
 }
