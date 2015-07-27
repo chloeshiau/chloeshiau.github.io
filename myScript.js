@@ -26,8 +26,7 @@
 // }
 
 function showTabs(tab) {
-	var newtab = String(tab);
-	console.log(newtab);
+	console.log(tab);
 	var getTabs = [];
 	$("ul#getul li").each(function() {
 		getTabs.push($(this).attr("id"));
