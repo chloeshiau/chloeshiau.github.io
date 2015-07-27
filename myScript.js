@@ -33,7 +33,7 @@ function showTabs(tab) {
 	})
 	console.log(getTabs);
 	for(var i = 0; i < getTabs.length; i++) {
-		if(tab == getTabs[i]) {
+		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
 			console.log("works"+x);
