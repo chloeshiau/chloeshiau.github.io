@@ -108,13 +108,13 @@
 	.projdesc {
 		font-size: 18px;
 		letter-spacing: 0px;
-		padding-top: 100px;
 		padding-bottom: 10px;
 	}
 	#container {
 		float: left;
 		padding-right: 150px;
 		padding-left: 12%;
+		padding-top: 100px;
 	}
 	#container ul {
 		list-style: none;
