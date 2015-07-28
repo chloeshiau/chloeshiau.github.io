@@ -7,6 +7,7 @@ function showTabs(tab) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
+			$("#"+tab.id).css('border-bottom', 'solid black 2px');
 		}
 		else {
 			var y = getTabs[i].charAt(0);

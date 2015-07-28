@@ -90,6 +90,7 @@
 		letter-spacing: 3px;
 		padding-bottom: 10px;
 		display: block;
+		width: 450px;
 		border-bottom: solid black 2px;
 	}
 	#projects {
