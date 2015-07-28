@@ -122,6 +122,9 @@
 		font-size: 30px;
 		margin-top: 0;
 		margin-bottom: 10px;
+	}
+
+	li#personal, li#internships, li#school {
 		display: inline-block;
 	}
 	#p, #i, #s {
