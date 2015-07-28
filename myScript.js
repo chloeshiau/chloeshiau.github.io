@@ -12,7 +12,7 @@ function showTabs(tab) {
 		else {
 			var y = getTabs[i].charAt(0);
 			$("#"+y).hide();
-			$("#"+tab.id).css('border-bottom', 'none');
+			
 		}
 	}
 }
