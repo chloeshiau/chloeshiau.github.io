@@ -108,11 +108,11 @@
 		text-align: center;
 	}
 	.intdesc {
-		font-size: 18px;
-		letter-spacing: 0px;
-		height: 298px;
+		font-size: 32px;
+		font-weight: 300;
 		text-align: left;
-
+		margin-left: 20px;
+		margin-bottom: 10px;
 	}
 	.container {
 		position: relative;
