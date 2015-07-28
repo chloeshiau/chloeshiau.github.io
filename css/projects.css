@@ -97,8 +97,7 @@
 		letter-spacing: 3px;
 		padding-bottom: 10px;
 		display: block;
-		border-bottom: 1px;
-		border-color: black;
+		border-bottom: solid black 2px;
 	}
 	#projects {
 		width: 80%;
