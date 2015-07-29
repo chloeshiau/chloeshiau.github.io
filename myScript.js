@@ -25,7 +25,7 @@ document.onreadystatechange = function() {
 	}
 	else if (state == 'complete') {
 		setTimeout(function() {
-			d$('#body').show();
+			$('#body').show();
 			document.getElementById('load').style.visibility = "hidden";
 			console.log("hello i am in complete"); 
 		}, 1000);
