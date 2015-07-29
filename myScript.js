@@ -21,11 +21,13 @@ document.onreadystatechange = function() {
 	var state = document.readyState;
 	if(state == 'interactive') {
 		document.getElementById('body').style.visibility = "hidden";
+		console.log("not there yet");
 	}
 	else if (state == 'complete') {
 		setTimeout(function() {
 			document.getElementById('load').style.visibility = "hidden";
-			document.getElementById('body').style.visibility = "visibile"; 
+			document.getElementById('body').style.visibility = "visibile";
+			console.log("hello i am in complete"); 
 		}, 1000);
 	}
 }
