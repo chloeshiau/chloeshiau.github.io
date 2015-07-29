@@ -141,12 +141,22 @@
 	.intpics {
 		cursor: pointer;
 		text-align: center;
+	    width: 300px;
+		height: 300px;	
+	}
+	.imgwrap {
+		position: relative;
 		width: 300px;
-		height: 300px;
+		height: 300px;	
 		margin-bottom: 25px;
 		margin-right: 25px;
 	}
-
+	.imgdesc {
+		position: absolute;
+		bottom: 0;
+		background: rgba(0,0,0,0.6);
+		color: #FFFFFF;
+	}
 
 
 	/*------footer---------*/
