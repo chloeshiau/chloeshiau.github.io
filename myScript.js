@@ -26,7 +26,7 @@ document.onreadystatechange = function() {
 	else if (state == 'complete') {
 		setTimeout(function() {
 			document.getElementById('body').show();
-			document.getElementById('load').hide();
+			document.getElementById('load').style.visibility = "hidden";
 			console.log("hello i am in complete"); 
 		}, 1000);
 	}
