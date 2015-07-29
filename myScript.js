@@ -17,6 +17,19 @@ function showTabs(tab) {
 	}
 }
 
+document.onreadystatechange = function() {
+	var state = document.readyState;
+	if(state == 'interactive') {
+		document.getElementById('body').style.visibility = "hidden";
+	}
+	else if (state == 'complete') {
+		setTimeout(function() {
+			document.getElementById('load').style.visibility = "hidden";
+			document.getElementById('body').style.visibility = "visibile"; 
+		}, 1000);
+	}
+}
+
 
 function mouseOver(img, num) {
 	img.src = "img/proj"+ num + "-1.png";
