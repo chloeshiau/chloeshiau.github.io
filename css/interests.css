@@ -156,8 +156,15 @@
 		height: 300px;
 		bottom: 0;
 		text-align: center;
+		visibility: hidden;
+		opacity: 0;
 		background: rgba(0,0,0,0.6);
 		color: #FFFFFF;
+	}
+
+	.imgwrap:hover .imgdesc {
+		visibility: visible;
+		opacity: 1;
 	}
 
 
