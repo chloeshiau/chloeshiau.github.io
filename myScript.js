@@ -20,12 +20,12 @@ function showTabs(tab) {
 document.onreadystatechange = function() {
 	var state = document.readyState;
 	if(state == 'interactive') {
-		document.getElementById('body').hide();
+		$('#body').hide();
 		console.log("not there yet");
 	}
 	else if (state == 'complete') {
 		setTimeout(function() {
-			document.getElementById('body').show();
+			d$('#body').show();
 			document.getElementById('load').style.visibility = "hidden";
 			console.log("hello i am in complete"); 
 		}, 1000);
