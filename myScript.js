@@ -1,3 +1,4 @@
+// projects
 function showTabs(tab) {
 	var getTabs = [];
 	$("ul#getul li").each(function() {
@@ -17,22 +18,7 @@ function showTabs(tab) {
 	}
 }
 
-document.onreadystatechange = function() {
-	var state = document.readyState;
-	if(state == 'interactive') {
-		document.getElementById('body').style.opacity = 0;
-		console.log("not there yet");
-	}
-	else if (state == 'complete') {
-		setTimeout(function() {
-			document.getElementById('body').style.opacity = 1;
-			document.getElementById('load').style.visibility = "hidden";
-			console.log("hello i am in complete"); 
-		}, 1000);
-	}
-}
-
-
+//projects
 function mouseOver(img, num) {
 	img.src = "img/proj"+ num + "-1.png";
 }
@@ -40,9 +26,31 @@ function mouseOver(img, num) {
 function mouseOut(img, num) {
 	img.src = "img/proj"+ num + ".png";
 }
+//front page
+document.onreadystatechange = function() {
+	var state = document.readyState;
+	if(state == 'interactive') {
+		document.getElementById('body').style.opacity = 0;
+	}
+	else if (state == 'complete') {
+		setTimeout(function() {
+			document.getElementById('body').style.opacity = 1;
+			document.getElementById('load').style.visibility = "hidden";
+		}, 1000);
+	}
+}
 
+//every page
 $('#iconscroll').click(function() {
 	$("html, body").animate({
 		scrollTop:0 }, 600);
 });
+
+//contact
+window.onload = function() {
+	var getContact = [];
+	
+}
+
+
 
