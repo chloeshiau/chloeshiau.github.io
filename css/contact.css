@@ -86,7 +86,10 @@
 		padding-top: 50px;
 	}
 	#container {
-		float:left;
+		float: left;
+		padding-right: 150px;
+		padding-left: 12%;
+		padding-top: 100px;
 	}
 	#container ul {
 		list-style: none;
@@ -98,7 +101,7 @@
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
-	li.poc {
+	li#poc {
 		display: inline-block;
 	}
 	/*------footer---------*/
