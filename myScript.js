@@ -48,8 +48,12 @@ $('#iconscroll').click(function() {
 
 //contact
 window.onload = function() {
-	var getContact = [];
-	
+	var num = 0;
+	$("ul#getcontact li").each(function() {
+		var temp = String(num);
+		$(this).display.css("padding-right", temp+"px");
+		num = num + 40;
+	})
 }
 
 
