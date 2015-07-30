@@ -47,10 +47,16 @@ li {
 }
 
 li:hover {
-	background-color: white;
+/*	background-color: white;
 	color: black;
 	opacity: .8;
-	font-weight: 500;
+	font-weight: 500;*/
+	background-color: white;
+	opacity: .8;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
 }
 
 /*-------front background--------*/
