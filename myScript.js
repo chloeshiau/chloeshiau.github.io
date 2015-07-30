@@ -47,9 +47,9 @@ $('#iconscroll').click(function() {
 });
 
 //contact
+var num = 0;
 window.onload = function() {
-	var num = 0;
-	$("ul#getcontact li").each(function() {
+	$("ul#getcontact li.poc").each(function() {
 		$(this).style.paddingRight = num + "px";
 		num = num + 40;
 	})
