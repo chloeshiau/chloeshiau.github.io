@@ -50,7 +50,6 @@ $('#iconscroll').click(function() {
 window.onload = function() {
 	var num = 0;
 	$("ul#getcontact li").each(function() {
-		var temp = String(num);
 		$(this).style.paddingRight = num + "px";
 		num = num + 40;
 	})
