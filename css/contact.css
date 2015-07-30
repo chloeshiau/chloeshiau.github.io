@@ -93,6 +93,9 @@
 		padding-bottom: 15px;
 		text-align: left;
 	}
+	#container {
+		float:left;
+	}
 	#container ul {
 		list-style: none;
 		margin: 0;
