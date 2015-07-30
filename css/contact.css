@@ -85,13 +85,15 @@
 		text-align: center;
 		padding-top: 50px;
 	}
-	.poc li{
-		display: inline-block;
+	.poc{
 		font-size: 82px;
 		font-weight: 700;
 		letter-spacing: 2px;
 		padding-left: 40px;
 		padding-bottom: 15px;
+	}
+	#container li {
+		display: inline-block;
 	}
 	#container {
 		float:left;
