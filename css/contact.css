@@ -87,9 +87,9 @@
 	}
 	#container {
 		float: left;
-		padding-right: 150px;
+		padding-right: 80px;
 		padding-left: 12%;
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 	#container ul {
 		list-style: none;
@@ -97,8 +97,9 @@
 		padding: 0;
 	}
 	li#poc {
-		font-size: 82px;
-		font-weight: 700;
+		font-size: 92px;
+		font-weight: 600;
+		text-align: left;
 		margin-top: 0;
 		margin-bottom: 10px;
 		display: block;
