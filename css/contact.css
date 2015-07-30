@@ -87,9 +87,7 @@
 	}
 	#container {
 		float: left;
-		padding-right: 80px;
-		padding-left: 12%;
-		padding-top: 80px;
+		padding: 80px 80px 12% 50px;
 	}
 	#container ul {
 		list-style: none;
