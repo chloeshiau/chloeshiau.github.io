@@ -112,7 +112,7 @@
 	}
 	#container {
 		float: left;
-		padding-right: 10%;
+		padding-right: 14%;
 		padding-left: 12%;
 		padding-top: 100px;
 	}
@@ -131,8 +131,8 @@
 	}
 	#p, #i, #s {
 		overflow: auto;
-		min-height: 500px;
 		padding-right: 12%;
+		padding-top: 80px;
 		display: none;
 	}
 
