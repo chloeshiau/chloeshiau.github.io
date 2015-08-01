@@ -102,12 +102,12 @@
 		padding-right: 0px;
 		margin-bottom: 10px;
 		display: block;
-		cursor: pointer;
 	}
 
 	#actualcont {
-		font-size:42px;
-		padding-left: 20px;
+		font-size:32px;
+		cursor: pointer;
+		padding-left: 25px;
 		display: inline-block;
 		font-weight: 300;
 	}
