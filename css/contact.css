@@ -107,6 +107,7 @@
 
 	#actualcont {
 		font-size:42px;
+		display: inline-block;
 		font-weight: 300;
 	}
 
