@@ -90,7 +90,6 @@
 		width: 450px;
 	}
 	#container {
-		float: left;
 		padding-right: 14%;
 		padding-left: 12%;
 		padding-top: 100px;
@@ -106,7 +105,7 @@
 	}
 
 	li#personal, li#internships, li#school {
-		display: inline-block;
+		display: block;
 	}
 	#p, #i, #s {
 		overflow: auto;
