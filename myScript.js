@@ -8,14 +8,12 @@ function showTabs(tab) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
-			document.getElementById("#"+tab.id).style.color = '#FF6666';
-			//$("#"+tab.id).style.color = '#FF6666';
+			$("#"+tab.id).css('text-decoration-line', 'underline');
 		}
 		else {
 			var y = getTabs[i].charAt(0);
 			$("#"+y).hide();
-			document.getElementById("#"+getTabs[i]).style.color = 'black';
-			//$("#"+getTabs[i]).style.color = 'black';
+			$("#"+getTabs[i]).css('text-decoration-line', 'none');
 		}
 	}
 }
