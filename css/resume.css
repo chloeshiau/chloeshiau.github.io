@@ -71,12 +71,10 @@
 		overflow: auto;
 		margin: 70px 10% 30px 10%;
 		padding: 2%;
-		background-color: black;
-		opacity:.5;
-		z-index:-1;
+		border-style: dotted;
+		border-width: 5px;
 	}
 	.expdetails {
-		z-index:1000;
 		letter-spacing: 3px;
 		font-size: 30px;
 		text-align: left;
