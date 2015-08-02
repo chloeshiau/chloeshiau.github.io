@@ -2,6 +2,7 @@
 
 	#navigation2 {
 		font-family: 'Lato', sans-serif;
+		text-align: center;
 		height: 45px;
 		z-index: 955;
 		padding-top: 20px;
@@ -39,7 +40,7 @@
 		z-index: 1000;
 		text-align: center;
 		letter-spacing: 5px;
-		position: absolute;
+		position: relative;
 		top: 53%;
 		left: 50%;
 	    margin-right: -50%;
@@ -56,6 +57,7 @@
 		letter-spacing: 5px;
 	}
 	#description{
+		text-align: center;
 		margin-top: 3px;
 		letter-spacing: 3px;
 		line-height: 20px;
