@@ -73,6 +73,7 @@
 		padding: 2%;
 		border-style: dotted;
 		border-width: 5px;
+		border-radius: 15px;
 	}
 	.expdetails {
 		letter-spacing: 3px;
