@@ -65,22 +65,21 @@
 		font-size: 17px;
 		text-align: left;
 		z-index: 99;
-		padding-left: 12%;
-		padding-right: 12%;
 	}
 	#experience {
 		width: 100%;
+		vertical-align: middle;
 		overflow: auto;
 		padding-top: 70px;
 		padding-bottom: 30px;
+		padding-left: 12%;
+		padding-right: 12%;
 	}
 	.expdetails {
 		letter-spacing: 3px;
 		font-size: 30px;
 		text-align: left;
 		padding-top: 20px;
-		padding-left: 12%;
-		padding-right: 12%;
 	}
 	.company {
 		font-weight: 600;
