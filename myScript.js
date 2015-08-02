@@ -8,12 +8,14 @@ function showTabs(tab) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
-			$("#"+tab.id).style.color = '#FF6666';
+			document.getElementById("#"+tab.id).style.color = '#FF6666';
+			//$("#"+tab.id).style.color = '#FF6666';
 		}
 		else {
 			var y = getTabs[i].charAt(0);
 			$("#"+y).hide();
-			$("#"+getTabs[i]).style.color = 'black';
+			document.getElementById("#"+getTabs[i]).style.color = 'black';
+			//$("#"+getTabs[i]).style.color = 'black';
 		}
 	}
 }
