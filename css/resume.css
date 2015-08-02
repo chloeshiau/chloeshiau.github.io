@@ -31,6 +31,7 @@
 	#navname{
 		font-size: 50px;
 		z-index: 1000;
+		width: 100%;
 		text-align: center;
 		letter-spacing: 5px;
 		position: relative;
