@@ -23,9 +23,6 @@
 
 	/*-------front background--------*/
 
-	#background {
-		text-align: center;
-	}
 	#backdesc {
 		position: relative;
   		height: 25%;
@@ -52,6 +49,7 @@
     	-ms-transform: translate(-50%, -50%);
 	}
 	#name{
+		text-align: center;
 		font-size: 50px;
 		font-weight: 400;
 		padding-top: 5px;
