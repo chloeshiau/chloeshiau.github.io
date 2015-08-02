@@ -40,7 +40,7 @@
 		text-align: center;
 		letter-spacing: 5px;
 		position: absolute;
-		top: 50%;
+		top: 53%;
 		left: 50%;
 	    margin-right: -50%;
 	    -webkit-transition: .9s;
@@ -64,12 +64,7 @@
 
 
 /*----------interests------------*/
-	#contact {
-		position: relative;
-		width: 100%;
-		overflow: auto;
-		padding-top: 20px;
-	}
+
 	#container {
 		float: left;
 		padding: 70px 6% 70px 6%;
