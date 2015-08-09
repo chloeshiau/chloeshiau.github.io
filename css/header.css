@@ -83,8 +83,7 @@ li:hover {
 	font-size: 90px;
 	letter-spacing: 3px;
 	font-weight: 500;
-	/*font-family: 'Shadows Into Light', cursive;*/
-	font-family: 'Coming Soon', cursive;
+	font-family: proxima-nova, sans-serif;
 }
 
 #description{
