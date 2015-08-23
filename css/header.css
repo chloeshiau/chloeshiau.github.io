@@ -80,8 +80,8 @@ li:hover {
 }
 
 #name{
-	font-size: 90px;
-	letter-spacing: 3px;
+	font-size: 75px;
+	letter-spacing: 1px;
 	font-weight: 300;
 	font-family: proxima-nova, sans-serif;
 }
