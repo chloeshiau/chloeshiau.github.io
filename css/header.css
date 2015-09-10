@@ -1,5 +1,6 @@
 body {
 	background-color: #000000;
+	text-align: center;
 }
 
 #load{
@@ -22,7 +23,7 @@ body {
 
 #navigation2 {
 	padding-top: 50px;
-	font-size: 12px;
+	font-size: 22px;
 }
 #nav {
 	cursor: pointer;
@@ -83,7 +84,6 @@ li:hover {
 	font-size: 75px;
 	letter-spacing: 1px;
 	font-weight: 300;
-	font-family: proxima-nova, sans-serif;
 }
 
 #description{
@@ -102,13 +102,15 @@ li:hover {
 
 
 .svg-wrapper {
+  position: relative;
+  top: 50%;
   transform: translateY(-50%);
 	  margin: 0 auto;
-  width: 320px;  
+  width: 620px;  
 }
 .shape {
   stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
+  stroke-dashoffset: -374;
   stroke-width: 8px;
   fill: transparent;
   stroke: #19f6e8;
@@ -126,6 +128,6 @@ li:hover {
 }
 .svg-wrapper:hover .shape {
   stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 760;
+  stroke-dashoffset: 20;
+  stroke-dasharray: 560;
 }
