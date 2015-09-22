@@ -126,6 +126,15 @@ li:hover {
   top: -48px;
   position: relative;
 }
+.desc {
+  font-family: 'Roboto Condensed';
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
 .svg-wrapper:hover .shape {
   stroke-width: 2px;
   stroke-dashoffset: 0;
