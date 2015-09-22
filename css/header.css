@@ -28,14 +28,11 @@ body {
 	padding-left: 0px;
 	position: absolute;
 	top: 70%;
+	list-style-type: none;
 	transform: translateY(-50%);
 }
 #nav {
 	cursor: pointer;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
 }
 li {
 	display: inline-block;
