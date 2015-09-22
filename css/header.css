@@ -30,7 +30,7 @@ body {
 	list-style-type: none;
 	transform: translateY(-50%);
 }
-li{
+#nav{
 	cursor: pointer;
 	display: inline-block;
 	margin-left: 25px;
