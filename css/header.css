@@ -24,6 +24,7 @@ body {
 #navigation2 {
 	padding-top: 50px;
 	font-size: 12px;
+	padding-left: 0px;
 }
 #nav {
 	cursor: pointer;
