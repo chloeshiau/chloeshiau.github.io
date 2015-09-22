@@ -80,10 +80,10 @@ li:hover {
   position: relative;
 }
 .desc {
-  padding-top: 10px;
+  padding-top: 15px;
   font-family: 'Roboto Condensed';
   font-size: 12px;
-  line-height: 32px;
+  line-height: 22px;
   letter-spacing: 4px;
   color: #fff;
   top: -48px;
