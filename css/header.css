@@ -3,7 +3,7 @@ body {
 	text-align: center;
 }
 
-#load{
+/*#load{
     width:100%;
     height:100%;
     position:fixed;
@@ -19,11 +19,11 @@ body {
     -ms-transition: opacity 1s ease-in;
     transition: opacity 1s ease-in;
 }
-
+*/
 
 #navigation2 {
 	padding-top: 50px;
-	font-size: 22px;
+	font-size: 12px;
 }
 #nav {
 	cursor: pointer;
@@ -34,19 +34,19 @@ ul {
 }
 li {
 	display: inline-block;
-	padding-top: 40px;
-	margin-top: 50px;
+/*	padding-top: 40px;
+	margin-top: 50px;*/
 	margin-left: 25px;
 	margin-right: 25px;
-	border-radius: 50%;
+/*	border-radius: 50%;*/
 	font-weight: 300;
 	background-color: black;
-	opacity: .8;
-	width: 90px;
-	height: 50px;
+/*	opacity: .8;*/
+/*	width: 90px;
+	height: 50px;*/
 	letter-spacing: 2px;
 }
-
+/*
 li:hover {
 	background-color: white;
 	color: black;
@@ -56,7 +56,7 @@ li:hover {
     -moz-transition: background-color 1s;
     -o-transition: background-color 1s;
     transition: background-color 1s;
-}
+}*/
 
 /*-------front background--------*/
 
@@ -104,7 +104,7 @@ li:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-	  margin: 0 auto;
+  margin: 0 auto;
   width: 320px;  
 }
 .shape {
