@@ -1,5 +1,6 @@
 body {
 	background-color: #000000;
+	font-family: 'Roboto Condensed';
 	text-align: center;
 }
 
@@ -54,7 +55,7 @@ li:hover {
 /*-------front background--------*/
 
 
-.svg-wrapper {
+.name-wrapper {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -64,15 +65,14 @@ li:hover {
 .shape {
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
-  stroke-width: 8px;
+  stroke-width: 5px;
   fill: transparent;
   stroke: #19f6e8;
   border-bottom: 5px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 .name {
-  font-family: 'Roboto Condensed';
-  font-size: 22px;
+  font-size: 24px;
   line-height: 32px;
   letter-spacing: 8px;
   color: #fff;
@@ -80,16 +80,12 @@ li:hover {
   position: relative;
 }
 .desc {
-  padding-top: 15px;
-  font-family: 'Roboto Condensed';
+  padding-bottom: 10px;
   font-size: 12px;
-  line-height: 22px;
   letter-spacing: 4px;
   color: #fff;
-  top: -48px;
-  position: relative;
 }
-.svg-wrapper:hover .shape {
+.name-wrapper:hover .shape {
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
