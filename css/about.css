@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+	color: white;
+}
 	#navigation2 {
 		font-family: 'Lato', sans-serif;
 		text-align: center;
@@ -68,6 +72,7 @@
 	}
 	#about {
 		position: relative;
+		font-family: 'Bree Serif', serif;
 		padding-top: 80px;
 		padding-bottom: 30px;
 		width: 100%;
