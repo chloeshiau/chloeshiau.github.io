@@ -29,7 +29,7 @@ body {
 	width: 100%;
 	font-size: 12px;
 	padding-left: 0px;
-	position: absolute;
+	position: relative;
 	top: 60%;
 	list-style-type: none;
 	transform: translateY(-50%);
@@ -85,6 +85,7 @@ li:hover {
 .desc {
   padding-bottom: 10px;
   font-size: 12px;
+  position: relative;
   letter-spacing: 4px;
   color: #fff;
   top: 50%;
