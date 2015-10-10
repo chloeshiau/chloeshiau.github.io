@@ -67,7 +67,7 @@ li:hover {
 }
 .shape {
   stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
+  stroke-dashoffset: -574;
   stroke-width: 5px;
   fill: transparent;
   stroke: #19f6e8;
@@ -93,5 +93,5 @@ li:hover {
 .name-wrapper:hover .shape {
   stroke-width: 2px;
   stroke-dashoffset: 0;
-  stroke-dasharray: 760;
+  stroke-dasharray: 960;
 }
