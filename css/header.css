@@ -11,6 +11,7 @@ body {
   position: absolute;
   background: black;
   overflow: hidden;
+  height: 100%;
 }
 
 .bg-wrapper img {
