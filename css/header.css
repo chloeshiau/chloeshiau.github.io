@@ -8,15 +8,14 @@ body {
 }
 
 .bg-wrapper {
-  position: relative;
+  position: absolute;
   background: black;
   overflow: hidden;
 }
 
 .bg-wrapper img {
-  position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: -1;
   opacity: .6;
 }
 .name-wrapper {
@@ -62,7 +61,6 @@ body {
   margin-left: 25px;
   margin-right: 25px;
   font-weight: 300;
-  background-color: black;
   letter-spacing: 2px;
 }
 
