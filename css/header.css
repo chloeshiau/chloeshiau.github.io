@@ -22,7 +22,7 @@ body {
 }
 .name-wrapper {
   position: relative;
-  top: 40%;
+  top: 30%;
   transform: translateY(-50%);
   margin: 0 auto;
   width: 420px;  
@@ -72,7 +72,7 @@ body {
   position: relative;
   letter-spacing: 4px;
   color: #fff;
-  top: 30%;
+  top: 20%;
 }
 
 .name-wrapper:hover .shape {

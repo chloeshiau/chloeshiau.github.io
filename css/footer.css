@@ -27,3 +27,11 @@ a:visited {
 a:hover {
 	color: white;
 }
+
+
+
+.about {
+	top:100%;
+	height: 300px;
+	background-color: yellow;
+}
