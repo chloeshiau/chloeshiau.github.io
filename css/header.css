@@ -52,6 +52,7 @@ body {
   font-size: 12px;
   padding-left: 0px;
   position: relative;
+  font-family: 'Lato', sans-serif;
   top: 50%;
   list-style-type: none;
   transform: translateY(-50%);
