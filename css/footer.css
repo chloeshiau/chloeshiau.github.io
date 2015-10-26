@@ -47,6 +47,7 @@ a:hover {
 .interests {
 	position: relative;
 	overflow: hidden;
+	padding: 70px 0px 70px 0px;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 
