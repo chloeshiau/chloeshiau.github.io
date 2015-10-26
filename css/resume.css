@@ -67,14 +67,12 @@
 	}
 	#experience {
 		overflow: auto;
-		margin: 70px 10% 30px 10%;
 		padding: 2%;
 	}
 	.expdetails {
 		display: inline-block;
 		letter-spacing: 3px;
 		font-size: 30px;
-		padding: 7px;
 		margin: 25px 0px 5px 0px;
 		color: #19f6e8;
 
