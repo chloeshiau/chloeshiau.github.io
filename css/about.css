@@ -69,12 +69,13 @@
 	#myname {
 		color: #19f6e8;
 		font-weight: 500;
+		display: inline;
 	}
 	#about {
 		position: relative;
 		font-family: 'Lato', sans-serif;
 		padding-top: 80px;
-		padding-bottom: 30px;
+		padding-bottom: 80px;
 		overflow: auto;
 		background-color: white;
 	}
