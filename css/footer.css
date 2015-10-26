@@ -52,3 +52,22 @@ a:hover {
 	font-family: 'Lato', sans-serif;
 
 }
+
+#footer {
+	position: relative;
+	overflow: auto;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 12px;
+}
+#iconwrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.icon {
+	height:20px;
+	width: 20px;
+	margin: 5px 5px 30px 5px;
+	display: inline;
+	cursor: pointer;
+}

@@ -122,23 +122,3 @@
 		padding-top: 80px;
 		display: none;
 	}
-
-	/*------footer---------*/
-	#footer {
-		width: 100%;
-		overflow: auto;
-		padding-top: 25px;
-		text-align: center;
-		font-size: 12px;
-	}
-	#iconwrapper {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	.icon {
-		height:35px;
-		width: 35px;
-		margin: 5px 5px 30px 5px;
-		display: inline;
-		cursor: pointer;
-	}
