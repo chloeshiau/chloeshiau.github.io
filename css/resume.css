@@ -64,7 +64,6 @@
 	
 	.resumedetails {
 		font-size: 12px;
-		float: left;
 	}
 	#experience {
 		overflow: auto;
@@ -78,7 +77,6 @@
 		padding: 7px;
 		margin: 25px 0px 5px 0px;
 		color: #19f6e8;
-		float: left;
 
 	}
 	.company {
