@@ -66,10 +66,11 @@
 	}
 
 	#projpics {
-		width: 350px;
+		width: 300px;
 		height: 200px;
 		margin-bottom: 25px;
 		margin-right: 25px;
+		float: right;
 		border-style: solid;
 		border-width: 1px; 
 		cursor: pointer;
@@ -81,6 +82,10 @@
 		display: block;
 		width: 450px;
 		border-bottom: solid black 2px;
+	}
+	.projwrap {
+		width: 50%;
+		float: left;
 	}
 
 	.projdesc {

@@ -39,10 +39,10 @@ a:hover {
 }
 .resume {
 	position: relative;
-	text-align: left;
 	background-color: #A8A8A8;
 }
 .interests {
 	position: relative;
+	text-align: center;
 
 }
