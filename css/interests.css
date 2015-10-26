@@ -84,10 +84,6 @@
 	    width: 200px;
 		height: 200px;	
 	}
-	.exppics {
-		width:250px;
-		height: 250px;
-	}
 	.intphoto {
 		width:390px;
 		height:250px;
@@ -111,6 +107,11 @@
 	.expimg-wrapper .imgdesc {
 		width: 250px;
 	}
+
+	.expimg-wrapper .intpics {
+		width: 250px;
+		height: 250px;
+	}
 	.imgdesc {
 		position: absolute;
 		width: 200px;
@@ -125,7 +126,7 @@
 		cursor: pointer;
 	}
 
-	.imgwrap:hover .imgdesc {
+	.imgwrap:hover .expimg-wrapper:hover .imgdesc {
 		opacity: 1;
 	}
 
