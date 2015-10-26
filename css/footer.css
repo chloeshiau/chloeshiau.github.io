@@ -57,6 +57,10 @@ a:hover {
 	padding: 70px 0px 70px 0px;
 	text-align: center;
 }
+.travel {
+	position: relative;
+	overflow: hidden;
+}
 
 
 #footer {
