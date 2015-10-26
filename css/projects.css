@@ -73,7 +73,7 @@
 		float: right;
 		border-style: solid;
 		border-color: #909090;
-		border-width: 3px; 
+		border-width: 5px; 
 		cursor: pointer;
 	}
 	.projtitle {
@@ -85,7 +85,7 @@
 		border-bottom: solid black 2px;
 	}
 	.projwrap {
-		width: 665px;
+		width: 675px;
 		float: right;
 	}
 
