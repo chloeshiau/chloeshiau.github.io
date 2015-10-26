@@ -126,7 +126,10 @@
 		cursor: pointer;
 	}
 
-	.imgwrap:hover .expimg-wrapper:hover .imgdesc {
+	.imgwrap:hover .imgdesc {
+		opacity: 1;
+	}
+	.expimg-wrapper .imgdesc {
 		opacity: 1;
 	}
 
