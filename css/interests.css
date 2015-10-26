@@ -96,22 +96,7 @@
 		text-align: center;
 		display: inline-block;
 	}
-	.expimg-wrapper {
-		position: relative;
-		height: 250px;
-		border: #909090 solid 5px;
-		margin: 0px 2px 25px 2px;
-		text-align: center;
-		display: inline-block;
-	}
-	.expimg-wrapper .imgdesc {
-		width: 250px;
-	}
 
-	.expimg-wrapper .intpics {
-		width: 250px;
-		height: 250px;
-	}
 	.imgdesc {
 		position: absolute;
 		width: 200px;
@@ -129,7 +114,20 @@
 	.imgwrap:hover .imgdesc {
 		opacity: 1;
 	}
-	.expimg-wrapper .imgdesc {
-		opacity: 1;
+
+
+	/*-----experience-----*/
+
+	.expimg-wrapper {
+		position: relative;
+		height: 250px;
+		border: #909090 solid 5px;
+		margin: 0px 2px 25px 2px;
+		text-align: center;
+		display: inline-block;
 	}
 
+	.expimg-wrapper .intpics {
+		width: 250px;
+		height: 250px;
+	}
