@@ -65,7 +65,7 @@ a:hover {
 
 #footer {
 	position: relative;
-	overflow: auto;
+	overflow: hidden;
 	padding-top: 25px;
 	text-align: center;
 	font-size: 12px;
