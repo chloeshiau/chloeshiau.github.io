@@ -32,13 +32,13 @@ a:hover {
 .intro {
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 .about {
-	top:100%;
-	height: 300px;
 	background-color: yellow;
+	position: relative;
 }
 .resume {
-	height: 400px;
+	position: relative;
 	background-color: blue;
 }
