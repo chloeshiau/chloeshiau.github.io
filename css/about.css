@@ -65,6 +65,11 @@
 		float: left;
 		margin-right: 25px;
 	}
+
+	#myname {
+		color: #19f6e8;
+		font-weight: 500;
+	}
 	#about {
 		position: relative;
 		font-family: 'Lato', sans-serif;
