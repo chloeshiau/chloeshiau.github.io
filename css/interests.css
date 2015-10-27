@@ -51,8 +51,8 @@
 	.expimg-wrapper {
 		position: relative;
 		height: 250px;
-		border: #909090 solid 5px;
-		margin: 0px 2px 25px 2px;
+		border: #909090 solid 10px;
+		margin: 0px 3px 25px 3px;
 		text-align: center;
 		display: inline-block;
 	}
@@ -60,4 +60,6 @@
 	.expimg-wrapper .intpics {
 		width: 250px;
 		height: 250px;
+		padding-bottom: 10px;
+		cursor: pointer;
 	}
