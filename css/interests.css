@@ -21,7 +21,7 @@
 	.imgwrap {
 		position: relative;
 		height: 200px;
-		border: #909090 solid 5px;
+		
 		margin: 0px 2px 25px 2px;
 		text-align: center;
 		display: inline-block;
@@ -43,6 +43,7 @@
 
 	.imgwrap:hover .imgdesc {
 		opacity: 1;
+		border: #909090 solid 5px;
 	}
 
 
