@@ -85,6 +85,12 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
+            title: "Mexico",
+            latitude: 19,
+            longitude: -99.1333
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
             title: "Nevada",
             latitude: 39,
             longitude: -117
