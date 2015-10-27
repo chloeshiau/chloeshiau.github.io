@@ -20,6 +20,7 @@ body {
   z-index: -1;
   opacity: .6;
 }
+
 .name-wrapper {
   position: relative;
   top: 30%;
@@ -45,26 +46,6 @@ body {
   color: #fff;
   top: -48px;
   position: relative;
-}
-
-#nav-wrapper {
-  width: 100%;
-  font-size: 12px;
-  padding-left: 0px;
-  position: relative;
-  font-family: 'Lato', sans-serif;
-  top: 50%;
-  list-style-type: none;
-  transform: translateY(-50%);
-}
-
-#nav{
-  cursor: pointer;
-  display: inline-block;
-  margin-left: 25px;
-  margin-right: 25px;
-  font-weight: 300;
-  letter-spacing: 2px;
 }
 
 .desc {
