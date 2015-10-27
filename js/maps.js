@@ -31,21 +31,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Copenhagen",
-            latitude: 55.6763,
-            longitude: 12.5681
-        }, {
-            zoomLevel: 5,
-            scale: 0.5,
             title: "Paris",
             latitude: 48.8567,
             longitude: 2.3510
-        }, {
-            zoomLevel: 5,
-            scale: 0.5,
-            title: "Reykjavik",
-            latitude: 64.1353,
-            longitude: -21.8952
         }, {
             zoomLevel: 5,
             scale: 0.5,
@@ -55,16 +43,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Madrid",
-            latitude: 40.4167,
-            longitude: -3.7033
-        }, {
-            zoomLevel: 5,
-            scale: 0.5,
             title: "London",
             latitude: 51.5002,
             longitude: -0.1262,
-            url:"http://www.google.co.uk"
         }, {
             zoomLevel: 5,
             scale: 0.5,
@@ -74,34 +55,33 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "New Delhi",
-            latitude: 28.6353,
-            longitude: 77.2250
+            title: "Thailand",
+            latitude: 13.75,
+            longitude: 100.4833
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Tokyo",
-            latitude: 35.6785,
-            longitude: 139.6823,
-            url:"http://www.google.co.jp"
+            title: "Hong Kong",
+            latitude: 22.2783,
+            longitude: 114.1747,
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Ankara",
-            latitude: 39.9439,
-            longitude: 32.8560
+            title: "Italy",
+            latitude: 41.9,
+            longitude: 12.4833
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Buenos Aires",
-            latitude: -34.6118,
-            longitude: -58.4173
+            title: "Switzerland",
+            latitude: 46.8333,
+            longitude: 8.3333
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Brasilia",
-            latitude: -15.7801,
-            longitude: -47.9292
+            title: "Ontario",
+            latitude: 50,
+            longitude: -85
         }, {
             zoomLevel: 5,
             scale: 0.5,
@@ -123,9 +103,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Cairo",
-            latitude: 30.0571,
-            longitude: 31.2272
+            title: "Washington",
+            latitude: 47.5,
+            longitude: 120.5
         }, {
             zoomLevel: 5,
             scale: 0.5,
