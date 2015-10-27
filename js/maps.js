@@ -97,9 +97,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Kinshasa",
-            latitude: -4.3369,
-            longitude: 15.3271
+            title: "Florida",
+            latitude: 28.1,
+            longitude: -81.6
         }, {
             zoomLevel: 5,
             scale: 0.5,
@@ -109,9 +109,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Pretoria",
-            latitude: -25.7463,
-            longitude: 28.1876
+            title: "Oahu",
+            latitude: 21.2752,
+            longitude: -157.8312
         }]
     }
 });
