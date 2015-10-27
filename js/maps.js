@@ -105,13 +105,13 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Ottawa",
-            latitude: 45.4235,
-            longitude: -75.6979
+            title: "California",
+            latitude: 37,
+            longitude: -120
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Washington",
+            title: "Washington DC",
             latitude: 38.8921,
             longitude: -77.0241
         }, {
