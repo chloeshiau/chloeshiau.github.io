@@ -46,14 +46,14 @@ a:hover {
 }
 .experience {
 	position: relative;
-	padding: 70px 20px 70px 0px;
+	padding: 60px 20px 60px 0px;
 	overflow: hidden;
 	text-align: center;
 	background-color: #A8A8A8;
 	font-size: 12px;
 }
 .resume {
-	padding: 10px 20px 70px 0px;
+	padding: 60px 20px 60px 0px;
 	position: relative;
 	overflow: hidden;
 }
@@ -61,17 +61,18 @@ a:hover {
 	position: relative;
 	overflow: hidden;
 	background-color: #A8A8A8;
-	padding: 70px 0px 70px 0px;
+	padding: 60px 0px 60px 0px;
 	text-align: center;
 }
 .travel {
 	position: relative;
 	overflow: hidden;
-	padding: 70px 0px 70px 0px;
+	padding: 60px 0px 60px 0px;
 }
 #footer {
 	position: relative;
 	overflow: hidden;
+	font-family: 'Allerta', sans-serif;
 	padding-top: 25px;
 	text-align: center;
 	font-size: 12px;
