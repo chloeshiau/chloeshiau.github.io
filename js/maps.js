@@ -37,12 +37,6 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Moscow",
-            latitude: 55.7558,
-            longitude: 37.6176
-        }, {
-            zoomLevel: 5,
-            scale: 0.5,
             title: "London",
             latitude: 51.5002,
             longitude: -0.1262,
@@ -105,7 +99,7 @@ var map = AmCharts.makeChart("chartdiv", {
             scale: 0.5,
             title: "Washington",
             latitude: 47.5,
-            longitude: 120.5
+            longitude: -120.5
         }, {
             zoomLevel: 5,
             scale: 0.5,
