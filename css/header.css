@@ -34,7 +34,7 @@ body {
   stroke-dashoffset: -625;
   stroke-width: 5px;
   fill: transparent;
-  stroke: #19f6e8;
+  stroke: #66FFCC;
   border-bottom: 5px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
