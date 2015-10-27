@@ -6,13 +6,6 @@ html, body {
 
 }
 
-body {
-/*	font-family: 'Lato', sans-serif;
-*/
-	font-family: 'proxima_nova_ltsemibold', Helvetica, Arial;
-
-}
-
 a {
 	text-decoration: none;
 }
@@ -28,9 +21,16 @@ a:hover {
 	color: white;
 }
 
-.section-name {
+.section-name-1 {
 	font-size: 72px;
 	color: #19f6e8;
+	letter-spacing: -6px;
+	font-family: 'Allerta', sans-serif;
+	margin-bottom: 5px;
+	display: inline;
+}
+.section-name-2 {
+	font-size: 72px;
 	letter-spacing: -6px;
 	font-family: 'Allerta', sans-serif;
 	margin-bottom: 5px;
@@ -56,8 +56,6 @@ a:hover {
 	padding: 10px 20px 70px 0px;
 	position: relative;
 	overflow: hidden;
-
-
 }
 .interests {
 	position: relative;
@@ -71,8 +69,6 @@ a:hover {
 	overflow: hidden;
 	padding: 70px 0px 70px 0px;
 }
-
-
 #footer {
 	position: relative;
 	overflow: hidden;
