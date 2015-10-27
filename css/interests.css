@@ -52,16 +52,16 @@
 
 	.expimg-wrapper {
 		position: relative;
-		height: 250px;
+		height: 220px;
 		border: #909090 solid 10px;
-		margin: 0px 3px 25px 3px;
+		margin: 0px 10px 25px 10px;
 		text-align: center;
 		display: inline-block;
 	}
 
 	.expimg-wrapper .intpics {
-		width: 250px;
-		height: 250px;
+		width: 220px;
+		height: 220px;
 		padding-bottom: 10px;
 		cursor: pointer;
 	}
