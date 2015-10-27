@@ -1,6 +1,7 @@
 #chartdiv {
 	width	: 100%;
 	height	: 500px;
+	padding: 70px 0px 70px 0px; 
 }
 
 .map-marker {
