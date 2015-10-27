@@ -106,6 +106,12 @@ var map = AmCharts.makeChart("chartdiv", {
             title: "Oahu",
             latitude: 21.2752,
             longitude: -157.8312
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "Alaska",
+            latitude: 64,
+            longitude: -150
         }]
     }
 });
