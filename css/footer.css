@@ -28,7 +28,14 @@ a:hover {
 	color: white;
 }
 
-
+.section-name {
+	font-size: 72px;
+	color: #19f6e8;
+	letter-spacing: -6px;
+	font-family: 'Allerta', sans-serif;
+	margin-bottom: 5px;
+	display: inline;
+}
 .intro {
 	height: 100%;
 	width: 100%;
@@ -49,9 +56,7 @@ a:hover {
 	padding: 10px 20px 70px 0px;
 	position: relative;
 	overflow: hidden;
-	font-size: 72px;
-	color: #19f6e8;
-	font-family: 'Allerta', sans-serif;
+
 
 }
 .interests {
