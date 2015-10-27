@@ -85,9 +85,33 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
+            title: "Nevada",
+            latitude: 39,
+            longitude: -117
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "Oregon",
+            latitude: 45.52,
+            longitude: -122.6819
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
             title: "Washington DC",
             latitude: 38.8921,
             longitude: -77.0241
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "Philadelphia",
+            latitude: 39.95,
+            longitude: -75.1667
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "New York",
+            latitude: 40.7127,
+            longitude: -74.0059
         }, {
             zoomLevel: 5,
             scale: 0.5,
