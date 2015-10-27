@@ -43,9 +43,9 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
-            title: "Peking",
-            latitude: 39.9056,
-            longitude: 116.3958
+            title: "Shanghai",
+            latitude: 31.2,
+            longitude: 121.5
         }, {
             zoomLevel: 5,
             scale: 0.5,
@@ -112,6 +112,12 @@ var map = AmCharts.makeChart("chartdiv", {
             title: "Alaska",
             latitude: 64,
             longitude: -150
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "Vancouver",
+            latitude: 49.2827,
+            longitude: -123.1207
         }]
     }
 });
