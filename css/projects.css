@@ -9,7 +9,6 @@
 		height: 200px;
 		margin-bottom: 25px;
 		margin-right: 25px;
-		float: right;
 		border-style: solid;
 		border-color: #909090;
 		border-width: 5px; 
@@ -23,11 +22,6 @@
 		width: 450px;
 		border-bottom: solid black 2px;
 	}
-	.projwrap {
-		width: 675px;
-		float: right;
-	}
-
 	.projdesc {
 		font-size: 18px;
 		letter-spacing: 0px;
