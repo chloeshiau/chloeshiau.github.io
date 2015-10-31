@@ -51,7 +51,7 @@ a:hover {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	background-color: ##505050;
+	background-color: #A8A8A8;
 	letter-spacing: -1px;
 	font-size: 18px;
 }
@@ -63,7 +63,7 @@ a:hover {
 .interests {
 	position: relative;
 	overflow: hidden;
-	background-color: #505050;
+	background-color: #A8A8A8;
 	text-align: center;
 	padding: 50px 0px 50px 0px;
 }
