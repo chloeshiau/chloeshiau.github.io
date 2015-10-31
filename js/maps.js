@@ -49,6 +49,18 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
+            title: "Suzhou",
+            latitude: 31.3,
+            longitude: 120.6
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
+            title: "Shunde",
+            latitude: 22.8364,
+            longitude: 113.2525
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
             title: "Thailand",
             latitude: 13.75,
             longitude: 100.4833
