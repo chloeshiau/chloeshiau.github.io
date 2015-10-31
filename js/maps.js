@@ -55,6 +55,12 @@ var map = AmCharts.makeChart("chartdiv", {
         }, {
             zoomLevel: 5,
             scale: 0.5,
+            title: "Guangzhou",
+            latitude: 23.1333,
+            longitude: 113.2667
+        }, {
+            zoomLevel: 5,
+            scale: 0.5,
             title: "Shunde",
             latitude: 22.8364,
             longitude: 113.2525
