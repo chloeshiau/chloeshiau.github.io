@@ -1,5 +1,5 @@
 html _{
-  background-color: black;
+  background-color: white;
 }
 
 body {
@@ -70,5 +70,5 @@ body {
     background-color: white;
     position:fixed;
     z-index:9999;
-    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,1)
+    background:url("loading6.gif") no-repeat center center rgba(0,0,0,1)
 }
