@@ -6,9 +6,11 @@ html, body {
 
 }
 
-a {
+a:hover, a:visited, a:link {
 	text-decoration: none;
+	color: black;
 }
+
 
 .section-name-1 {
 	font-size: 72px;
