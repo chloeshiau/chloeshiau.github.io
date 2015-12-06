@@ -2,6 +2,7 @@
 <html>
 	<head>
 	  <title>CWS</title>
+	  <script type="text/javascript" src="instafeed.js/instafeed.min.js"></script>
 	  <link rel="stylesheet" href="css/footer.css">
 	  <link rel="stylesheet" href="css/header.css">
 	  <link rel="stylesheet" href="css/about.css">
@@ -10,7 +11,15 @@
 	  <link rel="stylesheet" href="css/maps.css">
 	  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	  <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
-
+	<script type="text/javascript">
+	    var userFeed = new Instafeed({
+	        get: 'bonappechubs',
+	        userId: 'fa1fbdea4cce463f87aeaca104201d66',
+	        accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694'
+	        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+	    });
+	    userFeed.run();
+	</script>
 
 	  <script src="http://www.amcharts.com/lib/3/ammap.js"></script>
 	  <script src="http://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
