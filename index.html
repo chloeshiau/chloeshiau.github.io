@@ -22,19 +22,7 @@
 	  <script src="http://code.jquery.com/jquery-latest.js"></script>
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
-<?php
-$access_token = '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694'; // access_token received from /oauth2/token call
-$ch = curl_init('https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=$access_token'); // URL of the call
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER,
-    array("Authorization: Bearer $access_token"));
-
-// execute the api call
-$result = curl_exec($ch);
-// display the json response
-print_r(json_decode($result, true));
-?>
-<!-- 	<body>
+	<body>
 	<div id = "load"></div>
 	
 	<div class = "intro">
@@ -170,5 +158,5 @@ print_r(json_decode($result, true));
 
 	<script src="js/myScript.js"></script>
 	
-	</body>  -->
+	</body> 
 </html>
