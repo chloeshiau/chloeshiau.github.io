@@ -2,7 +2,7 @@
 <html>
 	<head>
 	  <title>CWS</title>
-	  <script type="text/javascript" src="instafeed.js/instafeed.min.js"></script>
+	  <script src="instafeed.js/instafeed.min.js"></script>
 	  <link rel="stylesheet" href="css/footer.css">
 	  <link rel="stylesheet" href="css/header.css">
 	  <link rel="stylesheet" href="css/about.css">
@@ -22,15 +22,18 @@
 	  <script src="http://code.jquery.com/jquery-latest.js"></script>
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
-	<script type="text/javascript">
-	    var userFeed = new Instafeed({
-	        get: 'user',
-	        userId: '1665792495',
-	        accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694'
-	    });
-	    userFeed.run();
-	</script>
+<?php
+$access_token = '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694'; // access_token received from /oauth2/token call
+$ch = curl_init('https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=$access_token'); // URL of the call
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER,
+    array("Authorization: Bearer $access_token"));
 
+// execute the api call
+$result = curl_exec($ch);
+// display the json response
+print_r(json_decode($result, true));
+?>
 <!-- 	<body>
 	<div id = "load"></div>
 	
