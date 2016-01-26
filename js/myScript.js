@@ -45,6 +45,10 @@ $('#iconscroll').click(function() {
 	$("html, body").animate({
 		scrollTop:0 }, 600);
 });
+$('#iconscroll1').click(function() {
+	$("html, body").animate({
+		scrollTop:200 }, 600);
+});
 
 //contact
 var num = 0;
