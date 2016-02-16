@@ -1,5 +1,5 @@
 // projects
-window.showTabs = function {
+function showTabs(tab) {
 	var getTabs = [];
 	$("ul#getul li").each(function() {
 		getTabs.push($(this).attr("id"));
