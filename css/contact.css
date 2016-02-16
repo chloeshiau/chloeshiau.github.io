@@ -1,21 +1,18 @@
-#tabs-titles{
-    float:left;
-    margin-right:10px;
-}
-#tabs-titles li{
-    cursor:pointer;
-}
-#tabs-titles li.current{
-    font-weight:bolder;
-}
 #tabs-contents{
     background:#F2F2F2;
     margin-left:100px;
     padding:5px;
+    width: 50%;
+    float: left;
+    display: inline;
 }
 #tabs-contents li{
     display:none;
 }
 #tabs-contents li:first-child{
     display:block; /* first one content displayed by default */
+}
+#display-content {
+	width: 50%;
+	float: right;
 }
