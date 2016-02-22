@@ -52,8 +52,9 @@
 		margin-bottom: 10px;
 	}
 
-	li#personal, li#internships, li#school {
+	li#seattle, li#italy, li#school {
 		display: block;
+		letter-spacing: 2px;
 	}
 	#p, #i, #s {
 		overflow: auto;
