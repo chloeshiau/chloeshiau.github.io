@@ -7,7 +7,7 @@
 	#travel {
 		width:570px;
 		height:370px;
-		margin-bottom: 10px;
+		margin-bottom: 12px;
 	}
 
 	#projpics {
@@ -52,11 +52,11 @@
 		margin-bottom: 10px;
 	}
 
-	li#seattle, li#venice, li#london {
+	li#seattle, li#venice, li#london, li#rome, li#paris, li#orlando {
 		display: block;
 		letter-spacing: 2px;
 	}
-	#s, #v, #l {
+	#s, #v, #l, #r, #p, #o {
 		overflow: auto;
 		padding-right: 12%;
 		padding-top: 80px;
