@@ -52,11 +52,11 @@
 		margin-bottom: 10px;
 	}
 
-	li#seattle, li#italy, li#london {
+	li#seattle, li#venice, li#london {
 		display: block;
 		letter-spacing: 2px;
 	}
-	#s, #i, #l {
+	#s, #v, #l {
 		overflow: auto;
 		padding-right: 12%;
 		padding-top: 80px;
