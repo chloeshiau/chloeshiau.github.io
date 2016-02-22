@@ -8,12 +8,12 @@ function showTabs(tab) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
 			$("#"+x).show();
-			$("#"+tab.id).css('border-bottom', 'solid black 2px');
+			$("#"+tab.id).css('font-weight', '600');
 		}
 		else {
 			var y = getTabs[i].charAt(0);
 			$("#"+y).hide();
-			$("#"+getTabs[i]).css('border-bottom', 'none');
+			$("#"+getTabs[i]).css('font-weight', '400');
 		}
 	}
 }
