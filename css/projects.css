@@ -2,63 +2,52 @@
 
 	#projects {
 		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+	#quote {
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+		padding-top: 30px;
 	}
 
 	#travel {
-		width:570px;
-		height:370px;
+		width:650px;
+		height:400px;
 		margin-bottom: 12px;
 	}
 
-	#projpics {
-		width: 300px;
-		height: 200px;
-		margin-bottom: 25px;
-		margin-right: 25px;
-		border-style: solid;
-		border-color: #909090;
-		border-width: 5px; 
-		cursor: pointer;
-	}
-	.projtitle {
-		font-size: 22px;
-		letter-spacing: 3px;
-		padding-bottom: 10px;
-		display: block;
-		width: 450px;
-		border-bottom: solid black 2px;
-	}
-	.projdesc {
-		font-size: 18px;
-		letter-spacing: 0px;
-		padding-bottom: 10px;
-		padding-top: 10px;
-		display: block;
-		width: 450px;
-	}
 	#container {
 		padding-right: 14%;
 		padding-left: 15px;
-		padding-top: 100px;
+		padding-top: 70px;
 		float: left;
 	}
 	#container ul {
 		list-style: none;
 		margin: 0;
 	}
+
 	#container li {
-		font-size: 40px;
+		font-size: 30px;
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
-	li#seattle, li#venice, li#london, li#rome, li#paris, li#orlando {
+
+
+	li#seattle, li#venice, li#london, li#rome, li#paris, li#orlando li#asf li#capri {
 		display: block;
 		letter-spacing: 2px;
 	}
-	#s, #v, #l, #r, #p, #o {
+	#v, #l, #r, #p, #o, #s, #c {
 		overflow: auto;
 		padding-right: 12%;
 		padding-top: 80px;
 		display: none;
+	}
+	#a {
+		display: block;
+		overflow: auto;
+		padding-right: 12%;
+		padding-top: 80px; 
 	}
