@@ -1,12 +1,12 @@
 /*-----projects-------*/
 
 	#projects {
-		padding-top: 50px;
+		padding-top: 0px;
 	}
 
 	#travel {
-		width:500px;
-		height:200px;
+		width:570px;
+		height:370px;
 		margin-bottom: 10px;
 	}
 
@@ -38,7 +38,7 @@
 	}
 	#container {
 		padding-right: 14%;
-		padding-left: 12%;
+		padding-left: 15px;
 		padding-top: 100px;
 		float: left;
 	}
