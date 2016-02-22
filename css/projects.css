@@ -56,7 +56,7 @@
 		display: block;
 		letter-spacing: 2px;
 	}
-	#p, #i, #s {
+	#s, #i, #l {
 		overflow: auto;
 		padding-right: 12%;
 		padding-top: 80px;
