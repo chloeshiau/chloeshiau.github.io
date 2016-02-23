@@ -7,8 +7,9 @@ function showTabs(tab) {
 	for(var i = 0; i < getTabs.length; i++) {
 		if(tab.id == getTabs[i]) {
 			var x = getTabs[i].charAt(0);
-			$("#"+x).show();
+			$("#"+x).fadeIn(1500).show();
 			$("#"+tab.id).css('font-weight', '600');
+
 		}
 		else {
 			var y = getTabs[i].charAt(0);
