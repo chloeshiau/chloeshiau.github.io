@@ -9,10 +9,8 @@
 
 /*--------below background--------*/
 #mypic {
-	width: 290px;
-	height: 390px;
 	float: left;
-	margin-right: 25px;
+	border:5px solid #bc8f8f;
 }
 
 #myname {
