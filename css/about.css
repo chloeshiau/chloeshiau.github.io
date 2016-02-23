@@ -4,6 +4,7 @@
 	text-align: center;
 	overflow: hidden;
 	font-size: 14.5px;
+	width: 100%;
 }
 
 /*--------below background--------*/
@@ -15,11 +16,18 @@
 }
 
 #myname {
-	color: #66CCCC;
+	color: #bc8f8f;
 	font-weight: 500;
 	display: inline;
 }
 
 .container-fluid {
 	margin-top: 20px;
+}
+
+#nav-svg {
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 80px;
+	cursor: pointer;
 }
