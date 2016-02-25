@@ -62,3 +62,20 @@ li {
 	padding-top: 20px;
 }
 
+.section-name-1 {
+	font-size: 72px;
+	color: #66CCCC;
+	letter-spacing: -6px;
+	font-family: 'Allerta', sans-serif;
+	margin-bottom: 10px;
+	display: inline;
+}
+.section-name-2 {
+	font-size: 60px;
+	letter-spacing: -4px;
+	font-family: 'Allerta', sans-serif;
+	margin-bottom: 10px;
+	margin-top: 80px;
+}
+
+

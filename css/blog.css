@@ -1,3 +1,4 @@
+/*recipe info*/
 #blog {
 	width: 100%;
 	padding: 20px 0px 20px 0px;
@@ -5,12 +6,12 @@
 #recipe {
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 50px;
-	padding: 20px 0px 20px 0px;
+	padding: 80px 0px 20px 0px;
 	color: #bc8f8f;
 }
 .blog-title {
 	font-size: 25px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .blog-pic {
 	padding: 20px 0px 20px 0px;
@@ -23,24 +24,4 @@
 	margin: 0 auto;
 	padding: 10px 0px 30px 0px;
 	width: 580px;
-}
-
-#footer {
-	position: relative;
-	overflow: hidden;
-	font-family: 'Allerta', sans-serif;
-	padding-top: 25px;
-	text-align: center;
-	font-size: 12px;
-}
-#iconwrapper {
-	margin-top: 100px;
-	margin-bottom: 10px;
-}
-.icon {
-	height:30px;
-	width: 30px;
-	margin: 5px 5px 5px 5px;
-	display: inline;
-	cursor: pointer;
 }
