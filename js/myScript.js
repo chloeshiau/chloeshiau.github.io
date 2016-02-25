@@ -22,11 +22,11 @@ function showTabs(tab) {
 
 //projects
 function mouseOver(img, num) {
-	img.src = "img/proj"+ num + "-1.png";
+	img.src = "img/projects/proj"+ num + "-1.png";
 }
 
 function mouseOut(img, num) {
-	img.src = "img/proj"+ num + ".png";
+	img.src = "img/projects/proj"+ num + ".png";
 }
 //front page
 document.onreadystatechange = function() {
