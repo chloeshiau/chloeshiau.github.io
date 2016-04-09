@@ -61,20 +61,6 @@ window.onload = function() {
 	})
 };
 
-//loading icon
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('everything').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('everything').style.visibility="visible";
-      },1000);
-  }
-}
-
 
 /*------------Navigation------------*/
 function toggle(div_id) {
@@ -126,4 +112,17 @@ function popup(windowname) {
 	toggle('blanket');
 	toggle(windowname);		
 }
+
+var feed = new Instafeed({
+  get: 'user',
+  userId: 1665792495,
+  accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
+  resolution: 'low_resolution',
+  filter: function(image) {
+    return image.tags.indexOf('eeeeeats') >= 0;
+  }
+});
+feed.run();
+
+
 
