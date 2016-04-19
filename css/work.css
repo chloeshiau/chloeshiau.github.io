@@ -1,0 +1,39 @@
+#projects {
+	padding-top: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.experience {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+
+}
+.expimg-wrapper {
+	position: relative;
+	height: 220px;
+	border: #bc8f8f solid 5px;
+	margin: 30px 10px 25px 10px;
+	text-align: center;
+	display: inline-block;
+}
+.expimg-wrapper .intpics {
+	width: 220px;
+	height: 220px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+#proj {
+	padding-top: 50px;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#projpics {
+	width: 400px;
+	height: 300px;
+	cursor: pointer;
+	border: #bc8f8f solid 5px;
+	margin: 30px 15px 25px 15px;
+}
+.subject {
+	font-size: 35px;
+}
