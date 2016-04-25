@@ -119,7 +119,7 @@ var feed = new Instafeed({
   accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
   resolution: 'low_resolution',
   filter: function(image) {
-    return image.tags.indexOf('myfab5') >= 0;
+    return image.tags.indexOf('eeeeeats') >= 0;
   }
 });
 feed.run();
