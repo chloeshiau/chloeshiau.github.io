@@ -117,10 +117,7 @@ var feed = new Instafeed({
   get: 'user',
   userId: 1665792495,
   accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
-  resolution: 'low_resolution',
-  filter: function(image) {
-    return image.tags.indexOf('eeeeeats') >= 0;
-  }
+  resolution: 'low_resolution'
 });
 feed.run();
 
