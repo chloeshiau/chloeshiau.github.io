@@ -79,14 +79,14 @@ li {
 	display: none;
 	height: 490px;
 	color: #bc8f8f;
-	padding-top: 30px;
+	margin-top: 30px;
 }
 #b {
 	display: block;
 	overflow: auto;
 	height: 490px;
 	color: black;
-	padding-top: 30px;
+	margin-top: 30px;
 }
 
 #nav-svg {
