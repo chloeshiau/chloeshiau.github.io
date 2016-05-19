@@ -48,7 +48,7 @@ a:hover {
 
 #travel {
 	width:650px;
-	height:430px;
+	height:auto;
 	margin-bottom: 12px;
 }
 
@@ -74,7 +74,7 @@ li {
 	display: block;
 	letter-spacing: 2px;
 }
-#v, #l, #r, #p, #o, #s, #c, #a {
+#v, #l, #r, #p, #o, #s, #c, #a, #u {
 	overflow: auto;
 	display: none;
 	height: 490px;
