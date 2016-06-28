@@ -64,9 +64,8 @@ a:hover {
 }
 
 #container li {
-	font-size: 30px;
+	font-size: 28px;
 	margin-top: 0;
-	margin-bottom: 10px;
 	color: #bc8f8f;
 }
 
@@ -74,7 +73,7 @@ li {
 	display: block;
 	letter-spacing: 2px;
 }
-#v, #l, #r, #p, #o, #s, #c, #a, #u {
+#v, #l, #r, #p, #o, #s, #c, #a, #u, #h {
 	overflow: auto;
 	display: none;
 	height: 490px;
