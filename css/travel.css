@@ -73,14 +73,14 @@ li {
 	display: block;
 	letter-spacing: 2px;
 }
-#v, #l, #r, #p, #o, #s, #c, #a, #u, #h {
+#v, #l, #r, #p, #o, #y, #c, #e, #u, #h {
 	overflow: auto;
 	display: none;
 	height: 490px;
 	color: #bc8f8f;
 	margin-top: 30px;
 }
-#b {
+#s {
 	display: block;
 	overflow: auto;
 	height: 490px;
