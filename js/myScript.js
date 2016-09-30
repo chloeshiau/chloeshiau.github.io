@@ -1,24 +1,63 @@
 // travel
+var mainPlace = "";
+var currentPlace = "";
 function showTabs(tab) {
-	var getTabs = [];
-	$("ul#getul li").each(function() {
-		getTabs.push($(this).attr("id"));
-	})
-	for(var i = 0; i < getTabs.length; i++) {
-		if(tab.id == getTabs[i]) {
-			var x = getTabs[i].charAt(0);
-			$("#"+x).fadeIn(1500).show();
-			$("#"+tab.id).css('font-weight', '600');
+	$("#travel-pic").empty();
+	mainPlace = "img/"+tab.id+"/";
+	$("#sub-container").append('<li id="arrow" onclick="revertTravel();"> <- <br> </li>');
+	$.ajax({
+	    url: mainPlace,
+	    success: function (data) {
+			$(data).find("a").attr("href", function (i, val) {
+    			if( val !== ".DS_Store") { 
+    				$("#container").hide();
+    				$("#sub-container").fadeIn(1500).show();
+    				showSubTravel(val);
+    				var tempVal = "";
+    				for(var i in val) {
+    					if(tempVal !== val) {
+    						val = val.slice(0, -1);
+    						var upper = val.replace("hk", " ").toUpperCase();
+    						var getSubPlace = '<li id = ' + 
+    							val + ' onclick="showSubTravel(this)">' +
+    							upper + '</li>';	
+    						tempVal = val;
+    						$("#sub-container").append(getSubPlace);
+    					}
+    				} //for
+    			} //if
+			});
+		} 
+	}); //ajax	
+};
 
+function showSubTravel(place) {
+	$("#travel-pic").empty();
+	var dir = mainPlace + place.id + "/";
+	$("#"+currentPlace).css('font-weight', '400');
+	$("#"+place.id).css('font-weight', '600');
+	currentPlace = place.id;
+	$.ajax({
+	    url: dir,
+	    success: function (data) {
+			$(data).find("a").attr("href", function (i, val) {
+    			if(val.match(/\.(jpe?g|png|gif|JPG)$/)) { 
+        			$("#travel-pic").append( "<img id = 'travel' src='"+ dir + val +"'>" );
+    			}
+			});
+			
+			$("#travel-pic").fadeIn(1500).show();
 		}
-		else {
-			var y = getTabs[i].charAt(0);
-			$("#"+y).hide();
-			$("#"+getTabs[i]).css('font-weight', '400');
-		}
-	}
+	});
+};
+
+function revertTravel() {
+	$("#container").fadeIn(1500).show();
+	//$("#container").show();
+	$("#sub-container").hide();	
+	$("#sub-container").empty();
+	$("#travel-pic").empty();	
 }
-
 
 //projects
 function mouseOver(img, num) {
