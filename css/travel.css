@@ -78,7 +78,7 @@ li {
 	letter-spacing: 2px;
 }
 
-[class^="uk"], [class^="us"], [class^="italy"]{
+[class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
 	height: 490px;
