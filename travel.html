@@ -42,19 +42,125 @@
 		</div>
 	</a>
 
-	<div id = "container">
-		<ul id = "getul">
-			<li id="usa" onclick='showTabs(this)'>USA</li>
+	<div class = "container">
+		<ul class="getul">
+			<li id="us" onclick='showTabs(this)'>USA</li>
 			<li id = "uk" onclick='showTabs(this)'>UK</li>
 			<li id = "italy" onclick='showTabs(this)'>ITALY</li>
 			<li id = "france" onclick='showTabs(this)'>FRANCE</li>
 			<li id = "belgium" onclick='showTabs(this)'>BELGIUM</li>
 			<li id = "asia" onclick='showTabs(this)'>ASIA</li>
-			<li id = "switzerland" onclick='showTabs(this)'>SWITZERLAND</li>
+			<li id = "switz" onclick='showTabs(this)'>SWITZERLAND</li>
 		</ul>
 	</div>
-	<div id = "sub-container"></div>
-	<div id = "travel-pic"></div>
+	<div class = "container-us">
+		<ul class="getul">
+			<li id="seattles" onclick="revertTravel(this)"><-</li>
+			<li id="us-seattle" onclick='showPlaces(this)'>SEATTLE</li>
+		</ul>
+	</div>
+	<div class = "container-uk">
+		<ul class="getul">
+			<li id="uks" onclick="revertTravel(this)"><-</li>
+			<li id="uk-edinburgh" onclick='showPlaces(this)'>EDINBURGH</li>
+			<li id="uk-london" onclick='showPlaces(this)'>LONDON</li>
+			<li id="uk-york" onclick='showPlaces(this)'>YORK</li>
+		</ul>		
+	</div>
+	<div class = "container-italy">
+		<ul class="getul">
+			<li id="italys" onclick="revertTravel(this)"><-</li>
+			<li id="italy-capri" onclick='showPlaces(this)'>CAPRI</li>
+			<li id="italy-rome" onclick='showPlaces(this)'>ROME</li>
+			<li id="italy-sorrento" onclick='showPlaces(this)'>SORRENTO</li>
+			<li id="italy-venice" onclick='showPlaces(this)'>VENICE</li>
+		</ul>	
+	</div>
+	<div class = "container-france">
+		
+	</div>
+	<div class = "container-belgium">
+		
+	</div>
+	<div class = "container-asia">
+		
+	</div>
+	<div class = "container-switz">
+		
+	</div>
+
+	<div class="us-seattle">
+		<img id = "travel" src="img/usa/seattle/IMG_2350-min.jpg"/>
+		<img id = "travel" src="img/usa/seattle/IMG_2350-min.JPG"/>
+		<img id = "travel" src="img/usa/seattle/IMG_2351-min.jpg"/>
+		<img id = "travel" src="img/usa/seattle/IMG_2373-min.jpg"/>
+		<img id = "travel" src="img/usa/seattle/IMG_2403-min.jpg"/>
+	</div>
+	<div class="uk-london">
+		<img id = "travel" src="img/uk/london/IMG_0359-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0379-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0399-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0417-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0426-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0359-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0379-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0399-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0417-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0426-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_4143-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_4248-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_4381-min.jpg"/>
+	</div>
+	<div class="uk-edinburgh">
+		<img id = "travel" src="img/uk/edinburgh/IMG_4485-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4490-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4511-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4609-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4643-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4654-min.jpg"/>
+	</div>
+	<div class="uk-york">
+		<img id = "travel" src="img/uk/york/IMG_4666-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4670-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4677-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4688-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4696-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4729-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4748-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4758-min.jpg"/>
+	</div>
+	<div class="italy-capri">
+		<img id = "travel" src="img/italy/capri/IMG_1689-min.JPG"/>
+		<img id = "travel" src="img/italy/capri/IMG_1723-min.JPG"/>
+		<img id = "travel" src="img/italy/capri/IMG_1755-min.JPG"/>
+		<img id = "travel" src="img/italy/capri/IMG_1777-min.JPG"/>
+		<img id = "travel" src="img/italy/capri/IMG_1786-min.JPG"/>
+		<img id = "travel" src="img/italy/capri/IMG_1810-min.JPG"/>
+	</div>
+	<div class="italy-venice">
+		<img id = "travel" src="img/italy/venice/IMG_0738-min.JPG"/>
+		<img id = "travel" src="img/italy/venice/IMG_0793-min.JPG"/>
+		<img id = "travel" src="img/italy/venice/IMG_0884-min.JPG"/>
+		<img id = "travel" src="img/italy/venice/IMG_0895-min.JPG"/>
+		<img id = "travel" src="img/italy/venice/IMG_0902-min.JPG"/>
+	</div>
+	<div class="italy-sorrento">
+		<img id = "travel" src="img/italy/sorrento/IMG_1447-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1480-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1459-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1610-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1612-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1621-min.JPG"/>
+		<img id = "travel" src="img/italy/sorrento/IMG_1625-min.JPG"/>
+	</div>
+	<div class="italy-rome">
+		<img id = "travel" src="img/italy/rome/IMG_0972-min.JPG"/>
+		<img id = "travel" src="img/italy/rome/IMG_0992-min.JPG"/>
+		<img id = "travel" src="img/italy/rome/IMG_1090-min.JPG"/>
+		<img id = "travel" src="img/italy/rome/IMG_1196-min.JPG"/>
+		<img id = "travel" src="img/italy/rome/IMG_1389-min.JPG"/>
+		<img id = "travel" src="img/italy/rome/IMG_1406-min.JPG"/>
+	</div>
 </div>
 <script src = "js/myScript.js"></script>
 </body>

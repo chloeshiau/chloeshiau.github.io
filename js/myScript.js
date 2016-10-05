@@ -1,6 +1,7 @@
 // travel
-var mainPlace = "";
-var currentPlace = "";
+// var mainPlace = "";
+// var currentPlace = "";
+/*
 function showTabs(tab) {
 	$("#travel-pic").empty();
 	mainPlace = "img/"+tab.id+"/";
@@ -50,13 +51,37 @@ function showSubTravel(place) {
 		}
 	});
 };
+*/
 
-function revertTravel() {
-	$("#container").fadeIn(1500).show();
-	//$("#container").show();
-	$("#sub-container").hide();	
-	$("#sub-container").empty();
-	$("#travel-pic").empty();	
+$( document ).ready(function() {
+    $(".container").show();
+});
+
+var currentCountry;
+var currentPlace;
+function showTabs(country) {
+	currentCountry = country.id;
+	$(".container").hide();
+	$(".container-"+currentCountry).fadeIn(1500).show();	
+	console.log(".container-"+currentCountry);
+}
+
+function showPlaces(place) {
+	$("."+currentPlace).hide();
+	currentPlace = place.id;
+	console.log("."+place.id);
+	$("."+currentPlace).fadeIn(1500).show();
+}
+
+function revertTravel(revertPlace) {
+	$("."+currentPlace).hide();
+	revertPlace = revertPlace.id.slice(0, -1);
+	console.log("revert" + revertPlace);
+	$(".container").fadeIn(1500).show();
+	$(".container-"+currentCountry).fadeOut(1500).hide();	
+	$("."+revertPlace).hide();	
+	$('.'+travel).hide();
+	$("div ."+revertPlace+":contains('travel')").parent('div').hide();
 }
 
 //projects

@@ -54,18 +54,19 @@ a:hover {
 	margin-bottom: 12px;
 }
 
-#container {
+[class^="container"] {
+	display: none;
 	padding-right: 12%;
 	padding-left: 55px;
 	float: left;
 	padding-top: 30px;
 }
-#container ul {
+[class^="container"] ul {
 	list-style: none;
 	margin: 0;
 }
 
-#container li {
+[class^="container"] li {
 	font-size: 28px;
 	margin-top: 0;
 	color: black;
@@ -77,38 +78,11 @@ li {
 	letter-spacing: 2px;
 }
 
-#sub-container {
-	padding-right: 12%;
-	padding-left: 55px;
-	float: left;
-	padding-top: 30px;
-	display: none;	
-}
-
-#sub-container ul {
-	list-style: none;
-	margin: 0;
-}
-
-#sub-container li {
-	font-size: 28px;
-	margin-top: 0;
-	color: black;
-	cursor: pointer;
-}
-
-#travel-pic{
+[class^="uk"], [class^="us"], [class^="italy"]{
 	overflow: auto;
 	display: none;
 	height: 490px;
 	color: #bc8f8f;
-	margin-top: 30px;
-}
-#s {
-	display: block;
-	overflow: auto;
-	height: 490px;
-	color: black;
 	margin-top: 30px;
 }
 
