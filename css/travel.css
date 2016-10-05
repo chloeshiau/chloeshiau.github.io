@@ -26,7 +26,9 @@ a:hover {
 
 /*-----projects-------*/
 
-
+.world {
+	width:80%;
+}
 
 #travels {
 	padding-top: 20px;

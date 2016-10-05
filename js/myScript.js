@@ -54,7 +54,7 @@ function showSubTravel(place) {
 */
 
 $( document ).ready(function() {
-    $(".container").show();
+    // $(".container").show();
 });
 
 var currentCountry;
