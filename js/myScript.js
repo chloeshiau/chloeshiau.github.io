@@ -1,10 +1,12 @@
 $( document ).ready(function() {
     $(".container").show();
+    $(".original-pic").show();
 });
 
 var currentCountry;
 var currentPlace;
 function showTabs(country) {
+	$(".original-pic").hide();
 	currentCountry = country.id;
 	$(".container").hide();
 	$(".container-"+currentCountry).fadeIn(1500).show();	
@@ -19,6 +21,7 @@ function showPlaces(place) {
 }
 
 function revertTravel(revertPlace) {
+	$(".original-pic").show();
 	$("."+currentPlace).hide();
 	revertPlace = revertPlace.id.slice(0, -1);
 	console.log("revert" + revertPlace);

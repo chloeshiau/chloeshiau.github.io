@@ -26,6 +26,10 @@ a:hover {
 
 /*-----projects-------*/
 
+#og-pic {
+	width:auto;
+	height:490px;
+}
 .world {
 	width:80%;
 }
@@ -80,7 +84,7 @@ li {
 	letter-spacing: 2px;
 }
 
-[class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+.original-pic, [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
 	height: 490px;
