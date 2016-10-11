@@ -28,7 +28,7 @@ a:hover {
 
 #og-pic {
 	width:auto;
-	height:490px;
+	height:500px;
 }
 .world {
 	width:80%;
@@ -55,7 +55,7 @@ a:hover {
 }
 
 #travel {
-	width:650px;
+	width:730px;
 	height:auto;
 	margin-bottom: 12px;
 }
@@ -87,7 +87,7 @@ li {
 .original-pic, [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
-	height: 490px;
+	height: 510px;
 	color: #bc8f8f;
 	margin-top: 30px;
 }
