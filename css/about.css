@@ -26,11 +26,11 @@ li {
 /*--------below background--------*/
 #mypic {
 	float: left;
-	border:5px solid #bc8f8f;
+	border:5px solid #3b3a30;
 }
 
 #myname {
-	color: #bc8f8f;
+	color: #e3e0cc;
 	font-weight: 500;
 	display: inline;
 }
