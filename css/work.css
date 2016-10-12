@@ -12,7 +12,7 @@
 .expimg-wrapper {
 	position: relative;
 	height: 220px;
-	border: #bc8f8f solid 5px;
+	border: #3b3a30 solid 3px;
 	margin: 30px 10px 25px 10px;
 	text-align: center;
 	display: inline-block;
@@ -32,7 +32,7 @@
 	width: 400px;
 	height: 300px;
 	cursor: pointer;
-	border: #bc8f8f solid 5px;
+	border: #3b3a30 solid 3px;
 	margin: 30px 15px 25px 15px;
 }
 .subject {
