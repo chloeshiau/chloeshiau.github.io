@@ -88,7 +88,7 @@ li {
 .original-pic, [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
-	height: 510px;
+	height: 530px;
 	color: #bc8f8f;
 	margin-top: 30px;
 }
