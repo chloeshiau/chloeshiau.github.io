@@ -85,7 +85,7 @@ li {
 	color: #3b3a30;
 }
 
-.original-pic, [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+.original-pic, [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
 	height: 530px;
