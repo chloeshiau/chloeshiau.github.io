@@ -19,21 +19,27 @@
     border-top: thin solid gray;
 }
 
-.blog-pic {
+.blog-pic-lg {
 	padding: 10px 0px 20px 0px;
-	width: 520px;
-	height: 380px
+	width: 720px;
+	height: 540px;
 }
 
 .blog-desc {
-	text-indent: 30px;
 	text-align: left;
 	margin: 0 auto;
 	padding: 20px 0px 30px 0px;
-	width: 780px;
+	width: 720px;
+}
+
+.blog-steps {
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom:5px;
+	width: 720px;
 }
 
 
 .blog-container {
-	padding-top: 20px;
+	padding: 20px 0px 30px 0px;
 }
