@@ -31,6 +31,10 @@ a:hover {
 	text-align: right;
 	padding-top: 40px;
 	padding-right: 80px;
+	cursor: default;
+}
+
+#getSvg {
 	cursor: pointer;
 }
 

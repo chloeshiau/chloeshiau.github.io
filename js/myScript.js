@@ -133,6 +133,4 @@ var feed = new Instafeed({
 });
 feed.run();
 
-$("#north_america").onclick
-
 
