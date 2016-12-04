@@ -4,28 +4,24 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
-
 body {
 	font-family: 'Lato', sans-serif;
 }
-
 a {
 	text-decoration: none;
 }
-a:link {
+a:link, a:visited, a:hover {
 	color: black;
 }
 
-a:visited {
-	color: black;
+/** Travel **/
+li {
+	line-height: 45px;
+	padding: 0px 15px 0px 15px;
+	display: block;
+	letter-spacing: 2px;
+	color: #3b3a30;
 }
-
-a:hover {
-	color: black;
-}
-
-/*-----projects-------*/
-
 #og-pic {
 	width:auto;
 	height:500px;
@@ -53,13 +49,11 @@ a:hover {
 	text-align: center;
 	cursor: pointer;
 }
-
 #travel {
 	width:730px;
 	height:500px;
 	margin-bottom: 12px;
 }
-
 [class^="container"] {
 	display: none;
 	padding-right: 9%;
@@ -78,27 +72,27 @@ a:hover {
 	color: #3b3a30;
 	cursor: pointer;
 }
-
-li {
-	display: block;
-	letter-spacing: 2px;
-	color: #3b3a30;
+.original-pic, [class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+	overflow: auto;
+	display: none;
+	height: 530px;
+	color: #bc8f8f;
+	margin-top: 30px;
 }
-
 @media only screen 
   and (min-device-width: 355px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
     #og-pic {
-        display: none;
-    }
+		width:auto;
+		height:450px;
+	}
 	[class^="container"] {
 		display: none;
 		padding-right: 0px;
 		padding-left: 5px;
 		float: left;
-		padding-top: 10px;
+		padding-top: 25px;
 	}
 	#travel {
 		width:630px;
@@ -107,21 +101,13 @@ li {
 	}
 }
 
-.original-pic, [class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
-	overflow: auto;
-	display: none;
-	height: 530px;
-	color: #bc8f8f;
-	margin-top: 30px;
-}
-
+/** Page Navigation **/
 #nav-svg {
 	text-align: right;
 	padding-top: 40px;
 	padding-right: 80px;
 	cursor: pointer;
 }
-
 #blanket {
 	background-color:#BABABA;
 	opacity: 0.8;
@@ -131,27 +117,17 @@ li {
 	left:0px;
 	width:100%;
 }
-
 #popUpDiv {
 	position:absolute;
 	z-index: 9002;
 	padding-top: 20px;
 }
-
 #nav {
 	z-index: 9003;
 	text-align: center;
 	font-size: 35px;
 	padding-top: 15%;
 }
-
 #front-nav {
 	list-style-type: none;
 }
-
-li {
-	line-height: 45px;
-	padding: 0px 15px 0px 15px;
-}
-
-
