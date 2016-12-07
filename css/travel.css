@@ -97,6 +97,13 @@ li {
 		height:420px;
 		margin-bottom: 12px;
 	}
+	.original-pic, [class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+		overflow: auto;
+		display: none;
+		height: 1550px;
+		color: #bc8f8f;
+		margin-top: 50px;
+	}
 }
 
 /** Page Navigation **/
