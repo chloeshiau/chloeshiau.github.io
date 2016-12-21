@@ -6,7 +6,6 @@ html, body {
 }
 body {
 	font-family: 'Lato', sans-serif;
-	text-align: center;
 }
 a {
 	text-decoration: none;
@@ -69,6 +68,7 @@ li {
 #iconwrapper {
 	margin-top: 100px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .icon {
 	height:30px;
