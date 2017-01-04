@@ -23,16 +23,15 @@
 	width: 720px;
 	height: 540px;
 }
+.blog-pic-sm {
+	padding: 10px 0px 20px 0px;
+	width: 360px;
+	height: auto;
+}
 .blog-desc {
 	text-align: left;
 	margin: 0 auto;
 	padding: 20px 0px 30px 0px;
-	width: 720px;
-}
-.blog-steps {
-	text-align: left;
-	margin: 0 auto;
-	padding-bottom:5px;
 	width: 720px;
 }
 .blog-container {
@@ -42,7 +41,7 @@
   and (min-device-width: 355px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-	.blog-desc, .blog-title, .blog-steps {
+	.blog-desc, .blog-title {
 		font-size: 12px;
 	}
 }
