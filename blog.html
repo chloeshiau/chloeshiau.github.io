@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <title>CWS</title>
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/mainblog.css">
     <link rel="stylesheet" href="css/global.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
@@ -16,8 +18,8 @@
         <li><a href="index.html">About</a></li>
         <li><a href="ChloeWShiau.pdf" target="_blank">Resume</a></li>
         <li><a href="travel.html">Travel</a></li>
-        <li><a href="foodblog.html">Food Blog</a></li>
-        <li><a href="blog.html">Recipes</a></li>
+        <li><a href="foodblog.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
     </div>
 </div>
 <div id="popUpDiv" style="display:none">
@@ -31,7 +33,8 @@
         </div>
     </a>
 </div>
-<div id ="blog">
+
+<div id ="mainblog">
     <div id="temp">
         <a href="#" onclick="popup('popUpDiv')">
             <div id ="nav-svg">
@@ -43,46 +46,34 @@
             </div>
         </a>
     </div>
-    <div id="recipe">Chubsy's Kitchen</div>
-    <div class="blog-title">Sweet Potato Hash with Ground Turkey</div>
-    <div class="blog-container">    
-        <div class="blog-desc">My friend wanted to make something with ground turkey one day, so as per usual I went on Pinterest to see any easy recipes to make. The first picture that displayed was this sweet potato hash that was mixed in with ground turkey, and it looked so delicious that I had to make it for myself too! After work, I drove straight to Trader Joe's and picked up some fresh ingredients: sweet onions, bell peppers, sweet poatoes, and cheese.</div>
-        <img class="blog-pic-lg" src="img/blog/sweet-hash/sweet-hash-1-min.jpg"/><br>
-        <div class="blog-desc">I first chopped up the onions, sweet potatoes, and bell peppers into fine diced pieces. In a conventional oven, I sped up the cooking process of the sweet potatoes so I roasted them with some olive oil at 450 degrees for 10 minutes. While the sweet potatoes were being roasted, I sauteed the onions, bell peppers, and ground turkey in a large pan. When the turkey was almost cooked, I mixed in the sweet potatoes.</div>
-        <img class="blog-pic-lg" src="img/blog/sweet-hash/sweet-hash-2-min.jpg"/><br>
-        <img class="blog-pic-lg" src="img/blog/sweet-hash/sweet-hash-3-min.jpg"/>
-        <div class="blog-desc">After the hash is finished, I took the pan off the stove and sprinkled mozzarella on top! I love cheese so I topped my hash with a load of cheese!</div>
-        <img class="blog-pic-lg" src="img/blog/sweet-hash/sweet-hash-5-min.jpg"/>
-    </div>
-    <div class="blog-title">Earl Grey Chocolate Bundt Cake</div>
-    <div class="blog-container">    
-        <div class="blog-desc">A while ago, my boyfriend and I made earl grey creme brulee and ever since then I've been craving the essence of the aromatic lavender combined with caffeine.</div>
-        <img class="blog-pic-lg" src="img/blog/earl-grey/IMG_0166-min.JPG"/>
-        <div class="blog-desc">I use sour cream in my recipe because it always creates the perfect soft texture in the cake, and I also add an extra earl grey tea bag or two for a stronger essence.<br><br>
-        7 earl grey tea bags<br>
-        1 cup hot water<br>
-        1 3/4 cups all-purpose flour<br>
-        1 teaspoon baking powder<br>
-        1 teaspoon baking soda<br>
-        1/4 teaspoon salt<br>
-        1/2 cup unsalted butter at room temperature<br>
-        3 eggs<br>
-        1 1/2 cups granulated sugar<br>
-        1/2 cup melted bittersweet chocolate<br>
-        1/2 cup sour cream</div>
-        <div class="blog-steps"><strong>PRO TIP #1:</strong> If you want to speed up the butter temperature: Put the stick of butter on a plate, pour hot water in a glass bowl, pour it out, and cover butter with that bowl.</div>
-        <div class="blog-steps"><strong>PRO TIP #2:</strong> To easily melt the chocolate without burning it in the microwave, put the chocolate in a bowl, pour hot water in another bowl with a smaller diameter, and place your chocolate over that bowl. Stir constantly for a minute or two until the chocolate just melts.</div>
+    
+    <div class="block"></div>
+    <div class="container-fluid">
+        <div class = "row-fluid">
+            <div class = "span2"></div>
+            <div class = "span4">
+                <div class="start">
+                    <a href="recipes.html">
+                        <object class="content" data="img/pizza.svg" type="image/svg+xml">
+                            <img src="img/pizza.jpg" />
+                        </object>
+                    </a>
+                </div>
+            </div>
+            <div class = "span4">
+                <div class="start">
+                    <a href="recipes.html">
+                        <object class="content" data="img/pizza.svg" type="image/svg+xml">
+                            <img src="img/pizza.jpg" />
+                        </object>
+                    </a>
+                </div>
+            </div>
+            <div class = "span2"></div>
         </div>
-        <img class="blog-pic-lg" src="img/blog/earl-grey/IMG_0170-min.JPG"/><br>
-        <img class="blog-pic-lg" src="img/blog/earl-grey/IMG_0169-min.JPG"/>
-        <div class="blog-steps"><strong>1)</strong> Preheat the oven to 350 degrees. Steep the tea bags in the hot water for 5-7 minutes, then take the tea bags out and let the liquid cool.</div>
-        <div class="blog-steps"><strong>2)</strong> In a large bowl, mix the butter and sugar until smooth. Then, add in the eggs and mix one at a time.</div>
-        <div class="blog-steps"><strong>3)</strong> Use another bowl to mix the dry ingredients together: flour, salt, baking powder, and baking soda.</div>
-        <div class="blog-steps"><strong>4)</strong> Mix the dry ingredients with the butter mixture in increments of 4-5.</div>
-        <div class="blog-steps"><strong>5)</strong> Mix in the chocolate, then mix in the sour cream and tea interchangeably.</div>
-        <div class="blog-desc">Grease the bundt cake pan and pour in the batter. Bake for 35-40 minutes or until you can easily put a skewer stick into the cake without any batter sticking to the stick.<br><br>Let the cake cool for 5-10 minutes and flip it on a platter. I sprinkled powdered sugar on top of the cake, but it will also go well with icings and nuts.  Enjoy!</div>
-        <img class="blog-pic-lg" src="img/blog/earl-grey/IMG_0168-min.JPG"/>
     </div>
+
+
 </div>
 <script src = "js/myScript.js"></script>
 </body>

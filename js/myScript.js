@@ -9,7 +9,7 @@ function showTabs(country) {
 	$(".original-pic").hide();
 	currentCountry = country.id;
 	$(".container").hide();
-	$(".container-"+currentCountry).fadeIn(1500).show();	
+	$(".container-"+currentCountry).show('slow');	
 	console.log(".container-"+currentCountry);
 }
 
@@ -17,7 +17,7 @@ function showPlaces(place) {
 	$("."+currentPlace).hide();
 	currentPlace = place.id;
 	console.log("."+place.id);
-	$("."+currentPlace).fadeIn(1500).show();
+	$("."+currentPlace).show('slow');
 }
 
 function revertTravel(revertPlace) {
@@ -25,8 +25,8 @@ function revertTravel(revertPlace) {
 	$("."+currentPlace).hide();
 	revertPlace = revertPlace.id.slice(0, -1);
 	console.log("revert" + revertPlace);
-	$(".container").fadeIn(1500).show();
-	$(".container-"+currentCountry).fadeOut(1500).hide();	
+	$(".container").show('slow');
+	$(".container-"+currentCountry).hide();	
 	$("."+revertPlace).hide();	
 	$('.'+travel).hide();
 	$("div ."+revertPlace+":contains('travel')").parent('div').hide();
