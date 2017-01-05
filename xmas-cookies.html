@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CWS</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="blanket" style="display:none"> 
+    <div id="nav">
+    <ul id="front-nav">
+        <li><a href="index.html">About</a></li>
+        <li><a href="ChloeWShiau.pdf" target="_blank">Resume</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="foodblog.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+    </div>
+</div>
+<div id="popUpDiv" style="display:none">
+    <a href="#" onclick="popup('popUpDiv')" >
+        <div id ="nav-svg">
+            <svg id="getSvg" width="50" height="24">
+                <rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
+                <rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
+                <rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
+            </svg>
+        </div>
+    </a>
+</div>
+<div id ="blog">
+    <div id="temp">
+        <a href="#" onclick="popup('popUpDiv')">
+            <div id ="nav-svg">
+                <svg id="getSvg" width="50" height="24">
+                    <rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
+                    <rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
+                    <rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
+                </svg>
+            </div>
+        </a>
+    </div>
+    <div id="recipe">Chubsy's Kitchen</div>
+   
+    <div id="recipe-container" class="container-fluid">
+        <div class="row-fluid">
+            <div class="span1"></div>
+            <div class="span7">   
+                <div class="blog-title">Christmas Cookies</div>
+                <div class="blog-desc"></div>
+                <img class="blog-pic-lg" src="img/blog/xmas-cookies/xmascookies2-min.jpg"/>
+                <img class="blog-pic-lg" src="img/blog/xmas-cookies/xmascookies3-min.jpg"/>
+                <img class="blog-pic-lg" src="img/blog/xmas-cookies/xmascookies4-min.jpg"/>
+                <img class="blog-pic-lg" src="img/blog/xmas-cookies/xmascookies5-min.jpg"/>
+            </div> 
+            <div class="span3">
+                <a href="sweet-potato.html"><img class="blog-pic-lg" src="img/blog/sweet-hash/sweet-hash-5-min.jpg"/></a>
+                <a href="earl-grey.html"><img class="blog-pic-lg" src="img/blog/earl-grey/IMG_0168-min.JPG"/></a>
+                <a href="xmas-cookies.html"><img class="blog-pic-lg" src="img/blog/xmas-cookies/xmascookies3-min.jpg"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src = "js/myScript.js"></script>
+</body>
+</html>

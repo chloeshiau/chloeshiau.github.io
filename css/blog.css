@@ -13,29 +13,16 @@
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	padding: 20px 0px 20px 0px;
-	margin: 20px 100px 0px 100px;
 	font-size:25px;
     border-bottom: thin solid gray;
     border-top: thin solid gray;
 }
 .blog-pic-lg {
-	padding: 10px 0px 20px 0px;
-	width: 720px;
-	height: 540px;
-}
-.blog-pic-sm {
-	padding: 10px 0px 20px 0px;
-	width: 360px;
-	height: auto;
+	margin: 10px 0px 20px 0px;
 }
 .blog-desc {
 	text-align: left;
-	margin: 0 auto;
-	padding: 20px 0px 30px 0px;
-	width: 720px;
-}
-.blog-container {
-	padding: 20px 0px 30px 0px;
+	margin: 10px 0px 10px 0px;
 }
 @media only screen 
   and (min-device-width: 355px) 
