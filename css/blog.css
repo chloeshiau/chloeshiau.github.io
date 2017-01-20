@@ -21,7 +21,10 @@
 	margin: 10px 0px 20px 0px;
 }
 .first-pic {
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 10px 0px;
+}
+img.first-pic:hover {
+	opacity: .8;
 }
 .blog-desc {
 	text-align: left;
