@@ -1,7 +1,7 @@
 /** Recipe Information **/
 #blog {
 	width: 100%;
-	padding-top:20px;
+	padding:20px 0px 20px 0px;
 }
 #recipe {
 	font-family: 'Cedarville Cursive', cursive;
@@ -24,7 +24,7 @@
 	margin: 0px 0px 10px 0px;
 }
 img.first-pic:hover {
-	opacity: .8;
+	opacity: .7;
 }
 .blog-desc {
 	text-align: left;
