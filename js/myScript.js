@@ -132,3 +132,8 @@ var feed = new Instafeed({
   resolution: 'low_resolution'
 });
 feed.run();
+
+$(function(){
+var sideBarNavWidth=$('#rightcolumn').width() - parseInt($('#sidebarnav').css('paddingLeft')) - parseInt($('#sidebarnav').css('paddingRight'));
+$('#sidebarnav').css('width', sideBarNavWidth);
+});
