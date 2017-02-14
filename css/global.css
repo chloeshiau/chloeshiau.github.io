@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 }
 body {
+	padding-top: 30px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
