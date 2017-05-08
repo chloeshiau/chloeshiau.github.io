@@ -49,7 +49,7 @@ li {
 }
 #travel {
 	width:730px;
-	height:500px;
+	height:auto;
 	margin-bottom: 12px;
 }
 [class^="container"] {
@@ -73,7 +73,7 @@ li {
 .original-pic, [class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
-	height: 530px;
+	height: 580px;
 	color: #bc8f8f;
 	margin-top: 30px;
 }
