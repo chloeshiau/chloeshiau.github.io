@@ -26,7 +26,10 @@
   stroke-miterlimit:10;
   stroke-width:8px;
   stroke-dasharray: 5000;
-  animation: dash 8s;
+  -webkit-animation: dash 8s forwards;
+  -moz-animation: dash 8s forwards;
+  -o-animation: dash 8s forwards;
+  animation: dash 8s forwards;
 }
 .text {
 	font-size:16px;
