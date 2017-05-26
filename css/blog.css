@@ -7,7 +7,7 @@
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 55px;
 	padding: 80px 0px 20px 0px;
-	color: #e3e0cc;
+	color: #111;
 }
 .blog-title {
 	font-family: 'Lato', sans-serif;
@@ -27,7 +27,7 @@
 	margin: 0px 0px 10px 0px;
 	border-style: solid;
 	border-width: 1.5px;
-	border: 2px solid gray;
+	border: 2px solid #606060;
 }
 img.first-pic:hover {
 	border: 2px solid black;

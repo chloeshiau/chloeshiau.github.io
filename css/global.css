@@ -4,7 +4,6 @@ html, body {
 	height: 100%;
 }
 body {
-	padding-top: 20px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
@@ -37,7 +36,6 @@ a:link, a:visited, a:hover {
 #popUpDiv {
 	position:fixed;
 	z-index: 9002;
-	padding-top: 20px;
 }
 #nav {
 	z-index: 9003;

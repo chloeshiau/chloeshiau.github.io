@@ -18,13 +18,13 @@
 	padding-top: 30px;
 }
 #get-padding {
-	padding-top: 70px;
+	padding-top: 90px;
 }
 .cls-1 {
   fill:none;
   stroke:#111;
   stroke-miterlimit:10;
-  stroke-width:8px;
+  stroke-width:7px;
   stroke-dasharray: 5000;
   -webkit-animation: dash 8s forwards;
   -moz-animation: dash 8s forwards;
