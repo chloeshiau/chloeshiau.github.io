@@ -27,7 +27,7 @@
 	margin: 0px 0px 10px 0px;
 	border-style: solid;
 	border-width: 1.5px;
-	border: 2px solid #b2c2bf;
+	border: 2px solid gray;
 }
 img.first-pic:hover {
 	border: 2px solid black;

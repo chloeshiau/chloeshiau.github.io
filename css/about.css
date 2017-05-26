@@ -11,24 +11,32 @@
 	padding-top: 15%;
 }
 /*--------below background--------*/
-#myname {
-	color: #e3e0cc;
-	font-weight: 500;
-	display: inline;
-}
 .container-fluid {
 	margin: 20px 70px 0px 70px;
-}
-.section-name-2 {
-	font-size: 60px;
-	letter-spacing: -4px;
-	font-family: 'Allerta', sans-serif;
-	margin-bottom: 10px;
-	margin-top: 80px;
 }
 .block {
 	padding-top: 30px;
 }
-#description {
-	text-align: left;
+#get-padding {
+	padding-top: 70px;
+}
+.cls-1 {
+  fill:none;
+  stroke:#111;
+  stroke-miterlimit:10;
+  stroke-width:8px;
+  stroke-dasharray: 5000;
+  animation: dash 8s;
+}
+.text {
+	font-size:16px;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 5000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
