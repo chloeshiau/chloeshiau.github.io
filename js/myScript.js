@@ -21,20 +21,6 @@ function revertTravel(revertPlace) {
 	location.href = "./travel.html";
 }
 
-//front page
-document.onreadystatechange = function() {
-	var state = document.readyState;
-	if(state == 'interactive') {
-		document.getElementById('body').style.opacity = 0;
-	}
-	else if (state == 'complete') {
-		setTimeout(function() {
-			document.getElementById('body').style.opacity = 1;
-			document.getElementById('load').style.visibility = "hidden";
-		}, 1000);
-	}
-}
-
 //every page
 $('#iconscroll').click(function() {
 	$("html, body").animate({
@@ -96,13 +82,16 @@ function popup(windowname) {
 	toggle(windowname);		
 }
 
-var feed = new Instafeed({
-  get: 'user',
-  userId: 1665792495,
-  accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
-  resolution: 'low_resolution'
-});
-feed.run();
+if(window.location.pathname == "/foodblog.html") {
+	var feed = new Instafeed({
+	  get: 'user',
+	  userId: 1665792495,
+	  accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
+	  resolution: 'low_resolution'
+	});
+	feed.run();	
+}
+
 
 $(function(){
 var sideBarNavWidth=$('#rightcolumn').width() - parseInt($('#sidebarnav').css('paddingLeft')) - parseInt($('#sidebarnav').css('paddingRight'));
