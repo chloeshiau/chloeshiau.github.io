@@ -6,40 +6,21 @@ $( document ).ready(function() {
 var currentCountry;
 var currentPlace;
 function showTabs(country) {
-	$(".original-pic").hide();
 	currentCountry = country.id;
-	$(".container").hide();
+	location.href = "./"+currentCountry+".html";
 	$(".container-"+currentCountry).show('slow');	
-	console.log(".container-"+currentCountry);
 }
 
 function showPlaces(place) {
 	$("."+currentPlace).hide();
 	currentPlace = place.id;
-	console.log("."+place.id);
 	$("."+currentPlace).show('slow');
 }
 
 function revertTravel(revertPlace) {
-	$(".original-pic").show();
-	$("."+currentPlace).hide();
-	revertPlace = revertPlace.id.slice(0, -1);
-	console.log("revert" + revertPlace);
-	$(".container").show('slow');
-	$(".container-"+currentCountry).hide();	
-	$("."+revertPlace).hide();	
-	$('.'+travel).hide();
-	$("div ."+revertPlace+":contains('travel')").parent('div').hide();
+	location.href = "./travel.html";
 }
 
-//projects
-function mouseOver(img, num) {
-	img.src = "img/projects/proj"+ num + "-1.png";
-}
-
-function mouseOut(img, num) {
-	img.src = "img/projects/proj"+ num + ".png";
-}
 //front page
 document.onreadystatechange = function() {
 	var state = document.readyState;
@@ -63,16 +44,6 @@ $('#iconscroll1').click(function() {
 	$("html, body").animate({
 		scrollTop:200 }, 600);
 });
-
-//contact
-var num = 0;
-window.onload = function() {
-	$("ul#getcontact li.poc").each(function() {
-		$(this).style.paddingRight = num + "px";
-		num = num + 40;
-	})
-};
-
 
 /*------------Navigation------------*/
 function toggle(div_id) {

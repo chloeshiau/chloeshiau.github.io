@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>CWS</title>
+  <link rel="shortcut icon" href="img/name.ico" />
+  <link rel="stylesheet" href="css/travel.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='am-charts/ammap.css'>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="am-charts/ammap.js"></script>
+  <script src="am-charts/continentsLow.js"></script>
+  <script src="js/ammap-new.js"></script>
+</head>
+<body>
+<div id="blanket" style="display:none">	
+	<div id="nav">
+	<ul id="front-nav">
+		<li><a href="index.html">About</a></li>
+		<li><a href="travel.html">Travel</a></li>
+		<li><a href="foodblog.html">Gallery</a></li>
+		<li><a href="ai.html">Design</a></li>
+		<li><a href="blog.html">Blog</a></li>
+	</div>
+</div>
+<div id="popUpDiv" style="display:none">
+	<a href="#" onclick="popup('popUpDiv')" >
+		<div id ="nav-svg">
+			<svg id="getSvg" width="50" height="24">
+		  		<rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
+		  		<rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
+		  		<rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
+			</svg>
+		</div>
+	</a>
+</div>
+<div id = "travels">
+	<a href="#" onclick="popup('popUpDiv')">
+		<div id ="nav-svg">
+			<svg id="getSvg" width="50" height="24">
+		  		<rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
+		  		<rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
+		  		<rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
+			</svg>
+		</div>
+	</a>
+	<div class = "container">
+		<ul class="getul">
+			<li id="uks" onclick="revertTravel(this)"> < </li>
+			<li id="uk-edinburgh" onclick='showPlaces(this)'>EDINBURGH</li>
+			<li id="uk-london" onclick='showPlaces(this)'>LONDON</li>
+			<li id="uk-windsor" onclick='showPlaces(this)'>WINDSOR</li>
+			<li id="uk-york" onclick='showPlaces(this)'>YORK</li>
+		</ul>		
+	</div>
+	<div class="uk-edinburgh">
+		<img id = "travel" src="img/uk/edinburgh/IMG_4485-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4490-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4511-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4609-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4643-min.jpg"/>
+		<img id = "travel" src="img/uk/edinburgh/IMG_4654-min.jpg"/>
+	</div>
+	<div class="uk-london">
+		<img id = "travel" src="img/uk/london/IMG_4143-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_0359-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0379-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0399-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_0426-min.JPG"/>
+		<img id = "travel" src="img/uk/london/IMG_4248-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_4381-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_9564-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_9657-min.jpg"/>
+		<img id = "travel" src="img/uk/london/IMG_9727-min.jpg"/>
+	</div>
+	<div class="uk-windsor">
+		<img id = "travel" src="img/uk/windsor/IMG_9060-min.jpg"/>
+		<img id = "travel" src="img/uk/windsor/IMG_0631-min.jpg"/>
+		<img id = "travel" src="img/uk/windsor/IMG_9031-min.jpg"/>
+		<img id = "travel" src="img/uk/windsor/IMG_9070-min.jpg"/>
+		<img id = "travel" src="img/uk/windsor/IMG_9324-min.jpg"/>
+	</div>
+	<div class="uk-york">
+		<img id = "travel" src="img/uk/york/IMG_4666-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4670-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4677-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4688-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4696-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4729-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4748-min.jpg"/>
+		<img id = "travel" src="img/uk/york/IMG_4759-min.jpg"/>
+	</div>
+</div>
+<script src = "js/myScript.js"></script>
+</body>
+</html>
