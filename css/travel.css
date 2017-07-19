@@ -69,7 +69,7 @@ li {
 	color: #3b3a30;
 	cursor: pointer;
 }
-.original-pic, [class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+.original-pic, [class^="mexico"], [class^="greece"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 	overflow: auto;
 	display: none;
 	height: 580px;
@@ -96,7 +96,7 @@ li {
 		height:420px;
 		margin-bottom: 12px;
 	}
-	[class^="mexico"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+	[class^="mexico"], , [class^="greece"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
 		overflow: auto;
 		display: none;
 		height: 1520px;
