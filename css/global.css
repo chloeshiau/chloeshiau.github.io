@@ -17,9 +17,10 @@ a:link, a:visited, a:hover {
 /* front navigation */
 #nav-svg {
 	text-align: right;
-	padding-top: 40px;
-	padding-right: 80px;
+	margin-top: 40px;
+	margin-right: 80px;
 	cursor: default;
+	float:right;
 }
 #getSvg {
 	cursor: pointer;
