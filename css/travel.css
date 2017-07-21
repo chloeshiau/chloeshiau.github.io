@@ -56,7 +56,7 @@ li {
 	padding-right: 9%;
 	padding-left: 55px;
 	float: left;
-	padding-top: 30px;
+	padding-top: 120px;
 }
 [class^="container"] ul {
 	list-style: none;
@@ -69,12 +69,23 @@ li {
 	color: #3b3a30;
 	cursor: pointer;
 }
-.original-pic, [class^="mexico"], [class^="greece"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+.original-pic, 
+[class^="mexico"], 
+[class^="greece"], 
+[class^="canada"], 
+[class^="spain"], 
+[class^="uk"], 
+[class^="us"], 
+[class^="italy"], 
+[class^="france"], 
+[class^="belgium"], 
+[class^="asia"], 
+[class^="switz"] {
 	overflow: auto;
 	display: none;
 	height: 580px;
 	color: #bc8f8f;
-	margin-top: 30px;
+	margin-top: 120px;
 }
 @media only screen 
   and (min-device-width: 355px) 
@@ -89,19 +100,29 @@ li {
 		padding-right: 0px;
 		padding-left: 5px;
 		float: left;
-		padding-top: 25px;
+		padding-top: 100px;
 	}
 	#travel {
 		width:630px;
 		height:420px;
 		margin-bottom: 12px;
 	}
-	[class^="mexico"], , [class^="greece"], [class^="canada"], [class^="spain"], [class^="uk"], [class^="us"], [class^="italy"], [class^="france"], [class^="belgium"], [class^="asia"], [class^="switz"]{
+	[class^="mexico"], 
+	[class^="greece"], 
+	[class^="canada"], 
+	[class^="spain"], 
+	[class^="uk"], 
+	[class^="us"], 
+	[class^="italy"], 
+	[class^="france"], 
+	[class^="belgium"], 
+	[class^="asia"], 
+	[class^="switz"] {
 		overflow: auto;
 		display: none;
 		height: 1520px;
 		color: #bc8f8f;
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 }
 
