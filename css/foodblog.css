@@ -6,19 +6,79 @@
 	font-size: 14.5px;
 	width: 100%;
 }
+
 #title {
 	font-size: 30px;
 	padding-top: 120px;
 }
-#instafeed {
-	padding-top: 30px;
+
+#foodpicture {
+    width: 100%;
+	margin-top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 }
+
+#foodpicture.show {
+	visibility: visible;
+	opacity: 1;
+}
+
+#foodpicture a {
+	background-color: #fff;
+    width: 320px;
+	height: 320px;
+	overflow: hidden;
+	position: relative;
+    display: inline-block;
+	
+	-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
+#foodpicture a:hover {
+	background-color: #fff;
+}
+
+#foodpicture a img {
+    width: 100%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	opacity: 1;
+  
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    display: inline-block;
+	
+	-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
+#foodpicture a:hover img {
+	width: 105%;
+	opacity: 0.75;
+}
+
 
 /*--------below background--------*/
 
 .container-fluid {
 	margin-top: 20px;
 }
+
 .section-name-1 {
 	font-size: 72px;
 	color: #66CCCC;
@@ -27,6 +87,7 @@
 	margin-bottom: 10px;
 	display: inline;
 }
+
 .section-name-2 {
 	font-size: 60px;
 	letter-spacing: -4px;

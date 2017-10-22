@@ -126,6 +126,10 @@ li {
 	}
 }
 
+ul.getul > li:hover {
+	font-weight: 600;
+}
+
 /** Page Navigation **/
 #nav-svg {
 	text-align: right;
