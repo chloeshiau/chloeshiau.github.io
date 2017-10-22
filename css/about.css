@@ -18,28 +18,10 @@
 	padding-top: 30px;
 }
 #get-padding {
-	padding-top: 90px;
-}
-.cls-1 {
-  fill:none;
-  stroke:#111;
-  stroke-miterlimit:10;
-  stroke-width:7px;
-  stroke-dasharray: 5000;
-  -webkit-animation: dash 8s forwards;
-  -moz-animation: dash 8s forwards;
-  -o-animation: dash 8s forwards;
-  animation: dash 8s forwards;
+	margin-top: 90px;
+  border: 1px solid #000;
 }
 .text {
-	font-size:16px;
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 5000;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+	font-size: 16px;
+  margin-top: 3px;
 }
