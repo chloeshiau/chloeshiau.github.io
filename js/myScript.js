@@ -87,13 +87,8 @@ if(window.location.pathname == "/foodblog.html") {
 	  get: 'user',
 	  userId: 1665792495,
 	  accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
-	  resolution: 'low_resolution'
+	  resolution: 'standard_resolution',
+	  template: '<a href="{{link}}"><img height="{{width}}" src="{{image}}" /></a>'
 	});
 	feed.run();	
 }
-
-
-$(function(){
-var sideBarNavWidth=$('#rightcolumn').width() - parseInt($('#sidebarnav').css('paddingLeft')) - parseInt($('#sidebarnav').css('paddingRight'));
-$('#sidebarnav').css('width', sideBarNavWidth);
-});
