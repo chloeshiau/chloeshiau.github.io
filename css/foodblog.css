@@ -32,8 +32,9 @@
 
 #foodpicture a {
 	background-color: #fff;
-    width: 320px;
-	height: 320px;
+    width: 250px;
+	height: 250px;
+	margin: 3px;
 	overflow: hidden;
 	position: relative;
     display: inline-block;
@@ -68,7 +69,7 @@
 }
 
 #foodpicture a:hover img {
-	width: 105%;
+	width: 98%;
 	opacity: 0.75;
 }
 

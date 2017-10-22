@@ -89,7 +89,7 @@ if(window.location.pathname == "/foodblog.html") {
 	  target: 'foodpicture',
 	  accessToken: '1665792495.fa1fbde.80d35431a95843bdbd779a1ce9498694',
 	  resolution: 'standard_resolution',
-	  template: '<a href="{{link}}"><img src="{{image}}" /></a>',
+	  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
 	  limit: '16',
 	  after: function() {
 		var el = document.getElementById('foodpicture');
