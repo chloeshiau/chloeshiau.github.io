@@ -5,23 +5,23 @@
   <link rel="shortcut icon" href="img/name.ico" />
   <link rel="stylesheet" href="css/travel.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 <div id="blanket" style="display:none">	
 	<div id="nav">
-	<ul id="front-nav">
-		<li><a href="index.html">about</a></li>
-		<li><a href="travel.html">travel</a></li>
-		<li><a href="foodblog.html">gallery</a></li>
-		<li><a href="ai.html">design</a></li>
-		<li><a href="blog.html">blog</a></li>
+		<ul id="front-nav">
+			<li><a href="index.html">about</a></li>
+			<li><a href="travel.html">travel</a></li>
+			<li><a href="foodblog.html">gallery</a></li>
+			<li><a href="ai.html">design</a></li>
+			<li><a href="blog.html">blog</a></li>
+		</ul>
 	</div>
 </div>
 <div id="popUpDiv" style="display:none">
-	<a href="#" onclick="popup('popUpDiv')" >
-		<div id ="nav-svg">
+	<a onclick="popup('popUpDiv')" >
+		<div id="nav-svg">
 			<svg id="getSvg" width="50" height="24">
 		  		<rect y="0" width="50" height="2" style="fill:rgb(59,58,48)" />
 		  		<rect y="10" width="50" height="2" style="fill:rgb(59,58,48)" />
@@ -30,9 +30,9 @@
 		</div>
 	</a>
 </div>
-<div id = "travels">
-	<a href="#" onclick="popup('popUpDiv')">
-		<div id ="nav-svg">
+<div id="travels">
+	<a onclick="popup('popUpDiv')">
+		<div id="nav-svg">
 			<svg id="getSvg" width="50" height="24">
 		  		<rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
 		  		<rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
@@ -40,7 +40,7 @@
 			</svg>
 		</div>
 	</a>
-	<div class = "container">
+	<div class="container">
 		<ul class="getul">
 			<li id="greeces" onclick="revertTravel(this)"> < </li>
 			<li id="greece-athens" onclick='showPlaces(this)'>ATHENS</li>
@@ -49,36 +49,36 @@
 		</ul>
 	</div>
 	<div class="greece-athens">
-		<img id = "travel" src="img/greece/athens/athens-1-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-2-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-3-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-4-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-5-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-6-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-7-min.jpg"/>
-		<img id = "travel" src="img/greece/athens/athens-8-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-1-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-2-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-3-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-4-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-5-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-6-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-7-min.jpg"/>
+		<img id="travel" src="img/greece/athens/athens-8-min.jpg"/>
 	</div>
 	<div class="greece-mykonos">
-		<img id = "travel" src="img/greece/mykonos/mykonos-2-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-9-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-8-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-4-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-1-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-6-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-3-min.jpg"/>
-		<img id = "travel" src="img/greece/mykonos/mykonos-7-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-2-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-9-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-8-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-4-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-1-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-6-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-3-min.jpg"/>
+		<img id="travel" src="img/greece/mykonos/mykonos-7-min.jpg"/>
 	</div>
 	<div class="greece-santorini">
-		<img id = "travel" src="img/greece/santorini/santorini-1-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-2-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-3-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-4-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-5-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-6-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-7-min.jpg"/>
-		<img id = "travel" src="img/greece/santorini/santorini-8-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-1-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-2-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-3-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-4-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-5-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-6-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-7-min.jpg"/>
+		<img id="travel" src="img/greece/santorini/santorini-8-min.jpg"/>
 	</div>
 </div>
-<script src = "js/myScript.js"></script>
+<script src="js/myScript.js"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
   <link rel="shortcut icon" href="img/name.ico" />
   <link rel="stylesheet" href="css/travel.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
@@ -21,7 +20,7 @@
 	</div>
 </div>
 <div id="popUpDiv" style="display:none">
-	<a href="#" onclick="popup('popUpDiv')" >
+	<a onclick="popup('popUpDiv')" >
 		<div id ="nav-svg">
 			<svg id="getSvg" width="50" height="24">
 		  		<rect y="0" width="50" height="2" style="fill:rgb(59,58,48)" />
@@ -31,9 +30,9 @@
 		</div>
 	</a>
 </div>
-<div id = "travels">
-	<a href="#" onclick="popup('popUpDiv')">
-		<div id ="nav-svg">
+<div id="travels">
+	<a onclick="popup('popUpDiv')">
+		<div id="nav-svg">
 			<svg id="getSvg" width="50" height="24">
 		  		<rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
 		  		<rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
@@ -41,7 +40,7 @@
 			</svg>
 		</div>
 	</a>
-	<div class = "container">
+	<div class="container">
 		<ul class="getul">
 			<li id="seattles" onclick="revertTravel(this)"> < </li>
 			<li id="us-alaska" onclick='showPlaces(this)'>ALASKA</li>
@@ -54,71 +53,71 @@
 		</ul>
 	</div>
 	<div class="us-alaska">
-		<img id = "travel" src="img/usa/alaska/IMG_0794-min.jpg"/>
-		<img id = "travel" src="img/usa/alaska/IMG_0823-min.jpg"/>
-		<img id = "travel" src="img/usa/alaska/IMG_0858-min.jpg"/>
-		<img id = "travel" src="img/usa/alaska/IMG_1175-min.jpg"/>
-		<img id = "travel" src="img/usa/alaska/IMG_2007-min.jpg"/>
+		<img id="travel" src="img/usa/alaska/IMG_0794-min.jpg"/>
+		<img id="travel" src="img/usa/alaska/IMG_0823-min.jpg"/>
+		<img id="travel" src="img/usa/alaska/IMG_0858-min.jpg"/>
+		<img id="travel" src="img/usa/alaska/IMG_1175-min.jpg"/>
+		<img id="travel" src="img/usa/alaska/IMG_2007-min.jpg"/>
 	</div>
 	<div class="us-seattle">
-		<img id = "travel" src="img/usa/seattle/IMG_2350-min.JPG"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2351-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2373-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2403-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2405-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2472-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2481-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2485-min.jpg"/>
-		<img id = "travel" src="img/usa/seattle/IMG_2551-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2350-min.JPG"/>
+		<img id="travel" src="img/usa/seattle/IMG_2351-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2373-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2403-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2405-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2472-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2481-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2485-min.jpg"/>
+		<img id="travel" src="img/usa/seattle/IMG_2551-min.jpg"/>
 	</div>
 	<div class="us-sd">
-		<img id = "travel" src="img/usa/sd/IMG_3321-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_3283-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_3495-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_3413-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_3410-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_4396-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/SBYL6482-min.jpg"/>
-		<img id = "travel" src="img/usa/sd/IMG_3471-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3321-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3283-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3495-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3413-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3410-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_4396-min.jpg"/>
+		<img id="travel" src="img/usa/sd/SBYL6482-min.jpg"/>
+		<img id="travel" src="img/usa/sd/IMG_3471-min.jpg"/>
 	</div>
 	<div class="us-indio">
-		<img id = "travel" src="img/usa/indio/IMG_4036-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/IMG_4065-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/IMG_3965-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/IMG_4026-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/MIIR0054-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/VCZJ5082-min.jpg"/>
-		<img id = "travel" src="img/usa/indio/XBFM5101-min.jpg"/>
+		<img id="travel" src="img/usa/indio/IMG_4036-min.jpg"/>
+		<img id="travel" src="img/usa/indio/IMG_4065-min.jpg"/>
+		<img id="travel" src="img/usa/indio/IMG_3965-min.jpg"/>
+		<img id="travel" src="img/usa/indio/IMG_4026-min.jpg"/>
+		<img id="travel" src="img/usa/indio/MIIR0054-min.jpg"/>
+		<img id="travel" src="img/usa/indio/VCZJ5082-min.jpg"/>
+		<img id="travel" src="img/usa/indio/XBFM5101-min.jpg"/>
 	</div>
 	<div class="us-la">
-		<img id = "travel" src="img/usa/la/IMG_4749-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1082-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1030-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1063-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1129-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1132-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1191-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1146-min.jpg"/>
-		<img id = "travel" src="img/usa/la/IMG_1299-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_4749-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1082-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1030-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1063-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1129-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1132-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1191-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1146-min.jpg"/>
+		<img id="travel" src="img/usa/la/IMG_1299-min.jpg"/>
 	</div>
 	<div class="us-orlando">
-		<img id = "travel" src="img/usa/orlando/IMG_9605-min.jpg"/>
-		<img id = "travel" src="img/usa/orlando/IMG_9186-min.jpg"/>
-		<img id = "travel" src="img/usa/orlando/IMG_9606-min.jpg"/>
-		<img id = "travel" src="img/usa/orlando/IMG_9636-min.jpg"/>
-		<img id = "travel" src="img/usa/orlando/IMG_9845-min.jpg"/>
+		<img id="travel" src="img/usa/orlando/IMG_9605-min.jpg"/>
+		<img id="travel" src="img/usa/orlando/IMG_9186-min.jpg"/>
+		<img id="travel" src="img/usa/orlando/IMG_9606-min.jpg"/>
+		<img id="travel" src="img/usa/orlando/IMG_9636-min.jpg"/>
+		<img id="travel" src="img/usa/orlando/IMG_9845-min.jpg"/>
 	</div>
 	<div class="us-sf">
-		<img id = "travel" src="img/usa/sf/IMG_3447-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0378-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_8291-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0001-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0002-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0003-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0004-min.jpg"/>
-		<img id = "travel" src="img/usa/sf/IMG_0005-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_3447-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0378-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_8291-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0001-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0002-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0003-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0004-min.jpg"/>
+		<img id="travel" src="img/usa/sf/IMG_0005-min.jpg"/>
 	</div>
 </div>
-<script src = "js/myScript.js"></script>
+<script src="js/myScript.js"></script>
 </body>
 </html>
