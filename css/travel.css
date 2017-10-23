@@ -28,7 +28,7 @@ li {
 }
 
 #travels {
-	padding-top: 20px;
+	padding-top: 1px;
 }
 #quote {
 	font-family: 'Lato', sans-serif;
@@ -130,11 +130,11 @@ ul.getul > li:hover {
 	font-weight: 600;
 }
 
-/** Page Navigation **/
+/* front navigation */
 #nav-svg {
 	text-align: right;
 	margin-top: 40px;
-	margin-right: 80px;
+	margin-right: 60px;
 	cursor: default;
 	float:right;
 }
@@ -142,25 +142,41 @@ ul.getul > li:hover {
 	cursor: pointer;
 }
 #blanket {
-	background-color:#BABABA;
-	opacity: 0.8;
-	position:absolute;
+	position: fixed;
+	margin: 30px 40px 0px 0px;
 	z-index: 9001;
-	top:0px;
-	left:0px;
-	width:100%;
+	right: 0px;
+	width: 250px;
 }
 #popUpDiv {
-	position:absolute;
+	position: fixed;
 	z-index: 9002;
-	padding-top: 20px;
+	padding-top: 1px;
 }
 #nav {
 	z-index: 9003;
-	text-align: center;
-	font-size: 35px;
+	text-align: right;
+	font-size: 40px;
 	padding-top: 15%;
 }
-#front-nav {
+ul#front-nav {
 	list-style-type: none;
+	text-align: right;
+	margin: 0;
+}
+ul#front-nav li {
+	line-height: 35px;
+	padding: 0px 15px 0px 15px;
+	letter-spacing: initial;
+}
+#temp {
+	position: fixed;
+	width: 100%;
+}
+.icon {
+	height:30px;
+	width: 30px;
+	margin: 2px;
+	display: inline;
+	cursor: pointer;
 }
