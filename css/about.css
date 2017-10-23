@@ -13,9 +13,16 @@
 }
 #get-padding {
 	margin-top: 90px;
-  border: 1px solid #000;
+    border: 1px solid #000;
 }
 .text {
 	font-size: 16px;
-  margin-top: 3px;
+    margin-top: 3px;
+}
+.icon {
+	height:30px;
+	width: 30px;
+	margin: 2px;
+	display: inline;
+	cursor: pointer;
 }
