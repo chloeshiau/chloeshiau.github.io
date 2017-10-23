@@ -13,11 +13,9 @@ a:link, a:visited, a:hover {
 
 /** Travel **/
 li {
-	line-height: 45px;
+	line-height: 37px;
 	padding: 0px 15px 0px 15px;
-	display: block;
 	letter-spacing: 2px;
-	color: #3b3a30;
 }
 #og-pic {
 	width:auto;
