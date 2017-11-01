@@ -77,7 +77,8 @@ li {
 [class^="italy"], 
 [class^="france"], 
 [class^="belgium"], 
-[class^="asia"], 
+[class^="asia"],
+[class^="austria"], 
 [class^="switz"] {
 	overflow: auto;
 	display: none;
@@ -114,7 +115,8 @@ li {
 	[class^="italy"], 
 	[class^="france"], 
 	[class^="belgium"], 
-	[class^="asia"], 
+	[class^="asia"],
+	[class^="austria"], 
 	[class^="switz"] {
 		overflow: auto;
 		display: none;
@@ -167,6 +169,10 @@ ul#front-nav li {
 	padding: 0px 15px 0px 15px;
 	letter-spacing: initial;
 }
+ul#front-nav li:hover {
+	text-decoration: underline;
+}
+
 #temp {
 	position: fixed;
 	width: 100%;
