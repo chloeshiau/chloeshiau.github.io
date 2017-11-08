@@ -13,17 +13,17 @@
 }
 
 .container-fluid {
-	margin-top: 20px;
+	margin-top: 35px;
 	padding: 0px;
 }
 
-.span4 {
+.span3 {
 	padding: 0px !important;
 	margin: 0px !important;
 }
 
-.row-fluid .span4 {
-	width: 33.333333333% !important;
+.row-fluid .span3 {
+	width: 25% !important;
 }
 
 #foodpicture {
