@@ -11,9 +11,8 @@
 .block {
 	padding-top: 30px;
 }
-#get-padding {
+#img-wrapper {
 	margin-top: 90px;
-    border: 1px solid #000;
 }
 .text {
 	font-size: 16px;
