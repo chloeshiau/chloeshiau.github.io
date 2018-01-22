@@ -9,7 +9,7 @@ function showTabs(country) {
 	var countryData = document.getElementsByClassName(country)[0];
 	var countryVisited = countryData.getAttribute("data-info");
 	if(countryVisited =='{"fillKey":"authorHasTraveledTo"}') {
-		location.href = "./"+country+".html";
+		location.href = "./"+country.toLowerCase()+".html";
 		$(".container-"+country).show('slow');
 	}
 }
