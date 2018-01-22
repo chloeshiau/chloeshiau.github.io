@@ -3,8 +3,10 @@
 <head>
   <title>CWS</title>
   <link rel="shortcut icon" href="img/name.ico" />
-  <link rel="stylesheet" href="css/travel.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="css/newtravel.css">
+  <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
@@ -23,44 +25,34 @@
 	<a onclick="popup('popUpDiv')" >
 		<div id="nav-svg">
 			<svg id="getSvg" width="50" height="24">
-		  		<rect y="0" width="50" height="2" style="fill:rgb(59,58,48)" />
-		  		<rect y="10" width="50" height="2" style="fill:rgb(59,58,48)" />
-		  		<rect y="20" width="50" height="2" style="fill:rgb(59,58,48)" />
+	  		<rect y="0" width="50" height="2" style="fill:rgb(59,58,48)" />
+	  		<rect y="10" width="50" height="2" style="fill:rgb(59,58,48)" />
+	  		<rect y="20" width="50" height="2" style="fill:rgb(59,58,48)" />
 			</svg>
 		</div>
 	</a>
 </div>
-<div id="travels">
-	<a onclick="popup('popUpDiv')">
-		<div id="nav-svg">
-			<svg id="getSvg" width="50" height="24">
-		  		<rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
-		  		<rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
-		  		<rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
-			</svg>
-		</div>
-	</a>
-	<div class="container">
-		<ul class="getul">
-			<li id="us" onclick='showTabs(this)'>UNITED STATES</li>
-			<li id="uk" onclick='showTabs(this)'>UNITED KINGDOM</li>
-			<li id="italy" onclick='showTabs(this)'>ITALY</li>
-			<li id="france" onclick='showTabs(this)'>FRANCE</li>
-			<li id="belgium" onclick='showTabs(this)'>BELGIUM</li>
-			<li id="switz" onclick='showTabs(this)'>SWITZERLAND</li>
-			<li id="spain" onclick='showTabs(this)'>SPAIN</li>
-			<li id="greece" onclick='showTabs(this)'>GREECE</li>
-			<li id="austria" onclick='showTabs(this)'>AUSTRIA</li>
-			<li id="asia" onclick='showTabs(this)'>ASIA</li>
-			<li id="canada" onclick='showTabs(this)'>CANADA</li>
-			<li id="mexico" onclick='showTabs(this)'>MEXICO</li>
-		</ul>
-	</div>
-	<div class="original-pic">
-		<img id="og-pic" src="img/pisa.jpg"/>
-		<img id="og-pic" src="img/map.jpg"/>
-	</div>
+<div class="about">
+  <div id="temp">
+    <a onclick="popup('popUpDiv')">
+      <div id ="nav-svg">
+        <svg id="getSvg" width="50" height="24">
+          <rect y="0" width="50" height="1" style="fill:rgb(59,58,48)" />
+          <rect y="10" width="50" height="1" style="fill:rgb(59,58,48)" />
+          <rect y="20" width="50" height="1" style="fill:rgb(59,58,48)" />
+        </svg>
+      </div>
+    </a>
+  </div>
+  <div class="map-container">
+  	<div class="map-title">Wherever you go becomes a part of you somehow</div>
+  	<div id="map-wrapper"></div>
+  </div>
 </div>
+<script src="js/d3.min.js"></script>
+<script src="js/topojson.min.js"></script>
+<script src="js/datamaps.world.min.js"></script>
+<script src="js/map.js"></script>
 <script src="js/myScript.js"></script>
-</body>
+</body> 
 </html>

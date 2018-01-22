@@ -6,9 +6,12 @@ $( document ).ready(function() {
 var currentCountry;
 var currentPlace;
 function showTabs(country) {
-	currentCountry = country.id;
-	location.href = "./"+currentCountry+".html";
-	$(".container-"+currentCountry).show('slow');	
+	var countryData = document.getElementsByClassName(country)[0];
+	var countryVisited = countryData.getAttribute("data-info");
+	if(countryVisited =='{"fillKey":"authorHasTraveledTo"}') {
+		location.href = "./"+country+".html";
+		$(".container-"+country).show('slow');
+	}
 }
 
 function showPlaces(place) {
