@@ -66,6 +66,6 @@ ul#front-nav li {
 .map-title {
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 30px;
-	padding: 20px 0px 20px 0px;
+	padding-bottom: 30px;
 	color: #111;
 }
