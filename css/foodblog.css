@@ -17,13 +17,8 @@
 	padding: 0px;
 }
 
-.span3 {
-	padding: 0px !important;
-	margin: 0px !important;
-}
-
-.row-fluid .span3 {
-	width: 25% !important;
+.baking-picture {
+	padding-bottom: 15px;
 }
 
 #foodpicture {
