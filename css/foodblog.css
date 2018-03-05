@@ -5,11 +5,28 @@
 	overflow: hidden;
 	font-size: 14.5px;
 	width: 100%;
+	color: #a8abaf;
 }
 
 #title {
-	font-size: 30px;
-	padding-top: 70px;
+	font-size: 35px;
+	padding-top: 100px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.matcha {
+	color: #7da581;
+	display: inline;
+}
+
+.taro {
+	color: #a493ba;
+	display: inline;
+}
+
+.black-sesame {
+	color: #565656;
+	display: inline;
 }
 
 .container-fluid {
