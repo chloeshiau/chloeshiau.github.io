@@ -67,64 +67,61 @@ li {
 	color: #3b3a30;
 	cursor: pointer;
 }
-.original-pic, 
-[class^="mexico"], 
-[class^="greece"], 
-[class^="canada"], 
-[class^="spain"], 
-[class^="uk"], 
-[class^="us"], 
-[class^="italy"], 
+.original-pic,
+[class^="mexico"],
+[class^="greece"],
+[class^="canada"],
+[class^="spain"],
+[class^="uk"],
+[class^="us"],
+[class^="italy"],
 [class^="japan"],
-[class^="france"], 
-[class^="belgium"], 
+[class^="france"],
+[class^="belgium"],
 [class^="asia"],
-[class^="austria"], 
-[class^="switz"] {
+[class^="austria"],
+[class^="switz"],
+[class^="indonesia"] {
 	overflow: auto;
 	display: none;
 	height: 580px;
 	color: #bc8f8f;
 	margin-top: 120px;
 }
-@media only screen 
-  and (min-device-width: 355px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #og-pic {
+
+@media only screen and (max-width: 667px) {
+  #og-pic {
 		width:auto;
 		height:450px;
 	}
 	[class^="container"] {
-		display: none;
 		padding-right: 0px;
 		padding-left: 5px;
-		float: left;
 		padding-top: 100px;
 	}
 	#travel {
-		width:630px;
-		height:420px;
-		margin-bottom: 12px;
+		width:330px;
+		height:auto;
 	}
-	[class^="mexico"], 
-	[class^="greece"], 
-	[class^="canada"], 
-	[class^="spain"], 
-	[class^="uk"], 
-	[class^="us"], 
+	[class^="mexico"],
+	[class^="greece"],
+	[class^="canada"],
+	[class^="spain"],
+	[class^="uk"],
+	[class^="us"],
 	[class^="italy"],
 	[class^="japan"],
-	[class^="france"], 
-	[class^="belgium"], 
+	[class^="france"],
+	[class^="belgium"],
 	[class^="asia"],
-	[class^="austria"], 
-	[class^="switz"] {
-		overflow: auto;
-		display: none;
+	[class^="austria"],
+	[class^="switz"],
+	[class^="indonesia"] {
 		height: 1520px;
-		color: #bc8f8f;
 		margin-top: 100px;
+	}
+	.getul {
+		padding-left: 0;
 	}
 }
 

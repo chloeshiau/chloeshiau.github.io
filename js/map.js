@@ -25,6 +25,7 @@ var basic_choropleth = new Datamap({
     GBR: { fillKey: "authorHasTraveledTo" },
     CHE: { fillKey: "authorHasTraveledTo" },
     BEL: { fillKey: "authorHasTraveledTo" },
+    IDN: { fillKey: "authorHasTraveledTo" },
     SGP: { fillKey: "authorHasTraveledTo" },
     DEU: { fillKey: "authorHasTraveledTo", pictures: "no" }
   }
